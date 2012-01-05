@@ -1,0 +1,13 @@
+{
+    "name": "node-it-profile",
+    "version": "0.0.1-SNAPSHOT",
+    "private": true,
+    "dependencies": {
+        "underscore": ">= 1.2.1",
+        "async": ">= 0.1.15",
+        "sax": ">= 0.3.4",
+        "xml2js": ">= 0.1.13",
+        "wordwrap": ">= 0.0.2",
+        "optimist": ">= 0.3.0"
+    }
+}

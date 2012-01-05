@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0">
+    <lastEditDate>01-Jan-2012</lastEditDate>
+    <lang>en</lang>
+    <availableLanguages>en</availableLanguages>
+    <person>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <street>Sunshine Blvd. 1</street>
+        <city>Doe-City</city>
+        <dateOfBirth>1977</dateOfBirth>
+        <telephone>+49 555 555 555</telephone>
+        <email>john.doe@example.com</email>
+        <web>http://www.example.com/</web>
+        <!-- web>  more than one web address possible </web -->
+        <workingSince>2001</workingSince>
+        <photo_hires>http://www.goebl.com/img_all/sample-hires.jpg</photo_hires>
+        <photo_lowres>sample-lowres.jpg</photo_lowres>
+        <qualifications>
+            <education>1995: graduated in computer sciences</education>
+            <education>1998: Microsoft SQL Server Database Implementation</education>
+        </qualifications>
+        <languages>
+            <language>English</language>
+            <language>Spanish</language>
+        </languages>
+        <coreArea>
+            JavaScript, Java, Java EE, Spring, ORACLE, Web 2.0
+        </coreArea>
+        <areaOfWork>
+            Architecture und project management, mentoring, programming, test, tuning, migration
+        </areaOfWork>
+    </person>
+    <competencies>
+        <platforms>
+            Java 6, J2EE, JEE 5, JEE 6, Spring, Node.js, Linux, Windows
+        </platforms>
+        <programming_languages>
+            Java, SQL, JavaScript, XML/XSLT, C/C++, Perl, PHP, VB
+        </programming_languages>
+        <databases>
+            ORACLE, DB2, MySQL, mongoDB, JPA, Hibernate, JDBC, MS SQL
+        </databases>
+        <communication>
+            HTTP, Web Services (SOAP, REST), JMS, RMI
+        </communication>
+        <gui>
+            JSF, JSP, HTML, Web 2.0, AJAX, ExtJS, jQuery, Portal, Swing
+        </gui>
+        <tools>
+            IntelliJ, Eclipse, Netbeans, vi, ant, Maven, ERwin, Jenkins, svn, git
+        </tools>
+    </competencies>
+    <workExperience>
+        <project>
+            <period>05/2011 - 12/2011</period>
+            <companyOrLine>Automotive</companyOrLine>
+            <line1info>Munich, freelance job</line1info>
+            <roles>Coding Architect, Web-Development</roles>
+            <activities>Vehicle Configurator Web Application</activities>
+            <activities>Providing Registration process,
+                Self-service for users, mail delivery, integration with SSO.
+                Modularization of JavaScript, optimize performance, Selenium tests
+            </activities>
+            <software>Server: Java 6, Oracle 11g, GlassFish 2.1, EJB 3, JPA, JAX-RS, JAX-WS, Velocity</software>
+            <software>Client: JSF 2.0 (AJAX, Facelets, xhtml, composite components), JavaScript, jQuery</software>
+            <software>Tools: Selenium, FireBug, Maven, Jenkins, IntelliJ, JUnit, Mockito</software>
+        </project>
+        <!-- project> more projects ... </project -->
+    </workExperience>
+</profile>

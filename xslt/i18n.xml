@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<i18n>
+    <entry key="lang">
+        <msg xml:lang="en">en</msg>
+        <msg xml:lang="de">de</msg>
+    </entry>
+    <entry key="Profile">
+        <msg xml:lang="en">CV</msg>
+        <msg xml:lang="de">Profil</msg>
+    </entry>
+    <entry key="Last edit">
+        <msg xml:lang="en">Last edit</msg>
+        <msg xml:lang="de">Stand</msg>
+    </entry>
+    <entry key="Personal Details / Overview">
+        <msg xml:lang="en">Personal Details / Overview</msg>
+        <msg xml:lang="de">Person / Überblick</msg>
+    </entry>
+    <entry key="Personal Data">
+        <msg xml:lang="en">Personal Data</msg>
+        <msg xml:lang="de">Zur Person</msg>
+    </entry>
+    <entry key="Address">
+        <msg xml:lang="en">Address</msg>
+        <msg xml:lang="de">Adresse</msg>
+    </entry>
+    <entry key="Name">
+        <msg xml:lang="en">Name</msg>
+        <msg xml:lang="de">Name</msg>
+    </entry>
+    <entry key="Telephone">
+        <msg xml:lang="en">Telephone</msg>
+        <msg xml:lang="de">Telefon</msg>
+    </entry>
+    <entry key="E-Mail">
+        <msg xml:lang="en">E-Mail</msg>
+        <msg xml:lang="de">E-Mail</msg>
+    </entry>
+    <entry key="Internet">
+        <msg xml:lang="en">Internet</msg>
+        <msg xml:lang="de">Internet</msg>
+    </entry>
+    <entry key="Date of birth">
+        <msg xml:lang="en">Date of birth</msg>
+        <msg xml:lang="de">Geburtsdatum</msg>
+    </entry>
+    <entry key="Photo">
+        <msg xml:lang="en">Photo</msg>
+        <msg xml:lang="de">Foto</msg>
+    </entry>
+    <entry key="Show Photo">
+        <msg xml:lang="en">Show Photo</msg>
+        <msg xml:lang="de">Foto anzeigen</msg>
+    </entry>
+    <entry key="workingSince">
+        <msg xml:lang="en">Experience with IT since</msg>
+        <msg xml:lang="de">IT-Erfahrung seit</msg>
+    </entry>
+    <entry key="qualifications">
+        <msg xml:lang="en">Qualifications, Certificates</msg>
+        <msg xml:lang="de">Qualifikationen, Zertifikate</msg>
+    </entry>
+    <entry key="Languages">
+        <msg xml:lang="en">Languages</msg>
+        <msg xml:lang="de">Fremdsprachen</msg>
+    </entry>
+    <entry key="Core Area">
+        <msg xml:lang="en">Key Skills</msg>
+        <msg xml:lang="de">Schwerpunkte</msg>
+    </entry>
+    <entry key="Area of work">
+        <msg xml:lang="en">Area of work</msg>
+        <msg xml:lang="de">Einsatzgebiete</msg>
+    </entry>
+    <entry key="Competencies">
+        <msg xml:lang="en">Competencies</msg>
+        <msg xml:lang="de">EDV-Erfahrung</msg>
+    </entry>
+    <entry key="Skills">
+        <msg xml:lang="en">Skills</msg>
+        <msg xml:lang="de">Skills</msg>
+    </entry>
+    <entry key="Technical Skills">
+        <msg xml:lang="en">Technical Skills</msg>
+        <msg xml:lang="de">Technische Skills</msg>
+    </entry>
+    <entry key="platforms">
+        <msg xml:lang="en">Platforms</msg>
+        <msg xml:lang="de">Plattformen</msg>
+    </entry>
+    <entry key="programming_languages">
+        <msg xml:lang="en">Programming Languages</msg>
+        <msg xml:lang="de">Sprachen</msg>
+    </entry>
+    <entry key="databases">
+        <msg xml:lang="en">Databases</msg>
+        <msg xml:lang="de">Datenbanken</msg>
+    </entry>
+    <entry key="communication">
+        <msg xml:lang="en">Communication</msg>
+        <msg xml:lang="de">Kommunikation</msg>
+    </entry>
+    <entry key="gui">
+        <msg xml:lang="en">GUI</msg>
+        <msg xml:lang="de">GUI</msg>
+    </entry>
+    <entry key="tools">
+        <msg xml:lang="en">Tools</msg>
+        <msg xml:lang="de">Tools</msg>
+    </entry>
+    <entry key="Work experience">
+        <msg xml:lang="en">Work experience</msg>
+        <msg xml:lang="de">Projekte</msg>
+    </entry>
+    <entry key="Roles">
+        <msg xml:lang="en">Roles</msg>
+        <msg xml:lang="de">Rolle</msg>
+    </entry>
+    <entry key="Software">
+        <msg xml:lang="en">Software</msg>
+        <msg xml:lang="de">Software</msg>
+    </entry>
+    <entry key="Page">
+        <msg xml:lang="en">Page</msg>
+        <msg xml:lang="de">Seite</msg>
+    </entry>
+    <entry key="of">
+        <msg xml:lang="en">of</msg>
+        <msg xml:lang="de">von</msg>
+    </entry>
+    <entry key="page-height">
+        <msg xml:lang="en">279mm</msg><!-- Letter -->
+        <msg xml:lang="de">297mm</msg><!-- DIN A4 -->
+    </entry>
+    <entry key="page-width">
+        <msg xml:lang="en">216mm</msg><!-- Letter -->
+        <msg xml:lang="de">210mm</msg><!-- DIN A4 -->
+    </entry>
+
+    <!-- jQuery Mobile application -->
+    <entry key="Info">
+        <msg xml:lang="en">Info</msg>
+        <msg xml:lang="de">Info</msg>
+    </entry>
+    <entry key="Warning">
+        <msg xml:lang="en">Warning</msg>
+        <msg xml:lang="de">Warnung</msg>
+    </entry>
+    <entry key="Error">
+        <msg xml:lang="en">Error</msg>
+        <msg xml:lang="de">Fehler</msg>
+    </entry>
+    <entry key="Home">
+        <msg xml:lang="en">Home</msg>
+        <msg xml:lang="de">Home</msg>
+    </entry>
+    <entry key="Contact">
+        <msg xml:lang="en">Contact</msg>
+        <msg xml:lang="de">Kontakt</msg>
+    </entry>
+    <entry key="About">
+        <msg xml:lang="en">About</msg>
+        <msg xml:lang="de">Info</msg>
+    </entry>
+    <entry key="Options">
+        <msg xml:lang="en">Options</msg>
+        <msg xml:lang="de">Optionen</msg>
+    </entry>
+    <entry key="Submit">
+        <msg xml:lang="en">Submit</msg>
+        <msg xml:lang="de">Senden</msg>
+    </entry>
+    <entry key="Loading ...">
+        <msg xml:lang="en">Loading ...</msg>
+        <msg xml:lang="de">Übertragung ...</msg>
+    </entry>
+    <entry key="OK">
+        <msg xml:lang="en">OK</msg>
+        <msg xml:lang="de">OK</msg>
+    </entry>
+    <entry key="Close">
+        <msg xml:lang="en">Close</msg>
+        <msg xml:lang="de">Schließen</msg>
+    </entry>
+    <entry key="Send me a mail">
+        <msg xml:lang="en">Send me a mail</msg>
+        <msg xml:lang="de">Mail schreiben</msg>
+    </entry>
+    <entry key="Message">
+        <msg xml:lang="en">Message</msg>
+        <msg xml:lang="de">Nachricht</msg>
+    </entry>
+    <entry key="Message sent successfully.">
+        <msg xml:lang="en">Message sent successfully.</msg>
+        <msg xml:lang="de">Nachricht wurde gesendet.</msg>
+    </entry>
+    <entry key="Unable to send message.">
+        <msg xml:lang="en">Unable to send message.</msg>
+        <msg xml:lang="de">Fehler beim Senden.</msg>
+    </entry>
+    <entry key="Select Theme">
+        <msg xml:lang="en">Select Theme</msg>
+        <msg xml:lang="de">Optik auswählen</msg>
+    </entry>
+    <entry key="Select Language">
+        <msg xml:lang="en">Select Language</msg>
+        <msg xml:lang="de">Sprache auswählen</msg>
+    </entry>
+    <entry key="Photo of">
+        <msg xml:lang="en">Photo of</msg>
+        <msg xml:lang="de">Foto von</msg>
+    </entry>
+    <entry key="Error requesting ">
+        <msg xml:lang="en">Error requesting </msg>
+        <msg xml:lang="de">Fehler beim Abruf von </msg>
+    </entry>
+
+
+
+    <!-- PHP error codes and messages -->
+    <entry key="json_parse_error">
+        <msg xml:lang="en">Unable to decode JSON data.</msg>
+        <msg xml:lang="de">Unable to decode JSON data.</msg>
+    </entry>
+    <entry key="form_invalid">
+        <msg xml:lang="en">Please fill in the form correctly!</msg>
+        <msg xml:lang="de">Bitte füllen Sie das Formular korrekt aus!</msg>
+    </entry>
+    <entry key="sendmail_error">
+        <msg xml:lang="en">Error sending the mail. Please try again later.</msg>
+        <msg xml:lang="de">Fehler beim Senden. Bitte später wieder versuchen.</msg>
+    </entry>
+    <entry key="unsupported_method">
+        <msg xml:lang="en">Unsupported HTTP method.</msg>
+        <msg xml:lang="de">Unsupported HTTP method.</msg>
+    </entry>
+
+    <!-- special case static lang declaration -->
+    <entry key="var $SERVER_HTTP_ACCEPT_LANGUAGE;">
+        <msg xml:lang="en">var $SERVER_HTTP_ACCEPT_LANGUAGE='en';</msg>
+        <msg xml:lang="de">var $SERVER_HTTP_ACCEPT_LANGUAGE='de';</msg>
+    </entry>
+</i18n>

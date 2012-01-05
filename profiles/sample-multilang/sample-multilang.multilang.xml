@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0">
+    <lastEditDate xml:lang="de">01.01.2012</lastEditDate>
+    <lastEditDate xml:lang="en">01-Jan-2012</lastEditDate>
+    <lang xml:lang="de">de</lang>
+    <lang xml:lang="en">en</lang>
+    <availableLanguages>de</availableLanguages>
+    <availableLanguages>en</availableLanguages>
+    <person>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <street>Sunshine Blvd. 1</street>
+        <city>Doe-City</city>
+        <dateOfBirth>1977</dateOfBirth>
+        <telephone>+49 555 555 555</telephone>
+        <email>john.doe@example.com</email>
+        <web>http://www.example.com/</web>
+        <!-- web>  more than one web address possible </web -->
+        <workingSince>2001</workingSince>
+        <photo_hires>http://www.goebl.com/img_all/sample-hires.jpg</photo_hires>
+        <photo_lowres>sample-lowres.jpg</photo_lowres>
+        <qualifications>
+            <education xml:lang="de">1995: Diplom Informatiker (FH)</education>
+            <education xml:lang="en">1995: graduated in computer sciences</education>
+            <education>1998: Microsoft SQL Server Database Implementation</education>
+        </qualifications>
+        <languages>
+            <language xml:lang="de">Englisch</language>
+            <language xml:lang="en">English</language>
+            <language xml:lang="de">Spanisch</language>
+            <language xml:lang="en">Spanish</language>
+        </languages>
+        <coreArea>
+            JavaScript, Java, Java EE, Spring, ORACLE, Web 2.0
+        </coreArea>
+        <areaOfWork xml:lang="de">
+            Architektur und Projektleitung, Mentoring, Implementierung, Test, Tuning, Migration
+        </areaOfWork>
+        <areaOfWork xml:lang="en">
+            Architecture und project management, mentoring, programming, test, tuning, migration
+        </areaOfWork>
+    </person>
+    <competencies>
+        <platforms>
+            Java 6, J2EE, JEE 5, JEE 6, Spring, Node.js, Linux, Windows
+        </platforms>
+        <programming_languages>
+            Java, SQL, JavaScript, XML/XSLT, C/C++, Perl, PHP, VB
+        </programming_languages>
+        <databases>
+            ORACLE, DB2, MySQL, mongoDB, JPA, Hibernate, JDBC, MS SQL
+        </databases>
+        <communication>
+            HTTP, Web Services (SOAP, REST), JMS, RMI
+        </communication>
+        <gui>
+            JSF, JSP, HTML, Web 2.0, AJAX, ExtJS, jQuery, Portal, Swing
+        </gui>
+        <tools>
+            IntelliJ, Eclipse, Netbeans, vi, ant, Maven, ERwin, Jenkins, svn, git
+        </tools>
+    </competencies>
+    <workExperience>
+        <project>
+            <period>05/2011 - 12/2011</period>
+            <companyOrLine>Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Coding Architect, Web-Development</roles>
+            <roles xml:lang="en">Coding Architect, Web-Development</roles>
+            <activities xml:lang="de">Vehicle Configurator Web Applikation</activities>
+            <activities xml:lang="en">Vehicle Configurator Web Application</activities>
+            <activities xml:lang="de">Weiterentwicklung einer gemeinsamen Plattform für unterschiedliche
+                Geschäftsarten (mandantenfähig).
+                Registrierungsprozess und Self-Services für Benutzer, Mailversand, Integration in SSO.
+                Modularisierung der JavaScript Teile; Performance-Optimierung;
+                Programmierung Selenium-Tests
+            </activities>
+            <software>Server: Java 6, Oracle 11g, GlassFish 2.1, EJB 3, JPA, JAX-RS, JAX-WS, Velocity</software>
+            <software>Client: JSF 2.0 (AJAX, Facelets, xhtml, composite components), JavaScript, jQuery</software>
+            <software>Tools: Selenium, FireBug, Maven, Jenkins, IntelliJ, JUnit, Mockito</software>
+        </project>
+        <!-- project> more projects ... </project -->
+    </workExperience>
+</profile>

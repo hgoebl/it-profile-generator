@@ -1,0 +1,31 @@
+<div>
+    <div xml:lang="en" data-id="about">
+        <h2>Info</h2>
+        <p>More info can be found in my desktop website: <a href="http://www.example.com/">www.example.com</a></p>
+        <h2>Credits</h2>
+        <ul>
+            <li><a href="http://jquerymobile.com/" rel="external">jQuery Mobile</a></li>
+            <li><a href="http://jquery.com/" rel="external">jQuery - write less, do more</a></li>
+            <li><a href="http://www.debian.org/" rel="external">Debian GNU/Linux</a></li>
+            <li><a href="http://www.apache.org/" rel="external">The Apache Software Foundation</a></li>
+            <li><a href="http://nodejs.org/" rel="external">Node.js</a></li>
+            <li><a href="http://mustache.github.com/" rel="external">Mustache - Logic-less templates</a></li>
+        </ul>
+    </div>
+
+    <div xml:lang="de" data-id="about">
+        <h2>Info ...</h2>
+        <p>Mehr Informationen erhalten Sie auf meiner Website (für Desktop Browser):
+            <a href="http://www.example.com/">www.example.com</a>
+        </p>
+        <h2>Credits</h2>
+        <ul>
+            <li><a href="http://jquerymobile.com/" rel="external">jQuery Mobile</a></li>
+            <li><a href="http://jquery.com/" rel="external">jQuery - write less, do more</a></li>
+            <li><a href="http://www.debian.org/" rel="external">Debian GNU/Linux</a></li>
+            <li><a href="http://www.apache.org/" rel="external">The Apache Software Foundation</a></li>
+            <li><a href="http://nodejs.org/" rel="external">Node.js</a></li>
+            <li><a href="http://mustache.github.com/" rel="external">Mustache - Logic-less templates</a></li>
+        </ul>
+    </div>
+</div>

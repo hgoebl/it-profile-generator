@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>it-profile.org</title>
+    <link rel="stylesheet"
+          href="//code.jquery.com/mobile/latest/jquery.mobile.css"
+          data-href-prod="//code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+    <script src="//code.jquery.com/jquery-1.6.4.js"
+            data-src-prod="//code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="//code.jquery.com/mobile/latest/jquery.mobile.js"
+            data-src-prod="//code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    <script src="../js/mustache-0.4.0-dev.js"></script>
+    <script data-i18n="var $SERVER_HTTP_ACCEPT_LANGUAGE;">/* set by xslt */</script>
+    <script data-ignore="ignore">
+        // this script will not be copied to the 'prod' output
+        var $SERVER_HTTP_ACCEPT_LANGUAGE = 'en';
+    </script>
+    <script src="../js/i18n-0.0.1.js"></script>
+    <script src="profile-app.js"></script>
+    <style>
+        .mustache {display: none}
+        dt {font-weight: bolder;}
+        dd {margin-bottom: 10px;}
+        dl {margin-bottom: 10px;}
+        .box {
+            background-image: -webkit-gradient(linear, left top, left bottom, from( #FFFFFF ), to( #DDF3BF ));
+            background-image: -webkit-linear-gradient( #FFFFFF , #DDF3BF );
+            background-image:    -moz-linear-gradient( #FFFFFF , #DDF3BF );
+            background-image:     -ms-linear-gradient( #FFFFFF , #DDF3BF );
+            background-image:      -o-linear-gradient( #FFFFFF , #DDF3BF );
+            background-image:         linear-gradient( #FFFFFF , #DDF3BF );
+            border: 1px solid #86D026;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<section id="home" data-role="page">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Profile"></h1>
+    </header>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#personal_data" data-i18n="Personal Details / Overview"></a></li>
+            <li><a href="#qualifications" data-i18n="qualifications"></a></li>
+            <li><a href="#skills" data-i18n="Competencies"></a></li>
+            <li><a href="#projects" data-i18n="Work experience"></a></li>
+        </ul>
+    </div>
+    <footer data-role="footer" data-position="fixed" data-id="global-footer">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li><a href="#home" data-icon="home" data-i18n="Home" class="ui-btn-active"></a></li>
+                <li><a href="#contact" data-icon="star" data-i18n="Contact"></a></li>
+                <li><a href="#about" data-icon="info" data-i18n="About"></a></li>
+                <li><a href="#options" data-icon="gear" data-i18n="Options" data-rel="dialog"></a></li>
+            </ul>
+        </div>
+    </footer>
+</section>
+
+<section id="personal_data" data-role="page" data-add-back-btn="true" data-id="myfooter">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Personal Data"></h1>
+    </header>
+    <div data-role="content"></div>
+</section>
+
+<section id="photo" data-role="page">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Photo"></h1>
+    </header>
+    <div data-role="content">
+        <div id="div-photo">
+        </div>
+        <a href='#' data-rel="back" data-i18n="Close" data-role="button"></a>
+    </div>
+</section>
+
+<section id="qualifications" data-role="page" data-add-back-btn="true" data-id="myfooter">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="qualifications"></h1>
+    </header>
+    <div data-role="content"></div>
+</section>
+
+<section id="skills" data-role="page" data-add-back-btn="true" data-id="myfooter">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Skills"></h1>
+    </header>
+    <div data-role="content"></div>
+</section>
+
+<section id="projects" data-role="page" data-add-back-btn="true" data-id="myfooter">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Work experience"></h1>
+    </header>
+    <div data-role="content"></div>
+</section>
+
+<section id="contact" data-role="page" data-id="myfooter" data-nojqm-btn-active="#contact">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Contact"></h1>
+    </header>
+    <div data-role="content">
+        <h3 data-i18n="Send me a mail"></h3>
+
+        <div class="box">
+        <form data-ajax="false">
+            <div data-role="fieldcontain">
+                <label for="fld-name" data-i18n="Name"></label>
+                <input type="text" name="name" id="fld-name" value="" maxlength="30"/>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="fld-email" data-i18n="E-Mail"></label>
+                <input type="email" name="email" id="fld-email" value="" maxlength="30"/>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="fld-message" data-i18n="Message"></label>
+                <textarea cols="40" rows="5" name="message" id="fld-message"></textarea>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="fld-sum">17 + 4 =</label>
+                <input type="number" name="sum" id="fld-sum" value="" maxlength="3"/>
+            </div>
+            <div class="ui-body">
+                <a id="submitContactBtn" href="#" data-role="button" data-theme="a" data-i18n="Submit"></a>
+            </div>
+        </form>
+        </div>
+    </div>
+</section>
+
+<section id="about" data-role="page" data-id="myfooter" data-nojqm-btn-active="#about">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="About"></h1>
+    </header>
+    <div data-role="content">
+    </div>
+</section>
+
+<section id="options" data-role="page">
+    <header data-role="header" data-position="fixed">
+        <h1 data-i18n="Options"></h1>
+    </header>
+    <div data-role="content">
+        <p data-i18n="Select Theme"></p>
+        <p data-i18n="Select Language"></p>
+        <p>(this dialog is not functional yet)</p>
+        <a href="#" data-role="button" data-rel="back" data-theme="a" data-i18n="OK"></a>
+    </div>
+</section>
+
+<section id="alert" data-role="page">
+    <header data-role="header" data-position="fixed">
+        <h1></h1>
+    </header>
+    <div data-role="content">
+        <p></p>
+        <a href="#" data-role="button" data-rel="back" data-theme="a" data-i18n="OK"></a>
+    </div>
+</section>
+
+<div class="mustache">
+    <div id="tmpl-alert-link">
+        <a href="#alert" data-rel="dialog" data-transition="pop"></a>
+    </div>
+    <div id="tmpl-footer">
+        <footer data-role="footer" data-position="fixed" data-id="global-footer">
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-i18n="Home"></a></li>
+                    <li><a href="#contact" data-icon="star" data-i18n="Contact"></a></li>
+                    <li><a href="#about" data-icon="info" data-i18n="About"></a></li>
+                    <li><a href="#options" data-icon="gear" data-i18n="Options" data-rel="dialog"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <div id="tmpl-personal_data">
+        {{#person}}
+        <dl>
+            <dt data-i18n="Name"></dt>
+            <dd>{{firstName}} {{lastName}}</dd>
+            <dt data-i18n="Address"></dt>
+            <dd>{{street}}, {{city}}</dd>
+            <dt data-i18n="Date of birth"></dt>
+            <dd>{{dateOfBirth}}</dd>
+            {{#photo_hires}}
+            <dt data-i18n="Photo"></dt>
+            <dd><a href="#photo" data-rel="dialog" data-i18n="Show Photo"></a></dd>
+            {{/photo_hires}}
+            {{^photo_hires}}
+                {{#photo_lowres}}
+                <dt data-i18n="Photo"></dt>
+                <dd><a href="#photo" data-rel="dialog" data-i18n="Show Photo"></a></dd>
+                {{/photo_lowres}}
+            {{/photo_hires}}
+        </dl>
+        <h4 data-i18n="Telephone"></h4>
+        <ul>{{#telephone}}<li><a href="tel:{{.}}">{{.}}</a></li>{{/telephone}}</ul>
+        <h4 data-i18n="E-Mail"></h4>
+        <ul>{{#email}}<li><a href="mailto:{{.}}">{{.}}</a></li>{{/email}}</ul>
+        <h4 data-i18n="Internet"></h4>
+        <ul>{{#web}}<li><a href="{{.}}">{{.}}</a></li>{{/web}}</ul>
+        {{/person}}
+    </div>
+    <div id="tmpl-qualifications">
+        <h3 data-i18n="qualifications"></h3>
+        {{#person}}
+        <div class="box">
+            <ul>{{#qualifications}}{{#education}}
+            <li>{{.}}</li>
+            {{/education}}{{/qualifications}}</ul>
+        </div>
+        <h3 data-i18n="Languages"></h3>
+        <div class="box">
+            <ul>{{#languages}}{{#language}}
+            <li>{{.}}</li>
+            {{/language}}{{/languages}}</ul>
+        </div>
+        {{/person}}
+    </div>
+    <div id="tmpl-skills">
+        {{#person}}
+        <h3 data-i18n="Core Area"></h3>
+        <p class="box">{{coreArea}}</p>
+        <h3 data-i18n="Area of work"></h3>
+        <p class="box">{{areaOfWork}}</p>
+        {{/person}}
+        <h3 data-i18n="Technical Skills"></h3>
+        {{#competencies}}
+        <dl class="box">
+            {{#platforms}}
+            <dt data-i18n="platforms"></dt>
+            <dd>{{platforms}}</dd>
+            {{/platforms}}
+            {{#programming_languages}}
+            <dt data-i18n="programming_languages"></dt>
+            <dd>{{programming_languages}}</dd>
+            {{/programming_languages}}
+            {{#databases}}
+            <dt data-i18n="databases"></dt>
+            <dd>{{databases}}</dd>
+            {{/databases}}
+            {{#communication}}
+            <dt data-i18n="communication"></dt>
+            <dd>{{communication}}</dd>
+            {{/communication}}
+            {{#gui}}
+            <dt data-i18n="gui"></dt>
+            <dd>{{gui}}</dd>
+            {{/gui}}
+            {{#tools}}
+            <dt data-i18n="tools"></dt>
+            <dd>{{tools}}</dd>
+            {{/tools}}
+        </dl>
+        {{/competencies}}
+    </div>
+    <div id="tmpl-projects">
+        {{#workExperience}}
+        {{#project}}
+        <h3>{{period}}</h3>
+        <dl class="box">
+            <dt><strong>{{companyOrLine}}</strong> {{line1info}}</dt>
+            <dd>{{#activities}}{{.}}<br/>{{/activities}}</dd>
+            <dt data-i18n="Roles"></dt>
+            <dd>{{#roles}}{{.}}<br/>{{/roles}}</dd>
+            <dt data-i18n="Software"></dt>
+            <dd>{{#software}}{{.}}<br/>{{/software}}</dd>
+        </dl>
+        {{/project}}
+        {{/workExperience}}
+    </div>
+</div>
+
+</body>
+</html>

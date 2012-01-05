@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0">
+    <lastEditDate xml:lang="de">01.01.2012</lastEditDate>
+    <lastEditDate xml:lang="en">01-Jan-2012</lastEditDate>
+    <lang xml:lang="de">de</lang>
+    <lang xml:lang="en">en</lang>
+    <availableLanguages>de</availableLanguages>
+    <availableLanguages>en</availableLanguages>
+    <person>
+        <firstName>Heinrich</firstName>
+        <lastName>Göbl</lastName>
+        <street>Rundsweg 1c</street>
+        <city>83026 Rosenheim</city>
+        <dateOfBirth>1969</dateOfBirth>
+        <telephone>+49 171 310 45 41</telephone>
+        <email>sysprog@goebl.com</email>
+        <web>http://www.goebl.com/</web>
+        <web>https://www.gulp.de/Profil/hgoebl.html</web>
+        <workingSince>1993</workingSince>
+        <photo_hires>hgoebl_354x472.jpg</photo_hires>
+        <photo_lowres>hgoebl_177x236.jpg</photo_lowres>
+        <qualifications>
+            <education xml:lang="de">1995: Diplom Informatiker (FH)</education>
+            <education xml:lang="en">1995: graduated in computer sciences</education>
+            <education>1998: Microsoft SQL Server Database Implementation</education>
+            <education>2000: Oracle Certified Professional (SQL, PL/SQL)</education>
+            <education>2001: Sun Certified Programmer for the JAVA 2 Platform</education>
+            <education>2002: Object-Oriented Analysis and Design with UML</education>
+            <education>2003: Enterprise Connectivity with J2EE V1.3</education>
+            <education>2004: Enterprise AppDev with WebSphere Studio, V5.0</education>
+            <education>2004: IBM Certified Enterprise Developer</education>
+            <education>2006: NLP-Practitioner, DVNLP</education>
+        </qualifications>
+        <languages>
+            <language xml:lang="de">Englisch</language>
+            <language xml:lang="en">English</language>
+            <language xml:lang="de">Spanisch</language>
+            <language xml:lang="en">Spanish</language>
+        </languages>
+        <coreArea>
+            JavaScript, Java, Java EE, Spring, ORACLE, Web 2.0
+        </coreArea>
+        <areaOfWork xml:lang="de">
+            Architektur und Projektleitung, Analyse und Design (OOA/OOD), Mentoring,
+            Implementierung, Test, Tuning, Migration
+        </areaOfWork>
+        <areaOfWork xml:lang="en">
+            Architecture and project management, analysis and design (OOA/OOD), mentoring,
+            programming, test, tuning, migration
+        </areaOfWork>
+    </person>
+    <competencies>
+        <platforms>
+            Java 6, J2EE, JEE 5, JEE 6, Spring, Node.js, Linux, Windows
+        </platforms>
+        <programming_languages>
+            Java, SQL, JavaScript, XML/XSLT, C/C++, Perl, PHP
+        </programming_languages>
+        <databases>
+            ORACLE, DB2, MySQL, mongoDB, JPA, Hibernate, JDBC, MS SQL
+        </databases>
+        <communication>
+            HTTP, Web Services (SOAP, REST), JMS
+        </communication>
+        <gui>
+            JSF, JSP, HTML, Web 2.0, AJAX, ExtJS, jQuery, Portal, Swing
+        </gui>
+        <tools>
+            IntelliJ, Eclipse, vi, ant, Maven, Jenkins, svn, git
+        </tools>
+    </competencies>
+    <workExperience>
+        <project>
+            <period>12/2011 - 01/2012</period>
+            <companyOrLine xml:lang="de">Open Source Projekt</companyOrLine>
+            <companyOrLine xml:lang="en">Open Source Project</companyOrLine>
+            <line1info>it-profile-generator</line1info>
+            <roles>Development</roles>
+            <activities>http://github.com/hgoebl/it-profile-generator</activities>
+            <activities xml:lang="de">
+                Generator für IT-Profile (Multi-Format, Multi-Language)
+            </activities>
+            <activities xml:lang="en">
+                Profile (aka. CV, Resume) generator for IT freelancers (multi-format, multi-language)
+            </activities>
+            <activities xml:lang="de">
+                Mobile Touch Anwendung für Smartphones
+            </activities>
+            <activities xml:lang="en">
+                Mobile Touch Application for Smartphones
+            </activities>
+            <software>Generator: XML, XLST, XLST-FO, Node.js, JSON, JavaScript, bash</software>
+            <software>Client: jQuery, jQuery Mobile, Sencha Touch</software>
+        </project>
+        <project>
+            <period>05/2011 - 12/2011</period>
+            <companyOrLine>Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Coding Architect, Web-Development, Nearshore-Betreuung</roles>
+            <roles xml:lang="en">Coding Architect, Web-Development, Nearshore Supervision</roles>
+            <activities xml:lang="de">Vehicle Configurator Web Applikation</activities>
+            <activities xml:lang="en">Vehicle Configurator Web Application</activities>
+            <activities xml:lang="de">Weiterentwicklung, u.a. Registrierungsprozess,
+                Self-Services für Benutzer, Mailversand, Integration in SSO.
+                Modularisierung JavaScript; Performance-Optimierung; Selenium-Tests
+            </activities>
+            <activities xml:lang="en">Further treatment, providing Registration process,
+                Self-service for users, mail delivery, integration with SSO.
+                Modularization of JavaScript, optimize performance, Selenium tests
+            </activities>
+            <software>Server: Java 6, Oracle 11g, GlassFish 2.1, EJB 3, JPA, JAX-RS, JAX-WS, Velocity</software>
+            <software>Client: JSF 2.0 (AJAX, Facelets, xhtml, composite components), JavaScript, jQuery</software>
+            <software>Tools: Selenium, FireBug, Maven, Jenkins, IntelliJ, JUnit, Mockito</software>
+        </project>
+        <project>
+            <period>10/2011 - 12/2011</period>
+            <companyOrLine xml:lang="de">Selbst</companyOrLine>
+            <companyOrLine xml:lang="en">Own Use</companyOrLine>
+            <line1info xml:lang="de">(Weiterbildung, nebenbei)</line1info>
+            <line1info xml:lang="en">(Training, incidentally)</line1info>
+            <roles xml:lang="de">Development, Studium</roles>
+            <roles xml:lang="en">Development, self-paced</roles>
+            <activities xml:lang="de">Proof of Concept für hochskalierbare Web-Applikation</activities>
+            <activities xml:lang="en">Proof of Concept for highly scalable Web-Application</activities>
+            <activities xml:lang="de">AJAX RIA Client, RESTful API mit JSON</activities>
+            <activities xml:lang="en">AJAX RIA Client, RESTful API with JSON</activities>
+            <software>Server: Java 6, GlassFish 3.1, EJB 3.1, JPA 2, JAX-RS (Jersey), MySQL</software>
+            <software>Server: Node.js, Express/Connect, mongoDB, vows, async, Linux</software>
+            <software>Client: ExtJS, JavaScript, jQuery</software>
+        </project>
+        <project>
+            <period>02/2011 - 05/2011</period>
+            <companyOrLine>Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Development, Performance Test und Optimierung</roles>
+            <roles xml:lang="en">Development, Performance Test and Optimization</roles>
+            <activities xml:lang="de">Zentrale Business Services mit RESTful API und JavaScript API</activities>
+            <activities xml:lang="en">Business Services with RESTful API and JavaScript API</activities>
+            <activities xml:lang="de">Performance Optimierung Dealer-Locator,
+                Erweiterung RESTful API und JavaScript API für Dealer-Locator und Park-Info,
+                Erweiterung RESTful API für User Registrierung und -Management
+            </activities>
+            <activities xml:lang="en">Performance Optimization Dealer-Locator,
+                Extension of RESTful API and JavaScript API for Dealer-Locator and Park-Info,
+                Extension of RESTful API for User Registration and -Management
+            </activities>
+            <software>Server: Java 5, Oracle 11g, GlassFish 2.1, EJB 3, JPA, JAX-RS (Jersey), JAXB 2</software>
+            <software>Client: JavaScript, jQuery, Google Maps API 3, JSUnit</software>
+            <software>Tools: soapUI, curl, FireBug, JSLint, yui-compress, Maven, Hudson/Jenkins, Netbeans, JUnit, Mockito</software>
+        </project>
+        <project>
+            <period>02/2010 - 05/2011</period>
+            <companyOrLine>Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Coding Architect, Development, Test</roles>
+            <activities xml:lang="de">Teleservice Switchboard (Telediagnose, Teleprogrammierung)
+                   Architektur, Design, Programmierung, Test, 3rd-Level-Support</activities>
+            <activities xml:lang="en">Teleservice Switchboard (Telediagnosis, Teleprogramming)
+                Architecture, Design, Programming, Test, 3rd-Level-Support</activities>
+            <activities xml:lang="de">Migration WebLogic 8 auf 10, EJB 2.1 auf 3.0, Latin1 auf UTF-8,
+                   Migration Oracle 10 auf 11 mit ISO-8859-1 auf UTF-8,
+                   Infrastruktur für Lasttests (Simulation Fahrzeugkommunikation),
+                   Code- und Design Reviews und Coaching</activities>
+            <activities xml:lang="en">Migrating WebLogic 8 to 10, EJB 2.1 to 3.0, Latin1 to UTF-8,
+                Migration Oracle 10 to 11 with charset ISO-8859-1 to UTF-8,
+                Infrastructure for Loadtests (Simulation of Vehicle communication),
+                Code- and Design Reviews and Coaching</activities>
+            <software>Java 5, Oracle 11g, WebLogic 10g, WebSphere MQ, EJB 3, LDAP, JPA, JSF, MyFaces,
+                   ajax4jsf, jQuery, JAX-WS, JAXB 2, JMS, XSLT, ant, Mockito, PL/SQL, soapUI</software>
+        </project>
+        <project>
+            <period>01/2010 - 01/2011 (nebenbei)</period>
+            <companyOrLine xml:lang="de">Diverse</companyOrLine>
+            <companyOrLine xml:lang="en">Miscellaneous</companyOrLine>
+            <line1info xml:lang="de">(für Eigenbedarf und Bekanntenkreis)</line1info>
+            <line1info xml:lang="en">(for own usage and friends)</line1info>
+            <roles>Development, Administration</roles>
+            <activities xml:lang="de">Aufbau und Betrieb von Internet Rootservern (Web und Mail)</activities>
+            <activities xml:lang="en">Installation, configuration, maintenance of Linux root servers</activities>
+            <activities>www.goebl.com, www.wellcrafted.de</activities>
+            <software>Debian GNU/Linux 5, Apache2, PHP, MySQL, iptables, AutoMySQLBackup, rsync, rsnapshot,
+                VirtualBox, rkhunter, fail2ban, denyhosts, Postfix, SpamAssassin, Amavis, Roundcube, OpenSSL,
+                DokuWiki, JBoss 6, Tomcat 6, mod_jk, Funambol, WordPress, Joomla!</software>
+        </project>
+        <project>
+            <period>12/2009 - 01/2010</period>
+            <companyOrLine xml:lang="de">Fortbildung</companyOrLine>
+            <companyOrLine xml:lang="en">Skill enhancement</companyOrLine>
+            <line1info xml:lang="de">(autodidakt)</line1info>
+            <line1info xml:lang="en">(autodidact)</line1info>
+            <roles xml:lang="de">Development, Studium</roles>
+            <roles xml:lang="en">Development, self-paced training</roles>
+            <software>JPA 2.0, EJB 3.1, JSF 2.0, jQuery, RESTful HTTP, Glassfish 3, Netbeans,
+                   HTML 5, CSS 3, YAML, Android, Mockito, DBUnit</software>
+        </project>
+        <project>
+            <period>09/2009 - 12/2009</period>
+            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit, ca. 50%-Auslastung</line1info>
+            <line1info xml:lang="en">Munich, freelance job, utilization ~50% </line1info>
+            <roles>Development, Test</roles>
+            <activities xml:lang="de">
+                Dateischnittstellen von/zu Host, Datenreplikation, Cron-Jobs, Scrum,
+                Abstimmung, Programmierung, Unit-Test, Test
+            </activities>
+            <activities xml:lang="en">
+                File interface from/to IBM Mainframe, Datareplication, Cron-Jobs, Scrum,
+                Programming, Unit-Test, Test
+            </activities>
+            <activities xml:lang="de">
+                Proprietäre Umwandlung COBOL Copies &lt;-&gt; Java, Filetransfer scp/CDI,
+            </activities>
+            <activities xml:lang="en">
+                Proprietary conversion of COBOL Copies from/to Java, Filetransfer scp/CDI,
+            </activities>
+            <software>
+                Java 5, Hibernate 3, DB2, Eclipse, Maven, Subversion, JUnit, cron, Solaris
+            </software>
+        </project>
+        <project>
+            <period>11/2008 - 11/2009</period>
+            <companyOrLine xml:lang="de">Telekommunikation</companyOrLine>
+            <companyOrLine xml:lang="en">Telekommunication</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Development, Test, Architektur</roles>
+            <roles xml:lang="en">Development, Test, Architecture</roles>
+            <activities xml:lang="de">WebService-Schnittstelle zur Telekom (BL-W v16.0 ADSA)</activities>
+            <activities xml:lang="de">WebService-Schnittstelle zur Telekom (WITA 2.0)</activities>
+            <activities xml:lang="de">Administrationsfrontend als Webanwendung (Wicket)</activities>
+            <activities xml:lang="en">WebService-Interface to German Telekom (BL-W v16.0 ADSA)</activities>
+            <activities xml:lang="en">WebService-Interface to German Telekom (WITA 2.0)</activities>
+            <activities xml:lang="en">Administration frontend (Wicket Web-Application)</activities>
+            <software>Java 5, Tomcat 5.5, Spring 2.x, Spring-WS 1.5, Hibernate 3, JAXB 2,
+                CVS, JUnit, Apache Wicket, WS-Security, ant, XML/XSLT, DB2, RSA</software>
+        </project>
+        <project>
+            <period>06/2008 - 10/2008</period>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Analyse, Proof of Concept</roles>
+            <roles xml:lang="en">Analysis, Proof of Concept</roles>
+            <activities xml:lang="de">Proof of Concept und Evaluierung einer WebServices Plattform.</activities>
+            <activities xml:lang="en">Proof of Concept and Evaluation for JBoss based WebServices Platform.</activities>
+            <activities xml:lang="de">Security, Performance, Lastverhalten, Betreibbarkeit, Entwicklungskosten</activities>
+            <activities xml:lang="en">Security, Performance, Behaviour under load; operability, development impact</activities>
+            <software>JBoss 4.2, jax-ws 2.1, WS-Security, Tomcat, mod_jk, Apache httpd</software>
+        </project>
+        <project>
+            <period>11/2006 - 07/2008</period>
+            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Teilprojektleitung, Development</roles>
+            <roles xml:lang="en">Project Management, Development</roles>
+            <activities xml:lang="de">Entwicklung einer Multi-Kanal-Anwendung (Swing, HTML, WebServices) zur Kreditkartenverwaltung.</activities>
+            <activities xml:lang="de">Connectivity zu bestehender COBOL Anwendung mit IMS-DB;
+                Umstellung auf DB2 und Java. XML-Schema-Design.</activities>
+            <activities xml:lang="en">Development of a Multi-Channel-Application (Swing, HTML, WebServices) for Credit Card Management.</activities>
+            <activities xml:lang="en">Connectivity to Legacy COBOL Application on IMS-DB;
+                Migration to DB2 and Java. XML-Schema-Design.</activities>
+            <software>J2EE, Java, Apache Tomcat, Solaris, JBF, WebServices, Axis2</software>
+            <software>DB2, JDBC, XML/XSLT, LDAP, Apache JMeter, Ant, cruisecontrol,
+                WSDL, XSD, Rational Software Architect, Eclipse, CVS, SVN, findbugs</software>
+        </project>
+        <project>
+            <period>05/2006 - 07/2007</period>
+            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <line1info xml:lang="de">Karlsruhe, freie Mitarbeit, ca. 20%-Auslastung</line1info>
+            <line1info xml:lang="en">Karlsruhe, freelance job, utilization ~20%</line1info>
+            <roles xml:lang="de">Architektur, Performance-Optimierung, Projektleitung</roles>
+            <roles xml:lang="en">Architecture, Performance-Tuning, Project Management</roles>
+            <activities xml:lang="de">Mitarbeiterportal für 3.500 User</activities>
+            <activities xml:lang="de">Last- und Performancetests, AJAX-Funktionalität</activities>
+            <activities xml:lang="en">Staff Portal for 3.500 User</activities>
+            <activities xml:lang="en">Load- and Performancetests, AJAX-Functionality</activities>
+            <software>J2EE, Java, WebSphere Portal 5, JSP und AJAX, WebSphere 5, Solaris, DB2,
+                XML/XSLT, JavaScript (IE, Gecko), Apache httpd, WebSEAL, Lotus Domino,
+                XML Access, Hibernate, Apache JMeter, Perl, IBM WSAD/RAD 6, CVS</software>
+        </project>
+        <project>
+            <period>01/2005 - 11/2006</period>
+            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Architektur, Development, Teilprojektleitung</roles>
+            <roles xml:lang="en">Architecture, Development, Project Management</roles>
+            <activities xml:lang="de">Informationsportal für &gt;100.000 User (Cluster mit 36 Instanzen)</activities>
+            <activities xml:lang="de">Einbinden von Notes Datenbanken, LDAP Integration, Portlet-Programmierung,
+                Last- und Performancetests, Themes &amp; Skins</activities>
+            <activities xml:lang="en">Information Portal for &gt;100.000 User (Cluster with 36 Instanzen)</activities>
+            <activities xml:lang="en">Embedding of Notes Databases, LDAP Integration, Portlet-Programming,
+                Load- and Performancetests, Themes &amp; Skins</activities>
+            <software>J2EE, Java, WebSphere Portal 5, JSP, WebSphere 5, Solaris
+                DB2, XML/XSLT, JavaScript (IE, Gecko), LDAP, Apache httpd, Security, SSO,
+                Spring, Lotus Domino, XML Access, Hibernate, Apache JMeter, Perl,
+                IBM WSAD/RAD (Rational Application Developer)</software>
+        </project>
+        <project>
+            <period>10/2003 - 07/2004</period>
+            <companyOrLine>ALLDATA Systems GmbH</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Architektur, Framework Design, Implementierung</roles>
+            <roles xml:lang="en">Architecture, Framework Design, Implementation</roles>
+            <activities xml:lang="de">Web-Anbindung eines Corebanking-Systems (MBS open) und
+                Integration diverser Backend-Systeme.</activities>
+            <activities xml:lang="en">Web-Enabling of a Corebanking-System (MBS open) and
+                Integration of various back-end systems.</activities>
+            <software>J2EE, Java, EJB, JSP, Apache Struts, IBM WebSphere 5.0,
+                Bea WLS, DB2, JSP TagLibs, XML/XSLT, SCHUFA SCDI, ant,
+                CruiseControl, IBM WSAD, JBoss, CVS</software>
+        </project>
+        <project xml:lang="de">
+            <period>2003, 2004</period>
+            <companyOrLine xml:lang="de">Weiterbildung</companyOrLine>
+            <line1info xml:lang="de">SAP NetWeaver (parallel zu laufenden Projekten)</line1info>
+            <roles xml:lang="de">Development, Studium</roles>
+            <activities xml:lang="de">Selbststudium von Grundlagen der SAP ABAP Programmierung,
+                BSP Programmierung, Connectoren zu Java, mySAP Technology</activities>
+            <software>SAP Web AS 6.20/6.40, ABAP, SAP J2EE Engine 6.20/6.40, BSP
+                SAP NetWeaver, NetWeaver Studio, SAP GUI, ABAP Workbench, JCo</software>
+        </project>
+        <project xml:lang="de">
+            <period>05/2004 (2 Wochen)</period>
+            <companyOrLine xml:lang="de">Weiterbildung/Workshop SAP XI</companyOrLine>
+            <line1info xml:lang="de"></line1info>
+            <roles xml:lang="de">Aktive Workshop-Teilnahme</roles>
+            <activities xml:lang="de">XI-Techniken: SLD, Intergration Server, Integration Engine, Adapter Engine
+                XI-Adapter: RFC, IDoc, File, SOAP, JMS, Plain http, JDBC</activities>
+            <activities xml:lang="de">Schulung entsprach inhaltlich SAP-Standard-Schulung BIT400 und BIT450.</activities>
+            <software>SAP R/3 4.7, SAP Exchange Infrastructure 2.0; SAP R/3 4.71 IDES</software>
+        </project>
+        <project>
+            <period>07/2003 - 09/2003</period>
+            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Architektur, Development, Test</roles>
+            <roles xml:lang="en">Architecture, Development, Test</roles>
+            <activities xml:lang="de">WikiWiki-ähnliches Redaktionssystem für Online- und
+                Druckmedien mit Generierungsengine auf Basis von XML, XSLT
+                und XSLT-FO (PDF-Output)</activities>
+            <activities xml:lang="de">Integration in bestehende Java-Anwendung (Swing)</activities>
+            <activities xml:lang="en">WikiWiki-like Content Management System for Online- und
+                Print Media; Generator-Engine on top of XML, XSLT and XSLT-FO (PDF-Output)</activities>
+            <activities xml:lang="en">Integration in existing Java-Application (Swing)</activities>
+            <software>ORACLE 8i, Java 1.4, XML, XSLT, Eclipse
+                JAXP, XML-Schema, Apache FOP, Apache Xalan, HTML, CSS, CVS</software>
+        </project>
+        <project>
+            <period>02/2003 - 06/2003</period>
+            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Architektur, Development, Test</roles>
+            <roles xml:lang="en">Architecture, Development, Test</roles>
+            <activities xml:lang="de">Unterstützung beim automatischen Verteilen von Software-
+                und Datenaktualisierungen für Außendienstmitarbeiter</activities>
+            <activities xml:lang="en">Automatic Distribution of Software-
+                and Data Updates for field staff</activities>
+            <software>Java, Oracle 8i, XML, JSP, Apache Tomcat, Servlet, Eclipse, CVS</software>
+        </project>
+        <project>
+            <period>07/2001 - 01/2003</period>
+            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Architektur, Technische Projektleitung, Development, Test</roles>
+            <roles xml:lang="en">Architecture, Project Management, Development, Test</roles>
+            <activities xml:lang="de">Integration und Optimierung eines Systems zur Unterstützung
+                der Softwareverteilung auf 40.000 Arbeitsplätzen</activities>
+            <activities xml:lang="en">Integration und Optimization of a systems which provides config
+                management, software packaging and distribution for 40.000 users</activities>
+            <software>Java, Oracle 8i, Swing, Apache Velocity, XML, JSP, EJB
+                IBM WebSphere 4</software>
+        </project>
+        <project xml:lang="de">
+            <period>01/2001 - 06/2001</period>
+            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Proof of Concept, Development</roles>
+            <activities xml:lang="de">Vorstudie (Machbarkeit, Kosten-Nutzen-Analyse) für die
+                Ablösung dreier Systeme und Integration in Gesamtsystem</activities>
+            <software>MS SQL Server, Java, Swing</software>
+        </project>
+        <project xml:lang="de">
+            <period>03/2000 - 12/2000</period>
+            <companyOrLine xml:lang="de">Cybernet AG</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Development, Test</roles>
+            <activities xml:lang="de">Mitarbeit bei www.vocatus.de</activities>
+            <activities xml:lang="de">Volltextsuche mit Oracle, Screening, Dublettensuche,
+                Entwicklung einer Question-Engine</activities>
+            <software>ASP/HTML Programmierung, Oracle 8i unter Solaris</software>
+            <software>VBScript, JavaScript, HTML, CSS</software>
+        </project>
+        <project xml:lang="de">
+            <period>07/1999 - 02/2000</period>
+            <companyOrLine xml:lang="de">Dresdner Bank AG</companyOrLine>
+            <line1info xml:lang="de">Frankfurt am Main, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Frankfurt/Main, freelance job</line1info>
+            <roles xml:lang="de">Architektur, Development, Test</roles>
+            <activities xml:lang="de">Design und Entwicklung eines Mitarbeiter-Informationssystems
+                auf Basis des Active Directory</activities>
+            <activities xml:lang="de">Intranetapplikation im Rahmen des Windows 2000 Rapid
+                Deployment Programms (RDP)</activities>
+            <software>XML, XSL, HTML, ASP, DHTML, AJAX, JavaScript,
+                MS Windows 2000 Advanced Server, com+, MS IIS 5.0,
+                MS Active Directory, Visual InterDev, Visual C++, Visual Basic,
+                ADSI, ADO</software>
+        </project>
+        <project xml:lang="de">
+            <period>07/1998 - 07/1999</period>
+            <companyOrLine xml:lang="de">HypoVereinsbank AG</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles xml:lang="de">Development, Test, Schulung</roles>
+            <activities xml:lang="de">Consulting mit Bereich Middleware, DCOM, MTS, MSMQ</activities>
+            <activities xml:lang="de">Entwicklung von Systemsoftware (Kommunikation PC-Host)</activities>
+            <activities xml:lang="de">Entwicklung und Betrieb einer Intranet-Anwendung</activities>
+            <activities xml:lang="de">Durchführung von Workshops</activities>
+            <software>Visual C++, ATL, COM/DCOM, Microsoft Transaction Server 2.0 (MTS),
+                ASP, HTML, ADO, MS SQL Server 6.5, Visual Basic 5.0 Komponenten,
+                VBScript</software>
+            <software>MS NT Server 4, MS MQ Server,
+                IIS 4, Visual Studio 97, Remote Data Services (RDS),
+                DHTML, JavaScript, VBScript</software>
+        </project>
+        <project xml:lang="de">
+            <period>07/1997 - 06/1998</period>
+            <companyOrLine>Microsoft GmbH</companyOrLine>
+            <line1info xml:lang="de">Unterschleißheim, Anstellung als Consultant-Trainee</line1info>
+            <line1info xml:lang="en">Unterschleißheim, Employment as Consultant-Trainee</line1info>
+            <roles>Development, Test</roles>
+            <activities>Consulting (Allianz AG, BMW AG, Finanzministerium)</activities>
+            <activities xml:lang="de">Software Design und -Entwicklung</activities>
+            <activities xml:lang="de">Entwicklung eines MIS auf Intranet-Basis mit IIS, MTS, COM/DCOM,
+                HTML, ASP, VBScript, COM-Komponenten</activities>
+            <software>ORACLE 7.3, LogicWorks Erwin,
+                Microsoft BackOffice (NT Server, SQL Server, IIS, Index Server, Transaction Server),
+                Visual Studio (Visual Basic, Visual C++, Visual InterDev, Visual SourceSafe), ActiveX, COM/DCOM,
+                BusinessObjects</software>
+        </project>
+        <project xml:lang="tl_dr">
+            <period>01/1997 - 06/1997</period>
+            <companyOrLine xml:lang="de">Formware GmbH</companyOrLine>
+            <line1info xml:lang="de">Brannenburg, Anstellung als Produktmanager</line1info>
+            <roles xml:lang="de">Projektleitung, Development</roles>
+            <activities xml:lang="de">Kunden: Deutsche Bank, Allianz AG</activities>
+            <software>MS Access, MS Visual C++, MFC, ODBC, Windows 3.11</software>
+        </project>
+        <project xml:lang="tl_dr">
+            <period>05/1993 - 12/1996</period>
+            <companyOrLine xml:lang="de">R2R EDV GmbH</companyOrLine>
+            <line1info xml:lang="de">Rosenheim, freie Mitarbeit</line1info>
+            <roles xml:lang="de">Projektleitung, Development</roles>
+            <activities xml:lang="de">Entwicklung eines Vertreterinformations- und -abrechnungssystems:
+                mandandenfähig und mandantenübergreifend,
+                mit bidirektionaler Multi-Master Replikation von/zu Zweigstellen</activities>
+            <software>C++, ODBC, StarView, Raima Data Manager, MS Access 2.0
+                PowerBuilder, Sybase SQL Anywhere 5.0, S-Designor, Windows</software>
+        </project>
+        <project xml:lang="tl_dr">
+            <period>10/1990 - 02/1993</period>
+            <companyOrLine xml:lang="de">Dienstleistungsrechenzentrum</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <roles xml:lang="de">Development, Administration, Schulung</roles>
+            <activities xml:lang="de">Weiterentwicklung Vertriebssoftware, Netzwerk-Admin</activities>
+            <software>Microsoft C, db_Vista, SoftFocus b-Tree, MS-DOS</software>
+            <software>ab 07/92: Entwicklung unter Windows und C++</software>
+        </project>
+        <project xml:lang="tl_dr">
+            <period>05/1989 - 09/1990</period>
+            <companyOrLine xml:lang="de">Marox GmbH</companyOrLine>
+            <line1info xml:lang="de">Rosenheim, freie Mitarbeit in EDV-Abteilung</line1info>
+            <roles xml:lang="de">Datenbankdesign, Development</roles>
+            <activities xml:lang="de">Rezeptur-, Zerlege- und Mixturkalkulation;
+                Erzeugerabrechnung für Marox Viehhandel</activities>
+            <software>C, Informix, Informix C-ISAM, Informix ACE, SINIX</software>
+        </project>
+        <project xml:lang="tl_dr">
+            <period>01/1988 - 04/1989</period>
+            <companyOrLine xml:lang="de">Verschiedene Firmen</companyOrLine>
+            <line1info xml:lang="de">freie Tätigkeiten</line1info>
+            <roles xml:lang="de">Development, Buchautor</roles>
+            <activities xml:lang="de">Coautor beim Buch "MS-DOS für Insider"</activities>
+            <activities xml:lang="de">Verschiedene C-Programme unter MS-DOS</activities>
+            <activities xml:lang="de">netzwerkfähige Datenbankapplikationen (Immobilien, Verwaltung)</activities>
+            <software>MS C, PforCe, MS Macro Assembler (8086)</software>
+        </project>
+    </workExperience>
+</profile>
