@@ -14,7 +14,7 @@ A Mobile Web Application can display the data of the profile / CV.
   * Deal with bigger display viewports like iPad
   * SEO: Add meta-data in HTML-header and PDF (like language, keywords, summary, ...)
   * Refactor XML-structure; provide XSLT script for translating to new version.
-  * add country, region, availability
+  * add availability
   * add privacy attribute (e.g. for E-Mail address, telephone number, ...)
   * handle missing tags gracefully
   * Test with non-httpd Web-Server (do they behave like mod_negotiation?)
@@ -29,8 +29,6 @@ A Mobile Web Application can display the data of the profile / CV.
   * implement Tests with mocha and should
   * implement Selenium / Soda tests for the jQuery Mobile implementation.
   * generate QR-Code images out of web addresses
-  * generate vCard
-  * generate QR-Code of vCard
   * generate *.gz files (for efficient delivery for content-encoding gzip)
 
 ## Known Bugs

@@ -5,6 +5,10 @@
     <xsl:param name="lang" select="'de'"/>
     <xsl:variable name="page-height"><xsl:call-template name="i18n"><xsl:with-param name="key">page-height</xsl:with-param></xsl:call-template></xsl:variable>
     <xsl:variable name="page-width"><xsl:call-template name="i18n"><xsl:with-param name="key">page-width</xsl:with-param></xsl:call-template></xsl:variable>
+    <xsl:variable name="fullName">
+        <xsl:call-template name="i18n-fullname"><xsl:with-param name="person" select="/profile/person"/></xsl:call-template>
+    </xsl:variable>
+
     <xsl:output method="xml"/>
 
     <xsl:attribute-set name="font">
@@ -119,14 +123,14 @@
                             <dc:title>
                                 <xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>
                                 <xsl:text> </xsl:text>
-                                <xsl:value-of select="concat(person/firstName, ' ', person/lastName)"/>
+                                <xsl:value-of select="$fullName"/>
                                 <xsl:text>, </xsl:text>
-                                <xsl:call-template name="i18n"><xsl:with-param name="key">Last edit</xsl:with-param></xsl:call-template>
+                                <xsl:call-template name="i18n"><xsl:with-param name="key">Last Update</xsl:with-param></xsl:call-template>
                                 <xsl:text>: </xsl:text>
                                 <xsl:value-of select="lastEditDate"/>
                             </dc:title>
                             <dc:creator>
-                                <xsl:value-of select="concat(person/firstName, ' ', person/lastName)"/>
+                                <xsl:value-of select="$fullName"/>
                             </dc:creator>
                         </rdf:Description>
                         <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
@@ -142,7 +146,7 @@
                         <xsl:with-param name="right">
                             <xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>
                             <xsl:text> </xsl:text>
-                            <xsl:value-of select="concat(person/firstName, ' ', person/lastName)"/>
+                            <xsl:value-of select="$fullName"/>
                         </xsl:with-param>
                         <xsl:with-param name="left">
                         </xsl:with-param>
@@ -151,7 +155,7 @@
                 <fo:static-content flow-name="xsl-region-after">
                     <xsl:call-template name="single-row-table-left-right">
                         <xsl:with-param name="left">
-                            <xsl:call-template name="i18n"><xsl:with-param name="key">Last edit</xsl:with-param></xsl:call-template>
+                            <xsl:call-template name="i18n"><xsl:with-param name="key">Last Update</xsl:with-param></xsl:call-template>
                             <xsl:text>: </xsl:text>
                             <xsl:value-of select="lastEditDate"/>
                         </xsl:with-param>
@@ -171,7 +175,7 @@
                         <xsl:with-param name="value">
                             <xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>
                             <xsl:text> </xsl:text>
-                            <xsl:value-of select="concat(person/firstName, ' ', person/lastName)"/>
+                            <xsl:value-of select="$fullName"/>
                         </xsl:with-param>
                     </xsl:call-template>
                     <xsl:apply-templates select="person"/>
@@ -199,7 +203,7 @@
                         <fo:block font-weight="bold"><xsl:call-template name="i18n"><xsl:with-param name="key">Name</xsl:with-param></xsl:call-template>:</fo:block>
                     </fo:table-cell>
                     <fo:table-cell xsl:use-attribute-sets="cell">
-                        <fo:block><xsl:value-of select="concat(firstName, ' ', lastName)"/></fo:block>
+                        <fo:block><xsl:value-of select="$fullName"/></fo:block>
                     </fo:table-cell>
                     <fo:table-cell number-rows-spanned="7" xsl:use-attribute-sets="cell">
                         <fo:block text-align="end">
@@ -209,7 +213,13 @@
                 </fo:table-row>
                 <xsl:call-template name="row-2-cols">
                     <xsl:with-param name="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Address</xsl:with-param></xsl:call-template>:</xsl:with-param>
-                    <xsl:with-param name="value"><xsl:value-of select="street"/><fo:block/><xsl:value-of select="city"/></xsl:with-param>
+                    <xsl:with-param name="value"><xsl:value-of select="street"/><fo:block/>
+                        <xsl:call-template name="i18n-address">
+                            <xsl:with-param name="city" select="city"/>
+                            <xsl:with-param name="zip" select="zip"/>
+                            <xsl:with-param name="state" select="state"/>
+                        </xsl:call-template>
+                    </xsl:with-param>
                 </xsl:call-template>
                 <xsl:call-template name="row-2-cols">
                     <xsl:with-param name="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Telephone</xsl:with-param></xsl:call-template>:</xsl:with-param>

@@ -15,4 +15,31 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template name="i18n-address">
+        <xsl:param name="city"/>
+        <xsl:param name="state"/>
+        <xsl:param name="zip"/>
+        <xsl:choose>
+            <xsl:when test="$lang = 'en'">
+                <xsl:value-of select="concat($city, ', ', $state, ' ', $zip)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="concat($zip, ' ', $city)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template name="i18n-fullname">
+        <xsl:param name="person"/>
+        <xsl:if test="$person/title">
+            <xsl:value-of select="concat($person/title, ' ')"/>
+        </xsl:if>
+        <xsl:value-of select="concat($person/firstName, ' ')"/>
+        <xsl:if test="$person/middleName">
+            <xsl:value-of select="concat($person/middleName, ' ')"/>
+        </xsl:if>
+        <xsl:value-of select="$person/lastName"/>
+        <xsl:if test="$person/suffix">
+            <xsl:value-of select="concat(' ', $person/suffix)"/>
+        </xsl:if>
+    </xsl:template>
 </xsl:stylesheet>

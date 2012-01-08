@@ -1,6 +1,7 @@
 var fs = require('fs'),
     path = require('path'),
     _ = require('underscore'),
+    Mustache = require('mustache'),
     wrapMultiColumn = require('./wrap-multi-column.js');
 
 function profile2Text(profile, colwidths, distance) {
@@ -54,8 +55,22 @@ function profile2Text(profile, colwidths, distance) {
 
     outputHeader(trans.get('Personal Details / Overview'), true);
 
-    output(trans.get('Name'), [ person.firstName, person.lastName ].join(' '));
-    output(trans.get('Address'), [ person.street, person.city ].join(', '));
+    output(trans.get('Name'),
+        _([
+            person.title,
+            person.firstName,
+            person.middleName,
+            person.lastName,
+            person.suffix
+        ]).compact().join(' '));
+
+    output(trans.get('Address'),
+        [
+            person.street,
+            Mustache.to_html(trans.get('{{city}} {{state}} {{zip}}'), person),
+            person.country
+        ]
+    );
     output(trans.get('Date of birth'), person.dateOfBirth);
     output(trans.get('workingSince'), person.workingSince);
     output(trans.get('Telephone'), person.telephone);

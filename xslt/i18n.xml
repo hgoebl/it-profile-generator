@@ -8,8 +8,8 @@
         <msg xml:lang="en">CV</msg>
         <msg xml:lang="de">Profil</msg>
     </entry>
-    <entry key="Last edit">
-        <msg xml:lang="en">Last edit</msg>
+    <entry key="Last Update">
+        <msg xml:lang="en">Last Update</msg>
         <msg xml:lang="de">Stand</msg>
     </entry>
     <entry key="Personal Details / Overview">
@@ -239,5 +239,11 @@
     <entry key="var $SERVER_HTTP_ACCEPT_LANGUAGE;">
         <msg xml:lang="en">var $SERVER_HTTP_ACCEPT_LANGUAGE='en';</msg>
         <msg xml:lang="de">var $SERVER_HTTP_ACCEPT_LANGUAGE='de';</msg>
+    </entry>
+
+    <!-- special formatting rules for address labels http://en.wikipedia.org/wiki/Address_%28geography%29 -->
+    <entry key="{{city}} {{state}} {{zip}}">
+        <msg xml:lang="en">{{city}}, {{state}} {{zip}}</msg>
+        <msg xml:lang="de">{{zip}} {{city}}</msg>
     </entry>
 </i18n>

@@ -50,6 +50,13 @@ if [ -f supported-languages.txt ]; then
             --encoding=utf8 --colwidths=18,75 --distance=1  \
             ${PROFILE}.json.${LANG} ${PROFILE}.txt.${LANG}
 
+        # translate to vCard
+        $NODE ${CWD}/node-app/cli-to-vcard.js                \
+            ${PROFILE}.json.${LANG} ${PROFILE}.vcf.${LANG}
+
+        # generate QR-Code of vCard
+        $QRENCODE -o ${PROFILE}-vcf-qrcode.png.${LANG} < ${PROFILE}.vcf.${LANG}
+
         # generate html
         $FOP -xml ${XML} -xsl ${XSLT_DIR}/profile-html4.xsl -foout ${PROFILE}.html.${LANG} -param lang ${LANG}
 
@@ -63,7 +70,7 @@ if [ -f supported-languages.txt ]; then
         $FOP -fo ${FO} -pdf ${PROFILE}.pdf.${LANG}
 
         # removing intermediate files
-        rm ${FO}
+        #rm ${FO}
 
         # translate mobile-content html-snippets to destination language
         $FOP -xml mobile-content.multilang.xml -xsl ${XSLT_DIR}/profile-filter-language.xsl \
@@ -102,6 +109,13 @@ else
     $NODE ${CWD}/node-app/cli-to-text.js                \
         --encoding=utf8 --colwidths=18,75 --distance=1  \
         ${PROFILE}.json ${PROFILE}.txt
+
+    # translate to vCard
+    $NODE ${CWD}/node-app/cli-to-vcard.js                \
+        ${PROFILE}.json ${PROFILE}.vcf
+
+    # generate QR-Code of vCard
+    $QRENCODE -o ${PROFILE}-vcf-qrcode.png < ${PROFILE}.vcf
 
     # generate html
     $FOP -xml ${XML} -xsl ${XSLT_DIR}/profile-html4.xsl -foout ${PROFILE}.html -param lang ${LANG}

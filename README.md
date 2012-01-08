@@ -22,6 +22,8 @@ This collection of scripts convert a single XML file of input into different out
   * RTF (generated with Apache FOP, so quality is rather disappointing)
   * TXT (useful for some IT-profile hosting providers, especially for the list of projects / work experience)
   * JSON (to be used by Smartphone applications)
+  * vCard
+  * PNG (QR-Code of vCard)
 
 Hopefully coming soon (you can contribute!):
 
@@ -54,6 +56,9 @@ iOS will not be supported by me, unless Apple is sponsering an iMac to me - help
     I've tested with 0.95 and 1.0. Don't know why, but I'd prefer 1.0.
   * Download and install [Node.js](http://nodejs.org/)
     I've tested with 0.4.x so far, 0.6.x should work well; Tell me, if not!
+  * //Optional: Download/install qrencode
+
+        sudo apt-get install qrencode
   * Clone this project (of course you can fork it) and change to its directory
   * Copy the example setenv script and adopt it to your installation.
     If fop and node is in your PATH, just set NODE=node and FOP=fop.
@@ -153,6 +158,11 @@ The easiest way to help is by reporting bugs and/or mail whishes. Don't hesitate
 ## Add Support for Additional Languages
 
 Edit `xslt/i18n.xml` and create entries for the new language.
+
+If you the format of the postal address differs from `{{city}} {{zip}}`, you should edit `xslt/i18n-support.xsl`
+and add the format for your language. (Of course language is not equal to country, so selecting the postal format upon
+the language is not the most clever solution.)
+
 After that the script `./generate-i18n.sh` must be executed.
 If translations for keys are missing, the key will be used instead of the value.
 
@@ -161,4 +171,4 @@ If you don't want to clone/fork/... send me the file by mail.
 
 ## TODO and Known Bugs
 
-See [TODO.md](TODO.md)
+See [TODO.md](/TODO.md)

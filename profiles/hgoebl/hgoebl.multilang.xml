@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile version="1.0">
-    <lastEditDate xml:lang="de">01.01.2012</lastEditDate>
-    <lastEditDate xml:lang="en">01-Jan-2012</lastEditDate>
+<profile version="1.0.1">
+    <lastEditDate xml:lang="de">08.01.2012</lastEditDate>
+    <lastEditDate xml:lang="en">08-Jan-2012</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -10,7 +10,12 @@
         <firstName>Heinrich</firstName>
         <lastName>Göbl</lastName>
         <street>Rundsweg 1c</street>
-        <city>83026 Rosenheim</city>
+        <city>Rosenheim</city>
+        <zip>83026</zip>
+        <state xml:lang="de">Bayern</state>
+        <state xml:lang="en">D</state>
+        <country xml:lang="de">Deutschland</country>
+        <country xml:lang="en">Germany</country>
         <dateOfBirth>1969</dateOfBirth>
         <telephone>+49 171 310 45 41</telephone>
         <email>sysprog@goebl.com</email>

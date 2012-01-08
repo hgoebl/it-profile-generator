@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile version="1.0">
+<profile version="1.0.1">
     <lastEditDate>01-Jan-2012</lastEditDate>
     <lang>en</lang>
     <availableLanguages>en</availableLanguages>
     <person>
+        <title>Dr.</title>
         <firstName>John</firstName>
+        <middleName>F.</middleName>
         <lastName>Doe</lastName>
+        <suffix>jun.</suffix>
         <street>Sunshine Blvd. 1</street>
         <city>Doe-City</city>
+        <zip>99999</zip>
+        <state>CA</state>
+        <country>Atlantis</country>
         <dateOfBirth>1977</dateOfBirth>
         <telephone>+49 555 555 555</telephone>
         <email>john.doe@example.com</email>

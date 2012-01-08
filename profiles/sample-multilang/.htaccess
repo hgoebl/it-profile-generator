@@ -5,5 +5,6 @@ AddCharset utf-8 .json
 AddCharset utf-8 .txt
 
 AddType application/json .json
+AddType text/vcard .vcf
 
-Options +MultiViews
+Options +MultiViews +Indexes

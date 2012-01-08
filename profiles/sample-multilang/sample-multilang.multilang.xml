@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile version="1.0">
+<profile version="1.0.1">
     <lastEditDate xml:lang="de">01.01.2012</lastEditDate>
     <lastEditDate xml:lang="en">01-Jan-2012</lastEditDate>
     <lang xml:lang="de">de</lang>
@@ -7,10 +7,17 @@
     <availableLanguages>de</availableLanguages>
     <availableLanguages>en</availableLanguages>
     <person>
+        <title>Dr.</title>
         <firstName>John</firstName>
+        <middleName>F.</middleName>
         <lastName>Doe</lastName>
+        <suffix>jun.</suffix>
         <street>Sunshine Blvd. 1</street>
         <city>Doe-City</city>
+        <zip>99999</zip>
+        <state>CA</state>
+        <country xml:lang="de">Atlantis</country>
+        <country xml:lang="en">Atlantis</country>
         <dateOfBirth>1977</dateOfBirth>
         <telephone>+49 555 555 555</telephone>
         <email>john.doe@example.com</email>

@@ -29,7 +29,7 @@ function wrapMultiColumn(colwidths, texts, distance) {
     });
 
     // one string to fill columns shorter than their col-width
-    filler = new Array(_.max(colwidths) + 1).join(' ');
+    filler = new Array(_.max(colwidths) + 1 + distance).join(' ');
 
     // find maximum count of lines
     var lineCount = _.reduce(cols, function (max, col) {

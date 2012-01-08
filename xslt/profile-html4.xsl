@@ -4,6 +4,9 @@
 
     <xsl:param name="lang" select="'de'"/>
     <xsl:output method="html"/>
+    <xsl:variable name="fullName">
+        <xsl:call-template name="i18n-fullname"><xsl:with-param name="person" select="/profile/person"/></xsl:call-template>
+    </xsl:variable>
 
     <xsl:template match="/profile">
         <html>
@@ -11,7 +14,7 @@
                 <title>
                     <xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>
                     <xsl:text> </xsl:text>
-                    <xsl:value-of select="concat(person/firstName, ' ', person/lastName)"/>
+                    <xsl:value-of select="$fullName"/>
                 </title>
                 <style type="text/css">
 body {
@@ -57,9 +60,9 @@ ul.qualification {
             <body>
                 <h1><xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>
                     <xsl:text> </xsl:text>
-                    <xsl:value-of select="concat(person/firstName, ' ', person/lastName)"/></h1>
+                    <xsl:value-of select="$fullName"/></h1>
                 <p>
-                    <xsl:call-template name="i18n"><xsl:with-param name="key">Last edit</xsl:with-param></xsl:call-template>:
+                    <xsl:call-template name="i18n"><xsl:with-param name="key">Last Update</xsl:with-param></xsl:call-template>:
                     <xsl:value-of select="lastEditDate"/></p>
                 <xsl:apply-templates select="person"/>
                 <xsl:apply-templates select="competencies"/>
@@ -72,12 +75,27 @@ ul.qualification {
         <table class="person box">
             <tr>
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Name</xsl:with-param></xsl:call-template>:</td>
-                <td class="value"><xsl:value-of select="concat(firstName, ' ', lastName)"/></td>
-                <td rowspan="7"><img class="foto" src="{photo_lowres}" alt="{concat('Foto von ', firstName, ' ', lastName)}"/></td>
+                <td class="value"><xsl:value-of select="$fullName"/></td>
+                <td rowspan="7">
+                    <img class="foto" src="{photo_lowres}">
+                        <xsl:attribute name="alt">
+                            <xsl:call-template name="i18n"><xsl:with-param name="key">Photo of</xsl:with-param></xsl:call-template>
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="$fullName"/>
+                        </xsl:attribute>
+                    </img>
+                </td>
             </tr>
             <tr>
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Address</xsl:with-param></xsl:call-template>:</td>
-                <td class="value"><xsl:value-of select="street"/><br/><xsl:value-of select="city"/></td>
+                <td class="value">
+                    <xsl:value-of select="street"/><br/>
+                    <xsl:call-template name="i18n-address">
+                        <xsl:with-param name="city" select="city"/>
+                        <xsl:with-param name="zip" select="zip"/>
+                        <xsl:with-param name="state" select="state"/>
+                    </xsl:call-template>
+                </td>
             </tr>
             <tr>
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Telephone</xsl:with-param></xsl:call-template>:</td>

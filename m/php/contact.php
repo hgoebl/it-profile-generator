@@ -9,12 +9,11 @@ header('Content-type: application/json');
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     $body = json_decode($request_body);
-    /* json_last_error needs PHP 5.3+
-    if (json_last_error() != JSON_ERROR_NONE) {
+    // json_last_error needs PHP 5.3+
+    if (function_exists("json_last_error") && json_last_error() != JSON_ERROR_NONE) {
         ?>{ "success": false, "message": "Unable to decode JSON data.", "code": "json_parse_error" }<?
         return;
     }
-    */
 
     $msg = substr(trim("" . $body->{'name'}), 0, 100) . "\n"
         . substr(trim("" . $body->{'email'}), 0, 70) . "\n"
