@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.0.1">
-    <lastEditDate xml:lang="de">08.01.2012</lastEditDate>
-    <lastEditDate xml:lang="en">08-Jan-2012</lastEditDate>
+    <lastEditDate xml:lang="de">11.01.2012</lastEditDate>
+    <lastEditDate xml:lang="en">11-Jan-2012</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -20,7 +20,7 @@
         <telephone>+49 171 310 45 41</telephone>
         <email>sysprog@goebl.com</email>
         <web>http://www.goebl.com/</web>
-        <web>https://www.gulp.de/Profil/hgoebl.html</web>
+        <web xml:lang="na_da">https://www.gulp.de/Profil/hgoebl.html</web>
         <workingSince>1993</workingSince>
         <photo_hires>hgoebl_354x472.jpg</photo_hires>
         <photo_lowres>hgoebl_177x236.jpg</photo_lowres>
@@ -399,7 +399,7 @@
             <software>MS SQL Server, Java, Swing</software>
         </project>
         <project xml:lang="de">
-            <period>03/2000 - 12/2000</period>
+            <period>06/2000 - 12/2000</period>
             <companyOrLine xml:lang="de">Cybernet AG</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
@@ -409,6 +409,24 @@
                 Entwicklung einer Question-Engine</activities>
             <software>ASP/HTML Programmierung, Oracle 8i unter Solaris</software>
             <software>VBScript, JavaScript, HTML, CSS</software>
+        </project>
+        <project xml:lang="de">
+            <period>08/2000</period>
+            <companyOrLine>b-fusion (Media Agentur)</companyOrLine>
+            <line1info>Rosenheim, freie Mitarbeit</line1info>
+            <roles>Development, Test</roles>
+            <activities xml:lang="de">Internet-Anwendung: Baukostenkalkulation und Baufinanzierung</activities>
+            <software>LINUX, Apache, MySQL, PHP3, HTML, JavaScript, DHTML (Netscape, IE)</software>
+        </project>
+        <project xml:lang="de">
+            <period>03/2000 – 05/2000</period>
+            <companyOrLine>Mylius AG</companyOrLine>
+            <line1info>Rosenheim, freie Mitarbeit</line1info>
+            <roles>Consulting, Development</roles>
+            <activities xml:lang="de">Proof of Concept und Prototyp-Entwicklung eines XMLGateways zur Anbindung des
+                Warenwirtschaftssystems „MyEnterprise“ an Internet Webshops auf HTTPS-Basis</activities>
+            <software>XML, MTS, COM, SQL Server 7, ASP, Microsoft BizTalk Framework,
+                MS IIS 4, VB 6, ADO, VBScript, DHTML, XSLT, JavaScript</software>
         </project>
         <project xml:lang="de">
             <period>07/1999 - 02/2000</period>
