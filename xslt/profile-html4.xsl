@@ -9,7 +9,7 @@
     </xsl:variable>
 
     <xsl:template match="/profile">
-        <html>
+        <html lang="{$lang}" xml:lang="{$lang}">
             <head>
                 <title>
                     <xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>

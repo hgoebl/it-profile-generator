@@ -4,7 +4,8 @@
     <xsl:variable name="i18n_doc" select="document('i18n.xml')/i18n"/>
     <xsl:template name="i18n">
         <xsl:param name="key"/>
-        <xsl:variable name="val" select="$i18n_doc/entry[@key=$key]/msg[lang($lang)]"/>
+        <xsl:param name="force-lang" select="$lang"/>
+        <xsl:variable name="val" select="$i18n_doc/entry[@key=$key]/msg[lang($force-lang)]"/>
         <xsl:choose>
             <xsl:when test="$val">
                 <xsl:value-of select="$val"/>

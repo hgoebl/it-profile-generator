@@ -207,7 +207,7 @@
                     </fo:table-cell>
                     <fo:table-cell number-rows-spanned="7" xsl:use-attribute-sets="cell">
                         <fo:block text-align="end">
-                            <fo:external-graphic src="{photo_hires}" content-height="57mm" content-width="42mm"/>
+                            <fo:external-graphic src="{photo_hires}" content-width="42mm"/>
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>

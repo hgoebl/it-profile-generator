@@ -22,7 +22,7 @@ A Mobile Web Application can display the data of the profile / CV.
   * Test/adopt for Cygwin
   * use ant instead of bash scripts?
   * create target directory, copy profiles/... to target; generate to target dir
-  * generate index.html page for overview (and download_...php links for Word/PDF/...)
+  * generate download_...php links for Word/PDF/...
   * generate .odt files (or .doc with [Apache POI](http://poi.apache.org/))
   * deal with "a" tag (apply-templates) in project descriptions (don't forget JSON)
   * change xml-parsing to xml2js instead of poor-xml2json.

@@ -33,5 +33,6 @@ cd ${NEW_DIR}
 cp ../sample-singlelang/sample-singlelang.xml ./${PROFILE}.xml
 cp ../sample-singlelang/.htaccess  .
 cp ../sample-singlelang/mobile-content.xml .
+cp ../sample-multilang/.gitignore .
 
 cd ${CWD}

@@ -4,6 +4,10 @@
         <msg xml:lang="en">en</msg>
         <msg xml:lang="de">de</msg>
     </entry>
+    <entry key="language">
+        <msg xml:lang="en">English</msg>
+        <msg xml:lang="de">Deutsch</msg>
+    </entry>
     <entry key="Profile">
         <msg xml:lang="en">CV</msg>
         <msg xml:lang="de">Profil</msg>
@@ -245,5 +249,11 @@
     <entry key="{{city}} {{state}} {{zip}}">
         <msg xml:lang="en">{{city}}, {{state}} {{zip}}</msg>
         <msg xml:lang="de">{{zip}} {{city}}</msg>
+    </entry>
+
+    <!-- flags for the languages - will be extended to /s/flags/{flag-icon}.gif -->
+    <entry key="flag-icon">
+        <msg xml:lang="en">gb</msg>
+        <msg xml:lang="de">de</msg>
     </entry>
 </i18n>

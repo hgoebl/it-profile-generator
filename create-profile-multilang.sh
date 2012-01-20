@@ -34,5 +34,6 @@ cp ../sample-multilang/sample-multilang.multilang.xml ./${PROFILE}.multilang.xml
 cp ../sample-multilang/.htaccess  .
 cp ../sample-multilang/supported-languages.txt .
 cp ../sample-multilang/mobile-content.multilang.xml .
+cp ../sample-multilang/.gitignore .
 
 cd ${CWD}

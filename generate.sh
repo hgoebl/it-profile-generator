@@ -30,6 +30,9 @@ if [ -f supported-languages.txt ]; then
         exit 2
     fi
 
+    # generate index.html (overview)
+    $FOP -xml ${PROFILE}.multilang.xml -xsl ${XSLT_DIR}/profile-index.xsl -foout index.html -param nickname ${PROFILE}
+
     while read LANG
     do
         XML=${PROFILE}.xml.${LANG}
@@ -99,6 +102,9 @@ else
 
     XML=${PROFILE}.xml
     FO=${PROFILE}.fo
+
+    # generate index.html (overview)
+    $FOP -xml ${XML} -xsl ${XSLT_DIR}/profile-index.xsl -foout index.html -param nickname ${PROFILE}
 
     # translate to JSON
     $NODE ${CWD}/node-app/cli-to-json.js                \

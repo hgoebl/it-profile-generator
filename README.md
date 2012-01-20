@@ -38,7 +38,8 @@ Hopefully coming soon (you can contribute!):
 ## Example Output
 
   * Output: <http://www.goebl.com/profiles/hgoebl/>
-  * Mobile App: <http://www.goebl.com/m/jqm/?hgoebl> -> use the QR-Code at <http://www.goebl.com/>
+  * Mobile App: <http://m.goebl.com/> (will redirect to <http://www.goebl.com/m/jqm/?hgoebl>) -> use the
+    QR-Code at <http://www.goebl.com/>
 
 The Mobile App should not work with old or trouble-making browsers (you know what I M$ean).
 
@@ -72,6 +73,7 @@ iOS will not be supported by me, unless Apple is sponsering an iMac to me - help
 
         cd node-app
         npm install
+        cd ..
 
 First an initial generation script has to be executed (like make but w/o make):
 
@@ -146,7 +148,7 @@ profile.
 
 ## License
 
-See [MIT-LICENSE.txt](./MIT-LICENSE.txt).
+See MIT-LICENSE.txt.
 
 ## Contributing
 
@@ -159,7 +161,7 @@ The easiest way to help is by reporting bugs and/or mail whishes. Don't hesitate
 
 Edit `xslt/i18n.xml` and create entries for the new language.
 
-If you the format of the postal address differs from `{{city}} {{zip}}`, you should edit `xslt/i18n-support.xsl`
+If the format of the postal address differs from `{{city}} {{zip}}`, you should edit `xslt/i18n-support.xsl`
 and add the format for your language. (Of course language is not equal to country, so selecting the postal format upon
 the language is not the most clever solution.)
 
@@ -171,4 +173,17 @@ If you don't want to clone/fork/... send me the file by mail.
 
 ## TODO and Known Bugs
 
-See [TODO.md](/TODO.md)
+See TODO.md
+
+## Credits
+
+This is only a collection of software used:
+
+  * [jQuery Mobile](http://jquerymobile.com/)
+  * [jQuery - write less, do more](http://jquery.com/)
+  * [Debian GNU/Linux](http://www.debian.org/)
+  * [The Apache Software Foundation](http://www.apache.org/)
+  * [Node.js](http://nodejs.org/)
+  * [Mustache - Logic-less templates](http://mustache.github.com/)
+  * [FAMFAMFAM icons by Mark James](http://www.famfamfam.com/)
+  * Modules for Node: async, optimist, sax, underscore, wordwrap, xml2js
