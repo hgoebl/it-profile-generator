@@ -141,7 +141,7 @@ dd {
                 <xsl:with-param name="lang-ext" select="$lang-ext"/>
             </xsl:call-template>
             <xsl:call-template name="dl-item-doclink">
-                <xsl:with-param name="format-name" select="'RFT (Rich Text Format)'"/>
+                <xsl:with-param name="format-name" select="'RTF (Rich Text Format)'"/>
                 <xsl:with-param name="format-ext" select="'.rtf'"/>
                 <xsl:with-param name="lang-ext" select="$lang-ext"/>
             </xsl:call-template>
