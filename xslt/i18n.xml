@@ -256,4 +256,13 @@
         <msg xml:lang="en">gb</msg>
         <msg xml:lang="de">de</msg>
     </entry>
+
+    <entry key="meta-description">
+        <msg xml:lang="en">You are searching for an IT-Expert? Here is the CV of</msg>
+        <msg xml:lang="de">Sie suchen einen IT-Experten? Hier ist das Profil von</msg>
+    </entry>
+    <entry key="meta-keywords">
+        <msg xml:lang="en">CV Resume Profile Freelancer IT-Expert</msg>
+        <msg xml:lang="de">Profil Freiberufler Freelancer IT-Experte</msg>
+    </entry>
 </i18n>

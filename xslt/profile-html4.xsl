@@ -11,6 +11,26 @@
     <xsl:template match="/profile">
         <html lang="{$lang}" xml:lang="{$lang}">
             <head>
+                <meta name="description">
+                    <xsl:attribute name="content">
+                        <xsl:call-template name="i18n"><xsl:with-param name="key">meta-description</xsl:with-param></xsl:call-template>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="$fullName"/>
+                    </xsl:attribute>
+                </meta>
+                <meta name="keywords">
+                    <xsl:attribute name="keywords">
+                        <xsl:call-template name="i18n"><xsl:with-param name="key">meta-keywords</xsl:with-param></xsl:call-template>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="normalize-space(person/coreArea)"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="normalize-space(person/areaOfWork)"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="normalize-space(person/city)"/>
+                    </xsl:attribute>
+                </meta>
+                <meta name="author" content="{$fullName}"/>
+                <meta name="generator" content="https://github.com/hgoebl/it-profile-generator"/>
                 <title>
                     <xsl:call-template name="i18n"><xsl:with-param name="key">Profile</xsl:with-param></xsl:call-template>
                     <xsl:text> </xsl:text>
