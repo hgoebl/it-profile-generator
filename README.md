@@ -182,6 +182,7 @@ See TODO.md
 ## Credits
 
 Thanks for your help:
+
   * Thomas Siedschlag (Testing/Adaption to Windows/Cygwin, improvements in XSLT scripts)
 
 This is only a collection of software used:
