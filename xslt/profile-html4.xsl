@@ -97,13 +97,15 @@ ul.qualification {
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Name</xsl:with-param></xsl:call-template>:</td>
                 <td class="value"><xsl:value-of select="$fullName"/></td>
                 <td rowspan="7">
-                    <img class="foto" src="{photo_lowres}">
-                        <xsl:attribute name="alt">
-                            <xsl:call-template name="i18n"><xsl:with-param name="key">Photo of</xsl:with-param></xsl:call-template>
-                            <xsl:text> </xsl:text>
-                            <xsl:value-of select="$fullName"/>
-                        </xsl:attribute>
-                    </img>
+					<xsl:if test="photo_lowres">
+						<img class="foto" src="{photo_lowres}">
+							<xsl:attribute name="alt">
+								<xsl:call-template name="i18n"><xsl:with-param name="key">Photo of</xsl:with-param></xsl:call-template>
+								<xsl:text> </xsl:text>
+								<xsl:value-of select="$fullName"/>
+							</xsl:attribute>
+						</img>
+					</xsl:if>
                 </td>
             </tr>
             <tr>

@@ -205,9 +205,11 @@
                     <fo:table-cell xsl:use-attribute-sets="cell">
                         <fo:block><xsl:value-of select="$fullName"/></fo:block>
                     </fo:table-cell>
-                    <fo:table-cell number-rows-spanned="7" xsl:use-attribute-sets="cell">
+                    <fo:table-cell number-rows-spanned="7" xsl:use-attribute-sets="cell">						
                         <fo:block text-align="end">
+							<xsl:if test="photo_hires">
                             <fo:external-graphic src="{photo_hires}" content-width="42mm"/>
+							</xsl:if>
                         </fo:block>
                     </fo:table-cell>
                 </fo:table-row>
