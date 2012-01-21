@@ -7,10 +7,8 @@
 
 PROFILE=$1
 
-CWD=$(pwd)
-
-INPUT_DIR=${CWD}/profiles/${PROFILE}
-XSLT_DIR=${CWD}/xslt
+INPUT_DIR=${_CWD}/profiles/${PROFILE}
+XSLT_DIR=${_CWD}/xslt
 
 if [ ! -d ${INPUT_DIR} ]; then
     echo "input profile directory not found"
@@ -42,19 +40,19 @@ if [ -f supported-languages.txt ]; then
         $FOP -xml ${PROFILE}.multilang.xml -xsl ${XSLT_DIR}/profile-filter-language.xsl -foout ${XML} -param lang ${LANG}
 
         # translate to JSON
-        $NODE ${CWD}/node-app/cli-to-json.js                \
+        $NODE ${_CWD}/node-app/cli-to-json.js               \
             --lang=${LANG}                                  \
             --encoding=utf8 --space=0                       \
             ${XML} ${PROFILE}.json.${LANG}
 
         # translate to Text
-        $NODE ${CWD}/node-app/cli-to-text.js                \
+        $NODE ${_CWD}/node-app/cli-to-text.js               \
             --lang=${LANG}                                  \
             --encoding=utf8 --colwidths=18,75 --distance=1  \
             ${PROFILE}.json.${LANG} ${PROFILE}.txt.${LANG}
 
         # translate to vCard
-        $NODE ${CWD}/node-app/cli-to-vcard.js                \
+        $NODE ${_CWD}/node-app/cli-to-vcard.js                \
             ${PROFILE}.json.${LANG} ${PROFILE}.vcf.${LANG}
 
         # generate QR-Code of vCard
@@ -107,17 +105,17 @@ else
     $FOP -xml ${XML} -xsl ${XSLT_DIR}/profile-index.xsl -foout index.html -param nickname ${PROFILE}
 
     # translate to JSON
-    $NODE ${CWD}/node-app/cli-to-json.js                \
+    $NODE ${_CWD}/node-app/cli-to-json.js               \
         --encoding=utf8 --space=0                       \
         ${XML} ${PROFILE}.json
 
     # translate to Text
-    $NODE ${CWD}/node-app/cli-to-text.js                \
+    $NODE ${_CWD}/node-app/cli-to-text.js               \
         --encoding=utf8 --colwidths=18,75 --distance=1  \
         ${PROFILE}.json ${PROFILE}.txt
 
     # translate to vCard
-    $NODE ${CWD}/node-app/cli-to-vcard.js                \
+    $NODE ${_CWD}/node-app/cli-to-vcard.js              \
         ${PROFILE}.json ${PROFILE}.vcf
 
     # generate QR-Code of vCard
@@ -140,4 +138,6 @@ else
 
 fi
 
-cd ${CWD}
+cd ${_CWD}
+
+unset _CWD

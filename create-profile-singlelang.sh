@@ -3,6 +3,8 @@
 # Creates a new single-language profile for the IT CV/Profile Generator
 #
 
+. ./setenv.sh
+
 # Check for proper number of command line args.
 EXPECTED_ARGS=1
 
@@ -13,8 +15,7 @@ then
 fi
 
 PROFILE=$1
-CWD=$(pwd)
-NEW_DIR=${CWD}/profiles/${PROFILE}
+NEW_DIR=${_CWD}/profiles/${PROFILE}
 
 if [ -d ${NEW_DIR} ]; then
     echo "Directory alread exists: ${NEW_DIR}"
@@ -35,4 +36,6 @@ cp ../sample-singlelang/.htaccess  .
 cp ../sample-singlelang/mobile-content.xml .
 cp ../sample-multilang/.gitignore .
 
-cd ${CWD}
+cd ${_CWD}
+
+unset _CWD

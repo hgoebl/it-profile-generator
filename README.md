@@ -45,8 +45,8 @@ The Mobile App should not work with old or trouble-making browsers (you know wha
 
 ## Getting Started
 
-**By now the generator is only tested under Linux.
-Windows/Cygwin coming soon.
+**By now the generator is only tested under Linux and Windows/Cygwin.
+Native Windows support should'nt be a problem for a DOS-Command-Scripter ;-).
 iOS will not be supported by me, unless Apple is sponsering an iMac to me - help needed!**
 
   * Java Runtime Environment must be installed (1.6 recommended)
@@ -60,6 +60,9 @@ iOS will not be supported by me, unless Apple is sponsering an iMac to me - help
   * //Optional: Download/install qrencode
 
         sudo apt-get install qrencode
+
+  * Windows Users can use <http://code.google.com/p/qrencode-win32/>, the executable name is `qrcode.exe`
+
   * Clone this project (of course you can fork it) and change to its directory
   * Copy the example setenv script and adopt it to your installation.
     If fop and node is in your PATH, just set NODE=node and FOP=fop.
@@ -70,6 +73,7 @@ iOS will not be supported by me, unless Apple is sponsering an iMac to me - help
         # edit the freshly created setenv.sh
         $EDITOR setenv.sh
   * Download and install Node module dependenies
+    (Windows/Cygwin-Users: run `npm` in a DOS-Shell. It is said that npm sometimes hangs in Cygwin shell.)
 
         cd node-app
         npm install
@@ -176,6 +180,9 @@ If you don't want to clone/fork/... send me the file by mail.
 See TODO.md
 
 ## Credits
+
+Thanks for your help:
+  * Thomas Siedschlag (Testing/Adaption to Windows/Cygwin, improvements in XSLT scripts)
 
 This is only a collection of software used:
 

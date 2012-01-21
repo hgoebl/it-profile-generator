@@ -5,16 +5,14 @@
 
 . ./setenv.sh
 
-CWD=$(pwd)
-
-XSLT_DIR=${CWD}/xslt
-JQM_DIR=${CWD}/m/jqm
-I18N_OUT_DIR=${CWD}/m/data
+XSLT_DIR=${_CWD}/xslt
+JQM_DIR=${_CWD}/m/jqm
+I18N_OUT_DIR=${_CWD}/m/data
 
 if [ ! -d ${I18N_OUT_DIR} ]; then
     mkdir ${I18N_OUT_DIR}
 fi
-$NODE ${CWD}/node-app/cli-i18n.js --space=2 ${XSLT_DIR}/i18n.xml ${I18N_OUT_DIR}
+$NODE ${_CWD}/node-app/cli-i18n.js --space=2 ${XSLT_DIR}/i18n.xml ${I18N_OUT_DIR}
 
 while read LANG
 do
@@ -24,3 +22,5 @@ do
         -foout ${JQM_DIR}/index.html.${LANG} -param lang ${LANG}
 
 done < ${I18N_OUT_DIR}/supported-languages.txt
+
+unset _CWD

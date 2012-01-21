@@ -3,6 +3,8 @@
 # Creates a new multi-language profile for the IT CV/Profile Generator
 #
 
+. ./setenv.sh
+
 # Check for proper number of command line args.
 EXPECTED_ARGS=1
 
@@ -13,8 +15,7 @@ then
 fi
 
 PROFILE=$1
-CWD=$(pwd)
-NEW_DIR=${CWD}/profiles/${PROFILE}
+NEW_DIR=${_CWD}/profiles/${PROFILE}
 
 if [ -d ${NEW_DIR} ]; then
     echo "Directory alread exists: ${NEW_DIR}"
@@ -36,4 +37,6 @@ cp ../sample-multilang/supported-languages.txt .
 cp ../sample-multilang/mobile-content.multilang.xml .
 cp ../sample-multilang/.gitignore .
 
-cd ${CWD}
+cd ${_CWD}
+
+unset _CWD
