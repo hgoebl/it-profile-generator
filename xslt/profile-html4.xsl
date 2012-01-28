@@ -92,12 +92,14 @@ ul.qualification {
     </xsl:template>
     <xsl:template match="person">
         <h2><xsl:call-template name="i18n"><xsl:with-param name="key">Personal Details / Overview</xsl:with-param></xsl:call-template></h2>
+        <div itemscope="itemscope" itemtype="http://data-vocabulary.org/Person">
         <table class="person box">
             <tr>
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Name</xsl:with-param></xsl:call-template>:</td>
-                <td class="value"><xsl:value-of select="$fullName"/></td>
+                <td class="value"><span itemprop="name"><xsl:value-of select="$fullName"/></span></td>
                 <td rowspan="7">
 					<xsl:if test="photo_lowres">
+                        <meta itemprop="photo" content="{photo_lowres}"/>
 						<img class="foto" src="{photo_lowres}">
 							<xsl:attribute name="alt">
 								<xsl:call-template name="i18n"><xsl:with-param name="key">Photo of</xsl:with-param></xsl:call-template>
@@ -111,12 +113,15 @@ ul.qualification {
             <tr>
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Address</xsl:with-param></xsl:call-template>:</td>
                 <td class="value">
-                    <xsl:value-of select="street"/><br/>
-                    <xsl:call-template name="i18n-address">
+                    <div itemprop="address" itemscope="itemscope" itemtype="http://data-vocabulary.org/Address">
+                    <span itemprop="street-address"><xsl:value-of select="street"/></span><br/>
+                    <xsl:call-template name="i18n-address-microformat">
                         <xsl:with-param name="city" select="city"/>
                         <xsl:with-param name="zip" select="zip"/>
                         <xsl:with-param name="state" select="state"/>
                     </xsl:call-template>
+                    <meta itemprop="country-name" content="{country}"/>
+                    </div>
                 </td>
             </tr>
             <tr>
@@ -131,6 +136,9 @@ ul.qualification {
                 <td class="label"><xsl:call-template name="i18n"><xsl:with-param name="key">Internet</xsl:with-param></xsl:call-template>:</td>
                 <td class="value">
                 <xsl:for-each select="web">
+                    <xsl:if test="position() = 1">
+                        <meta itemprop="url" content="{.}"/>
+                    </xsl:if>
                     <a href="{.}"><xsl:value-of select="."/></a><br/>
                 </xsl:for-each>
                 </td>
@@ -171,6 +179,7 @@ ul.qualification {
                 <td class="value" colspan="2"><xsl:value-of select="areaOfWork"/></td>
             </tr>
         </table>
+        </div>
     </xsl:template>
 
     <xsl:template match="competencies">

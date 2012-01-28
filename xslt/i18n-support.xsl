@@ -16,6 +16,25 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    <xsl:template name="i18n-address-microformat">
+        <xsl:param name="city"/>
+        <xsl:param name="state"/>
+        <xsl:param name="zip"/>
+        <xsl:choose>
+            <xsl:when test="$lang = 'en'">
+                <span itemprop="locality"><xsl:value-of select="$city"/></span>
+                <xsl:text>, </xsl:text>
+                <span itemprop="region"><xsl:value-of select="$state"/></span>
+                <xsl:text> </xsl:text>
+                <span itemprop="postal-code"><xsl:value-of select="$zip"/></span>
+            </xsl:when>
+            <xsl:otherwise>
+                <span itemprop="postal-code"><xsl:value-of select="$zip"/></span>
+                <xsl:text> </xsl:text>
+                <span itemprop="locality"><xsl:value-of select="$city"/></span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
     <xsl:template name="i18n-address">
         <xsl:param name="city"/>
         <xsl:param name="state"/>
