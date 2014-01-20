@@ -3,6 +3,7 @@ AddDefaultCharset utf-8
 
 AddCharset utf-8 .json
 AddCharset utf-8 .txt
+AddCharset utf-8 .vcf
 
 AddType application/json .json
 AddType text/vcard .vcf

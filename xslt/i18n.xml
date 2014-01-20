@@ -112,6 +112,10 @@
         <msg xml:lang="en">Tools</msg>
         <msg xml:lang="de">Tools</msg>
     </entry>
+    <entry key="testing">
+        <msg xml:lang="en">Testing</msg>
+        <msg xml:lang="de">Testing</msg>
+    </entry>
     <entry key="Work experience">
         <msg xml:lang="en">Work experience</msg>
         <msg xml:lang="de">Projekte</msg>
