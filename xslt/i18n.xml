@@ -48,6 +48,10 @@
         <msg xml:lang="en">Date of birth</msg>
         <msg xml:lang="de">Geburtsdatum</msg>
     </entry>
+    <entry key="taxId">
+        <msg xml:lang="en">VAT-Ident (USt-ID)</msg>
+        <msg xml:lang="de">USt-IdNr.</msg>
+    </entry>
     <entry key="Photo">
         <msg xml:lang="en">Photo</msg>
         <msg xml:lang="de">Foto</msg>
@@ -61,8 +65,8 @@
         <msg xml:lang="de">IT-Erfahrung seit</msg>
     </entry>
     <entry key="qualifications">
-        <msg xml:lang="en">Qualifications, Certificates</msg>
-        <msg xml:lang="de">Qualifikationen, Zertifikate</msg>
+        <msg xml:lang="en">Qualifications</msg>
+        <msg xml:lang="de">Qualifikationen</msg>
     </entry>
     <entry key="Languages">
         <msg xml:lang="en">Languages</msg>
@@ -269,4 +273,42 @@
         <msg xml:lang="en">CV Resume Profile Freelancer IT-Expert</msg>
         <msg xml:lang="de">Profil Freiberufler Freelancer IT-Experte</msg>
     </entry>
+
+    <entry key="title-about">
+        <msg xml:lang="en">About</msg>
+        <msg xml:lang="de">Impressum</msg>
+    </entry>
+
+    <entry key="title-slides">
+        <msg xml:lang="en">Slides</msg>
+        <msg xml:lang="de">Slides</msg>
+    </entry>
+
+    <entry key="title-network">
+        <msg xml:lang="en">Network</msg>
+        <msg xml:lang="de">Netzwerk</msg>
+    </entry>
+
+    <entry key="title-credits">
+        <msg xml:lang="en">Credits</msg>
+        <msg xml:lang="de">Dank an</msg>
+    </entry>
+
+    <entry key="subtitle-credits">
+        <msg xml:lang="en">Thanks to all individuals and companies for releasing great free open source software</msg>
+        <msg xml:lang="de">Danke an alle, die großartige Open Source Software zur Verfügung stellen</msg>
+    </entry>
+
+    <entry key="Welcome">
+        <msg xml:lang="en">Welcome!</msg>
+        <msg xml:lang="de">Willkommen!</msg>
+    </entry>
+
+    <!-- copy template
+    <entry key="">
+        <msg xml:lang="en"></msg>
+        <msg xml:lang="de"></msg>
+    </entry>
+    -->
+
 </i18n>

@@ -1,7 +1,6 @@
 var fs = require('fs'),
     xml2js = require('xml2js'),
-    _ = require('underscore'),
-    util = require('util');
+    _ = require('underscore');
 
 var parser = new xml2js.Parser();
 
@@ -38,6 +37,9 @@ function convertFromRaw(raw) {
             var lang = msg['@']['xml:lang'];
             if (out[lang] === undefined) {
                 out[lang] = {};
+
+                // insert a small helper for handlebars
+                out[lang][lang] = true;
             }
             out[lang][key] = msg['#'];
         });

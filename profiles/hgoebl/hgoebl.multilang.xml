@@ -24,6 +24,7 @@
         <workingSince>1993</workingSince>
         <photo_hires>hgoebl_354x472.jpg</photo_hires>
         <photo_lowres>hgoebl_177x236.jpg</photo_lowres>
+        <taxId>DE131052431</taxId>
         <qualifications>
             <education xml:lang="de">1995: Diplom Informatiker (FH)</education>
             <education xml:lang="en">1995: graduated in computer sciences</education>
