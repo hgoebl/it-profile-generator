@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<profile version="1.1.0">
-    <lastEditDate xml:lang="de">19.01.2014</lastEditDate>
-    <lastEditDate xml:lang="en">19-Jan-2014</lastEditDate>
+<profile version="1.2.0">
+    <lastEditDate xml:lang="de">16.02.2014</lastEditDate>
+    <lastEditDate xml:lang="en">16-Feb-2014</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -62,21 +62,30 @@
         <programming_languages>
             Java, JavaScript, SQL, XML/XSLT, C/C++, Perl, PHP
         </programming_languages>
+        <server>
+            GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache, nginx, Node.js/Express
+        </server>
         <databases>
-            ORACLE, DB2, MySQL, MongoDB, JPA 2, Hibernate, JDBC, MS SQL, SQLite
+            ORACLE, DB2, MySQL, MongoDB, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
         </databases>
         <communication>
-            HTTP, AJAX, REST Services, WebSockets, SOAP Web Services, JMS
+            HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
             Android, AngularJS, Backbone.js, JSF, JSP, HTML5, CSS3, ExtJS, jQuery, Bootstrap, Portal, Swing
         </gui>
         <tools>
-            IntelliJ, Eclipse, vi, ant, Maven, Jenkins, svn, git, BIRT, Grunt
+            IntelliJ, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn, git, BIRT, Grunt, GIMP, Inkscape
         </tools>
         <testing>
-            JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Jasmine, Karma
+            JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Jasmine, Karma, Wireshark
         </testing>
+        <security>
+            TLS/SSL, JAAS, OpenId, OAuth2, passport.js, iptables Firewall, JWT, Metasploit, OWASP
+        </security>
+        <processes>
+            Scrum, TDD, RUP, UML, XP
+        </processes>
     </competencies>
     <workExperience>
 

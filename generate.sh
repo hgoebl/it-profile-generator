@@ -42,7 +42,7 @@ if [ -f supported-languages.txt ]; then
         # translate to JSON
         $NODE ${_CWD}/node-app/cli-to-json.js               \
             --lang=${LANG}                                  \
-            --encoding=utf8 --space=0                       \
+            --encoding=utf8 --space=2                       \
             ${XML} ${PROFILE}.json.${LANG}
 
         # translate to Text
@@ -63,9 +63,6 @@ if [ -f supported-languages.txt ]; then
 
         # generate intermediate FO files
         $FOP -xml ${XML} -xsl ${XSLT_DIR}/profile-fop.xsl -foout ${FO} -param lang ${LANG}
-
-        # generate rich-text-format (rtf)
-        $FOP -fo ${FO} -rtf ${PROFILE}.rtf.${LANG}
 
         # generate PDF
         $FOP -fo ${FO} -pdf ${PROFILE}.pdf.${LANG}

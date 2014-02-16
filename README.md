@@ -19,7 +19,6 @@ This collection of scripts convert a single XML file of input into different out
   * HTML (Classic Version 4 for Desktop Browsers - sorry for formatting with `<table>`)
   * html5 (a [jQuery Mobile](http://jquerymobile.com/) Smartphone/Tablet touch-enabled application)
   * PDF
-  * RTF (generated with Apache FOP, so quality is rather disappointing)
   * TXT (useful for some IT-profile hosting providers, especially for the list of projects / work experience)
   * JSON (to be used by Smartphone applications)
   * vCard
@@ -38,8 +37,7 @@ Hopefully coming soon (you can contribute!):
 ## Example Output
 
   * Output: <http://www.goebl.com/profiles/hgoebl/>
-  * Mobile App: <http://m.goebl.com/> (will redirect to <http://www.goebl.com/m/jqm/?hgoebl>) -> use the
-    QR-Code at <http://www.goebl.com/>
+  * Mobile App: <http://m.goebl.com/> (will redirect to <http://www.goebl.com/m/jqm/?hgoebl>)
 
 The Mobile App should not work with old or trouble-making browsers (you know what I M$ean).
 
@@ -72,6 +70,7 @@ iOS will not be supported by me, unless Apple is sponsering an iMac to me - help
         chmod u+x setenv.sh
         # edit the freshly created setenv.sh
         $EDITOR setenv.sh
+
   * Download and install Node module dependenies
     (Windows/Cygwin-Users: run `npm` in a DOS-Shell. It is said that npm sometimes hangs in Cygwin shell.)
 

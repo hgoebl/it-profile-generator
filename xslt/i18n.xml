@@ -100,6 +100,10 @@
         <msg xml:lang="en">Programming Languages</msg>
         <msg xml:lang="de">Sprachen</msg>
     </entry>
+    <entry key="server">
+        <msg xml:lang="en">Server Software</msg>
+        <msg xml:lang="de">Server Software</msg>
+    </entry>
     <entry key="databases">
         <msg xml:lang="en">Databases</msg>
         <msg xml:lang="de">Datenbanken</msg>
@@ -119,6 +123,14 @@
     <entry key="testing">
         <msg xml:lang="en">Testing</msg>
         <msg xml:lang="de">Testing</msg>
+    </entry>
+    <entry key="security">
+        <msg xml:lang="en">Security</msg>
+        <msg xml:lang="de">Security</msg>
+    </entry>
+    <entry key="processes">
+        <msg xml:lang="en">Processes</msg>
+        <msg xml:lang="de">Verfahren</msg>
     </entry>
     <entry key="Work experience">
         <msg xml:lang="en">Work experience</msg>
