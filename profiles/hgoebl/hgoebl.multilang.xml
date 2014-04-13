@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">16.02.2014</lastEditDate>
-    <lastEditDate xml:lang="en">16-Feb-2014</lastEditDate>
+    <lastEditDate xml:lang="de">13.04.2014</lastEditDate>
+    <lastEditDate xml:lang="en">13-Apr-2014</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -92,46 +92,7 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>08/2011 - dato</period>
-            <companyOrLine xml:lang="de">Open Source Projekte</companyOrLine>
-            <companyOrLine xml:lang="en">Open Source Projects</companyOrLine>
-            <line1info>https://github.com/hgoebl/</line1info>
-            <roles>All-In-One</roles>
-            <activities xml:lang="de">
-                Mehrere Tools und Libraries für JavaScript und Java (siehe Repositories)
-            </activities>
-            <activities xml:lang="en">
-                Several tools and libraries for JavaScript and Java (see my public repositories)
-            </activities>
-            <software>JavaScript, Node.js, MongoDB, Express, Socket.IO, Java, XML/XSL, JSON, REST</software>
-        </project>
-
-        <!-- ======================================================================================= -->
-
-        <project>
-            <period>12/2012 - dato</period>
-            <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
-            <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
-            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
-            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
-            <roles>All-In-One</roles>
-            <activities xml:lang="de">
-                App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
-                Außentemperatur, Geo-Location. Synchronisation mit Internet-Server. Web-Applikation.
-            </activities>
-            <activities xml:lang="en">
-                Native Android App for tracking sports activities. Uses sensors für heart rate, bike cadence,
-                temperatur, geo-location. Synchronization with server. Web application.
-            </activities>
-            <software>App: Android 2.3 - 4.2, SQLite, ANT+, Java, IntelliJ, Google-Play API</software>
-            <software>Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), nginx</software>
-            <software>Web: AngularJS 1.2, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
-        </project>
-
-        <!-- ======================================================================================= -->
-
-        <project>
-            <period>05/2013 - 03/2014</period>
+            <period>05/2013 - 02/2014</period>
             <companyOrLine xml:lang="de">AGENDA Software GmbH</companyOrLine>
             <companyOrLine xml:lang="en">AGENDA Software</companyOrLine>
             <line1info xml:lang="de">Rosenheim, Anstellung</line1info>
@@ -149,14 +110,14 @@
                 the code for both versions (MVC-Pattern). Load-testing of REST interface.
             </activities>
             <software>Server: GlassFish 3.1, MySQL 5.5, JPA 2, REST (Jersey), RSA-Verschlüsselung, Maven, JUnit, JMeter</software>
-            <software>Desktop/Tablet: Bootstrap 2.3, jQuery, Backbone.js, Grunt, JSHint, less, CSS3</software>
+            <software>Desktop/Tablet: Bootstrap 3, jQuery, Backbone.js, Grunt, JSHint, less, CSS3, AngularJS</software>
             <software>Mobil: jQuery 1.10, jQuery Mobile 1.3, Backbone.js</software>
         </project>
 
         <!-- ======================================================================================= -->
 
         <project>
-            <period>05/2012 - 04/2013</period>
+            <period>05/2012 - 02/2014</period>
             <companyOrLine xml:lang="de">AGENDA Software GmbH</companyOrLine>
             <companyOrLine xml:lang="en">AGENDA Software</companyOrLine>
             <line1info xml:lang="de">Rosenheim, Anstellung</line1info>
@@ -181,6 +142,67 @@
                 Maven 3, Jenkins, Sonar, Mockito, JUnit 4, flyway, JRebel, FindBugs, PMD,
                 Checkstyle, artifactory, Eclipse BIRT
             </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period xml:lang="de">seit 12/2012 (nebenbei)</period>
+            <period xml:lang="en">since 12/2012 (freetime)</period>
+            <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
+            <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
+            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
+            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
+            <roles>All-In-One</roles>
+            <activities xml:lang="de">
+                App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
+                Außentemperatur, Geo-Location. Synchronisation mit Internet-Server. Web-Applikation.
+            </activities>
+            <activities xml:lang="en">
+                Native Android App for tracking sports activities. Uses sensors für heart rate, bike cadence,
+                temperatur, geo-location. Synchronization with server. Web application.
+            </activities>
+            <software>App: Android 2.3 - 4.2, SQLite, ANT+, Java, IntelliJ, Google-Play API</software>
+            <software>Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), nginx</software>
+            <software>Web: AngularJS 1.2, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period xml:lang="de">seit 08/2011 (nebenbei)</period>
+            <period xml:lang="en">since 08/2011 (freetime)</period>
+            <companyOrLine xml:lang="de">Open Source Projekte</companyOrLine>
+            <companyOrLine xml:lang="en">Open Source Projects</companyOrLine>
+            <line1info>https://github.com/hgoebl/</line1info>
+            <roles>All-In-One</roles>
+            <activities xml:lang="de">
+                Mehrere Tools und Libraries für JavaScript und Java (siehe Repositories)
+            </activities>
+            <activities xml:lang="en">
+                Several tools and libraries for JavaScript and Java (see my public repositories)
+            </activities>
+            <activities xml:lang="de">
+                Generator für IT-Profile (Multi-Format, Multi-Language)
+            </activities>
+            <activities xml:lang="en">
+                Profile (aka. CV, Resume) generator for IT freelancers (multi-format, multi-language)
+            </activities>
+            <activities xml:lang="de">
+                Präsentationssoftware mit Smartphone-Fernsteuerung
+            </activities>
+            <activities xml:lang="en">
+                Presentation software with smartphone remote control
+            </activities>
+            <activities>
+                npm modules: doublemetaphone, entintar, mobile-detect, mobile-usage, mongodb-openvz-crashtest, nerdshow
+            </activities>
+            <activities>
+                maven.org: com.goebl:david-webb, com.goebl:simplify
+            </activities>
+            <software>JavaScript, Node.js, MongoDB, Express, Socket.IO, JSON, REST</software>
+            <software>Java, XML, XLST, XLST-FO, Maven, JUnit, Mockito, Leaflet</software>
+            <software>jQuery, jQuery Mobile, Sencha Touch, HTML5, CSS3, Markdown</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -220,40 +242,6 @@
             </activities>
             <software>GlassFish 3, ORACLE 11, JPA 2, JSF 2, REST</software>
             <software>Maven 3, Jenkins, Sonar, Mockito, JUnit, flyway, IntelliJ, JRebel</software>
-        </project>
-
-        <!-- ======================================================================================= -->
-
-        <project>
-            <period>12/2011 - 06/2012</period>
-            <companyOrLine xml:lang="de">Open Source Projekte</companyOrLine>
-            <companyOrLine xml:lang="en">Open Source Projects</companyOrLine>
-            <line1info xml:lang="de">Profilgenerator, HTML5 Präsentation, ...</line1info>
-            <line1info xml:lang="en">Profile Generator, Presentation tool, ...</line1info>
-            <roles>Development</roles>
-            <activities>https://github.com/hgoebl/</activities>
-            <activities xml:lang="de">
-                Generator für IT-Profile (Multi-Format, Multi-Language)
-            </activities>
-            <activities xml:lang="en">
-                Profile (aka. CV, Resume) generator for IT freelancers (multi-format, multi-language)
-            </activities>
-            <activities xml:lang="de">
-                Präsentationssoftware mit Smartphone-Fernsteuerung
-            </activities>
-            <activities xml:lang="en">
-                Presentation software with smartphone remote control
-            </activities>
-            <activities xml:lang="de">
-                Mobile Touch Anwendung für Smartphones
-            </activities>
-            <activities xml:lang="en">
-                Mobile Touch Application for Smartphones
-            </activities>
-            <software>
-                Node.js, JSON, JavaScript, bash, Socket.io, jshint, Express, Underscore,
-                jQuery, jQuery Mobile, Sencha Touch, XML, XLST, XLST-FO, HTML5, CSS3, Markdown
-            </software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -358,7 +346,7 @@
             <roles>Development, Administration</roles>
             <activities xml:lang="de">Aufbau und Betrieb von Internet Rootservern (Web und Mail)</activities>
             <activities xml:lang="en">Installation, configuration, maintenance of Linux root servers</activities>
-            <activities>www.goebl.com, www.wellcrafted.de</activities>
+            <activities>goebl.com, wellcrafted.de, goebl.biz, garten-inspirationen.de, hibag.de</activities>
             <software>Debian GNU/Linux 5, Apache2, PHP, MySQL, iptables, AutoMySQLBackup, rsync, rsnapshot,
                 VirtualBox, rkhunter, fail2ban, denyhosts, Postfix, SpamAssassin, Amavis, Roundcube, OpenSSL,
                 DokuWiki, JBoss 6, Tomcat 6, mod_jk, Funambol, WordPress, Joomla!</software>
@@ -382,7 +370,8 @@
 
         <project>
             <period>09/2009 - 12/2009</period>
-            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit, ca. 50%-Auslastung</line1info>
             <line1info xml:lang="en">Munich, freelance job, utilization ~50% </line1info>
             <roles>Development, Test</roles>
@@ -446,7 +435,8 @@
 
         <project>
             <period>11/2006 - 07/2008</period>
-            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles xml:lang="de">Teilprojektleitung, Development</roles>
@@ -466,7 +456,8 @@
 
         <project>
             <period>05/2006 - 07/2007</period>
-            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
             <line1info xml:lang="de">Karlsruhe, freie Mitarbeit, ca. 20%-Auslastung</line1info>
             <line1info xml:lang="en">Karlsruhe, freelance job, utilization ~20%</line1info>
             <roles xml:lang="de">Architektur, Performance-Optimierung, Projektleitung</roles>
@@ -484,7 +475,8 @@
 
         <project>
             <period>01/2005 - 11/2006</period>
-            <companyOrLine>FIDUCIA IT AG</companyOrLine>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles xml:lang="de">Architektur, Development, Teilprojektleitung</roles>
@@ -505,7 +497,8 @@
 
         <project>
             <period>10/2003 - 07/2004</period>
-            <companyOrLine>ALLDATA Systems GmbH</companyOrLine>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles xml:lang="de">Architektur, Framework Design, Implementierung</roles>
@@ -549,7 +542,7 @@
 
         <project>
             <period>07/2003 - 09/2003</period>
-            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
@@ -570,7 +563,7 @@
 
         <project>
             <period>02/2003 - 06/2003</period>
-            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
@@ -587,7 +580,7 @@
 
         <project>
             <period>07/2001 - 01/2003</period>
-            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
@@ -605,7 +598,7 @@
 
         <project xml:lang="de">
             <period>01/2001 - 06/2001</period>
-            <companyOrLine xml:lang="de">Allianz Versicherung AG</companyOrLine>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles xml:lang="de">Proof of Concept, Development</roles>
@@ -618,7 +611,7 @@
 
         <project xml:lang="de">
             <period>06/2000 - 12/2000</period>
-            <companyOrLine xml:lang="de">Cybernet AG</companyOrLine>
+            <companyOrLine xml:lang="de">Internet Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles xml:lang="de">Development, Test</roles>
