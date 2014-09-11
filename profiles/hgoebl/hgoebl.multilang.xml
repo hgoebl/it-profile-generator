@@ -92,6 +92,27 @@
         <!-- ======================================================================================= -->
 
         <project>
+            <period>08/2014 - 09/2014</period>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Development, DevOps</roles>
+            <activities xml:lang="de">
+                Einführung Push-Server (Wertpapierkurse) für Web-Clients (WebSockets, XHR),
+                Programmierung, Konfiguration, Optimierung, Vorbereitung für Produktion, Lasttests
+            </activities>
+            <activities xml:lang="en">
+                Preparation of a Push-Server delivering quotes for Web-clients (WebSockets, XHR),
+                Programming Server and Client, Configuration, Optimization, Load-Testing, Going-Live
+            </activities>
+            <software>Java 7, Diffusion 5.1 (Push Technology), Jolokia, JMX</software>
+            <software>JavaScript, jQuery, HTML, Maven 3, Jenkins, bash, IntelliJ</software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
             <period>06/2014 - 07/2014</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
@@ -267,7 +288,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>06/2012</period>
             <companyOrLine>JUGM</companyOrLine>
             <line1info xml:lang="de">JavaScript, Node.js, MongoDB (Vortrag)</line1info>
@@ -330,7 +351,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>10/2011 - 12/2011</period>
             <companyOrLine xml:lang="de">Selbst</companyOrLine>
             <companyOrLine xml:lang="en">Own Use</companyOrLine>
@@ -417,7 +438,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>12/2009 - 01/2010</period>
             <companyOrLine xml:lang="de">Fortbildung</companyOrLine>
             <companyOrLine xml:lang="en">Skill enhancement</companyOrLine>
@@ -577,7 +598,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>2003, 2004</period>
             <companyOrLine xml:lang="de">Weiterbildung</companyOrLine>
             <line1info xml:lang="de">SAP NetWeaver (parallel zu laufenden Projekten)</line1info>
@@ -590,7 +611,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>05/2004 (2 Wochen)</period>
             <companyOrLine xml:lang="de">Weiterbildung/Workshop SAP XI</companyOrLine>
             <line1info xml:lang="de"></line1info>
