@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">20.07.2014</lastEditDate>
-    <lastEditDate xml:lang="en">20-Jul-2014</lastEditDate>
+    <lastEditDate xml:lang="de">15.09.2014</lastEditDate>
+    <lastEditDate xml:lang="en">15-Sep-2014</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -288,7 +288,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="tl_dr">
+        <project>
             <period>06/2012</period>
             <companyOrLine>JUGM</companyOrLine>
             <line1info xml:lang="de">JavaScript, Node.js, MongoDB (Vortrag)</line1info>
