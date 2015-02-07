@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">15.09.2014</lastEditDate>
-    <lastEditDate xml:lang="en">15-Sep-2014</lastEditDate>
+    <lastEditDate xml:lang="de">07.02.2015</lastEditDate>
+    <lastEditDate xml:lang="en">07-Feb-2015</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -72,13 +72,13 @@
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Android, AngularJS, Backbone.js, JSF, JSP, HTML5, CSS3, ExtJS, jQuery, Bootstrap, Portal, Swing
+            Android, AngularJS, Backbone.js, HTML5, CSS3, Responsive, ExtJS, jQuery, Bootstrap, Portal, Swing
         </gui>
         <tools>
             IntelliJ, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn, git, BIRT, Grunt, GIMP, Inkscape
         </tools>
         <testing>
-            JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Jasmine, Karma, Wireshark
+            JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Jasmine, Karma, Protractor, Wireshark
         </testing>
         <security>
             TLS/SSL, JAAS, OpenId, OAuth2, passport.js, iptables Firewall, JWT, Metasploit, OWASP
@@ -88,6 +88,48 @@
         </processes>
     </competencies>
     <workExperience>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>10/2014 - dato.</period>
+            <companyOrLine xml:lang="de">Automotive</companyOrLine>
+            <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Development</roles>
+            <activities xml:lang="de">
+                Umstellung/Erweiterung Vehicle-Konfigurator von Fixed-Layout auf Responsive Webdesign
+                (Mobile-First; Phone/Phablet, Tablet, Desktop; iOS, Android, Windows Phone); Refactoring
+                und Optimierung von Code und Styles; Automatisierte Tests;
+            </activities>
+            <activities xml:lang="en">
+                Develop Responsive Webdesign for a vehicle configurator (mobile-first; Phone, Tablet, Desktop;
+                iOS, Android, Windows Phone); refactoring and optimize code and styles; automate tests
+            </activities>
+            <software>AngularJS, JavaScript, HTML5, CSS3, less, jQuery, karma, Jasmine</software>
+            <software>
+                ui-router, ng-animate, git, IntelliJ, Modernizr, Grunt, Node.js, weinre, IScroll, jshint
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>11/2014</period>
+            <companyOrLine xml:lang="de">IT-Dienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">IT-Consulting</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Speaker, Trainer</roles>
+            <activities xml:lang="de">
+                Durchführung 1-Tages-Workshop "Advanced AngularJS, Best Practices"
+            </activities>
+            <activities xml:lang="en">
+                1-Day-Workshop "Advanced AngularJS, Best Practices"
+            </activities>
+            <software>AngularJS 1.3, JavaScript</software>
+        </project>
 
         <!-- ======================================================================================= -->
 
@@ -113,7 +155,7 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>06/2014 - 07/2014</period>
+            <period>05/2014 - 07/2014</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
@@ -132,7 +174,7 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>03/2014 - 05/2014</period>
+            <period>03/2014 - 04/2014</period>
             <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
             <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
             <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
@@ -401,13 +443,13 @@
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles>Coding Architect, Development, Test</roles>
             <activities xml:lang="de">Teleservice Switchboard (Telediagnose, Teleprogrammierung)
-                   Architektur, Design, Programmierung, Test, 3rd-Level-Support</activities>
+                Architektur, Design, Programmierung, Test, 3rd-Level-Support</activities>
             <activities xml:lang="en">Teleservice Switchboard (Telediagnosis, Teleprogramming)
                 Architecture, Design, Programming, Test, 3rd-Level-Support</activities>
             <activities xml:lang="de">Migration WebLogic 8 auf 10, EJB 2.1 auf 3.0, Latin1 auf UTF-8,
-                   Migration Oracle 10 auf 11 mit ISO-8859-1 auf UTF-8,
-                   Infrastruktur für Lasttests (Simulation Fahrzeugkommunikation),
-                   Code- und Design Reviews und Coaching</activities>
+                Migration Oracle 10 auf 11 mit ISO-8859-1 auf UTF-8,
+                Infrastruktur für Lasttests (Simulation Fahrzeugkommunikation),
+                Code- und Design Reviews und Coaching</activities>
             <activities xml:lang="en">Migrating WebLogic 8 to 10, EJB 2.1 to 3.0, Latin1 to UTF-8,
                 Migration Oracle 10 to 11 with charset ISO-8859-1 to UTF-8,
                 Infrastructure for Loadtests (Simulation of Vehicle communication),
@@ -428,7 +470,7 @@
             <roles>Development, Administration</roles>
             <activities xml:lang="de">Aufbau und Betrieb von Internet Rootservern (Web und Mail)</activities>
             <activities xml:lang="en">Installation, configuration, maintenance of Linux root servers</activities>
-            <activities>goebl.com, wellcrafted.de, goebl.biz, garten-inspirationen.de, hibag.de</activities>
+            <activities>goebl.com, wellcrafted.de, goebl.biz, michaelfollner-consulting.de, garten-inspirationen.de, hibag.de</activities>
             <software>Debian GNU/Linux 5, Apache2, PHP, MySQL, iptables, AutoMySQLBackup, rsync, rsnapshot,
                 VirtualBox, rkhunter, fail2ban, denyhosts, Postfix, SpamAssassin, Amavis, Roundcube, OpenSSL,
                 DokuWiki, JBoss 6, Tomcat 6, mod_jk, Funambol, WordPress, Joomla!, Bootstrap 3, less, Grunt,
@@ -572,7 +614,7 @@
             <activities xml:lang="en">Embedding of Notes Databases, LDAP Integration, Portlet-Programming,
                 Load- and Performancetests, Themes &amp; Skins</activities>
             <software>J2EE, Java, WebSphere Portal 5, JSP, WebSphere 5, Solaris
-                DB2, XML/XSLT, JavaScript (IE, Gecko), LDAP, Apache httpd, Security, SSO,
+                DB2, XML/XSLT, JavaScript (IE, Gecko), AJAX, LDAP, Apache httpd, Security, SSO,
                 Spring, Lotus Domino, XML Access, Hibernate, Apache JMeter, Perl,
                 IBM WSAD/RAD (Rational Application Developer)</software>
         </project>
@@ -702,8 +744,8 @@
             <activities xml:lang="de">Mitarbeit bei www.vocatus.de</activities>
             <activities xml:lang="de">Volltextsuche mit Oracle, Screening, Dublettensuche,
                 Entwicklung einer Question-Engine</activities>
-            <software>ASP/HTML Programmierung, Oracle 8i unter Solaris</software>
-            <software>VBScript, JavaScript, HTML, CSS</software>
+            <software>ASP/HTML Programmierung, Oracle 8i (Solaris)</software>
+            <software>JavaScript, HTML, CSS</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -742,7 +784,7 @@
                 auf Basis des Active Directory</activities>
             <activities xml:lang="de">Intranetapplikation im Rahmen des Windows 2000 Rapid
                 Deployment Programms (RDP)</activities>
-            <software>XML, XSL, HTML, ASP, DHTML, AJAX, JavaScript,
+            <software>JavaScript, XML, XSL, HTML, ASP, DHTML, AJAX,
                 MS Windows 2000 Advanced Server, com+, MS IIS 5.0,
                 MS Active Directory, Visual InterDev, Visual C++, Visual Basic,
                 ADSI, ADO</software>
