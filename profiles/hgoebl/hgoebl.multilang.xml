@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">07.02.2015</lastEditDate>
-    <lastEditDate xml:lang="en">07-Feb-2015</lastEditDate>
+    <lastEditDate xml:lang="de">01.11.2015</lastEditDate>
+    <lastEditDate xml:lang="en">01-Nov-2015</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -44,7 +44,7 @@
             <language xml:lang="en">Spanish</language>
         </languages>
         <coreArea>
-            Java, Java EE, JavaScript, Node.js, SQL, NoSQL, Web/HTML5, Android
+            Java, Java EE, JavaScript, Angular, Node.js, SQL, NoSQL, Web/HTML5, Android
         </coreArea>
         <areaOfWork xml:lang="de">
             Architektur und Projektleitung, Analyse und Design (OOA/OOD), Mentoring,
@@ -57,25 +57,25 @@
     </person>
     <competencies>
         <platforms>
-            Java 7, J2EE/JEE, Java EE 5, 6, 7, Android 2+4, Spring, Node.js, Linux, Windows
+            HTML5-Browser, Java 7, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Node.js, Linux, Windows, MacOS, Docker
         </platforms>
         <programming_languages>
-            Java, JavaScript, SQL, XML/XSLT, C/C++, Perl, PHP
+            JavaScript (ES3, ES5, ES6, TypeScript), Java, SQL, XML/XSLT, C/C++, Perl, PHP, R
         </programming_languages>
         <server>
-            GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache, nginx, Node.js/Express
+            Node.js/Express, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
         </server>
         <databases>
-            ORACLE, DB2, MySQL, MongoDB, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
+            ORACLE, DB2, MySQL, MongoDB, PostgreSQL, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
         </databases>
         <communication>
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Android, AngularJS, Backbone.js, HTML5, CSS3, Responsive, ExtJS, jQuery, Bootstrap, Portal, Swing
+            AngularJS, ionic, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Backbone.js, ExtJS, Portal, Swing
         </gui>
         <tools>
-            IntelliJ, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn, git, BIRT, Grunt, GIMP, Inkscape
+            IntelliJ, XCode, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn, git, BIRT, Grunt, GIMP, Inkscape
         </tools>
         <testing>
             JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Jasmine, Karma, Protractor, Wireshark
@@ -92,7 +92,41 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>10/2014 - dato.</period>
+            <period>06/2015 - dato.</period>
+            <companyOrLine xml:lang="de">Startup</companyOrLine>
+            <companyOrLine xml:lang="en">Startup</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Development, UI</roles>
+            <activities xml:lang="de">
+                Hybrid-App "happitz.com" für iOS und Android,
+                Single-Page Webapp (Admin-Frontend),
+                RESTful API Server mit Node.js
+            </activities>
+            <activities xml:lang="en">
+                Hybrid-App "happitz.com" for iOS and Android,
+                Single-Page Webapp (Admin-Frontend),
+                RESTful API Server with Node.js
+            </activities>
+            <software>
+                App (iOS, Android): ionic 1.1, AngularJS 1.4, JavaScript, Cordova 5, ngCordova, HTML5, CSS3, SASS, D3, ui-router, PhysicsJS,
+                div. Cordova Plugins
+            </software>
+            <software>
+                Admin-Webapp: AngularJS 1.4, jQuery, HTML5, CSS3, Bootstrap, less, schemaform.io, REST
+            </software>
+            <software>
+                Server: Node.js, Express/restify, PostgreSQL 9.4, Sequelize, lodash, Push (GCM, APN), memcache, Jasmine, bash-Scripts
+            </software>
+            <software>
+                Tools: git, IntelliJ, XCode 7, Grunt, Docker, nginx, Ubuntu Server, Jira, Scrum-but
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>10/2014 - 06/2015</period>
             <companyOrLine xml:lang="de">Automotive</companyOrLine>
             <companyOrLine xml:lang="en">Automotive</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
@@ -263,6 +297,7 @@
             <activities xml:lang="de">
                 App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
                 Außentemperatur, Geo-Location, Luftdruck. Synchronisation mit Internet-Server.
+                Offline-Karten, SMS-Versand und -Empfang
             </activities>
             <activities xml:lang="de">
                 Single-Page Web-Applikation (SPA) mit RESTful Backend.
@@ -280,13 +315,13 @@
             <activities xml:lang="en">
                 (App and Webapp aren't published yet.)
             </activities>
-            <software>App: Android 2.3 - 4.4, SQLite, ANT+, Java 6, Google-Play API, Mapsforge</software>
+            <software>App: Android 2.3 - 6, SQLite, ANT+, Java 6/7, Google-Play API, Mapsforge</software>
             <software>
                 Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
                 monit, bunyan, SSL, Redis
             </software>
-            <software>Web: AngularJS 1.2, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
-            <software>Tools: IntelliJ, Grunt, Maven, Git, Linux</software>
+            <software>Web: AngularJS 1.4, TypeScript 1.6, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
+            <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Browserify, Maven, Git, Linux</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -812,7 +847,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>07/1997 - 06/1998</period>
             <companyOrLine>Microsoft GmbH</companyOrLine>
             <line1info xml:lang="de">Unterschleißheim, Anstellung als Consultant-Trainee</line1info>
