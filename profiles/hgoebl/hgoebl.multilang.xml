@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">01.11.2015</lastEditDate>
-    <lastEditDate xml:lang="en">01-Nov-2015</lastEditDate>
+    <lastEditDate xml:lang="de">03.09.2016</lastEditDate>
+    <lastEditDate xml:lang="en">03-Sep-2016</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -44,14 +44,14 @@
             <language xml:lang="en">Spanish</language>
         </languages>
         <coreArea>
-            Java, Java EE, JavaScript, Angular, Node.js, SQL, NoSQL, Web/HTML5, Android
+            Angular, TypeScript, JavaScript, ES6, HTML5, Node, Java, Android, SQL
         </coreArea>
         <areaOfWork xml:lang="de">
-            Architektur und Projektleitung, Analyse und Design (OOA/OOD), Mentoring,
+            Architektur und Projektleitung, Analyse und Design, Mentoring,
             Implementierung, Test, Tuning, Migration, Code Supervisor, DevOps
         </areaOfWork>
         <areaOfWork xml:lang="en">
-            Architecture and project management, analysis and design (OOA/OOD), mentoring,
+            Architecture and project management, analysis and design, mentoring,
             programming, test, tuning, migration, code supervisor, DevOps
         </areaOfWork>
     </person>
@@ -60,7 +60,7 @@
             HTML5-Browser, Java 7, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Node.js, Linux, Windows, MacOS, Docker
         </platforms>
         <programming_languages>
-            JavaScript (ES3, ES5, ES6, TypeScript), Java, SQL, XML/XSLT, C/C++, Perl, PHP, R
+            TypeScript, JavaScript (ES5, ES6), Java, SQL, XML/XSLT, C/C++, Perl, PHP, R
         </programming_languages>
         <server>
             Node.js/Express, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
@@ -72,13 +72,13 @@
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            AngularJS, ionic, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Backbone.js, ExtJS, Portal, Swing
+            AngularJS 1.5, Angular 2, ionic, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Portal
         </gui>
         <tools>
-            IntelliJ, XCode, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn, git, BIRT, Grunt, GIMP, Inkscape
+            IntelliJ, XCode, git, Grunt, gulp, GIMP, Inkscape, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn
         </tools>
         <testing>
-            JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Jasmine, Karma, Protractor, Wireshark
+            Jasmine, Karma, Protractor, JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Wireshark
         </testing>
         <security>
             TLS/SSL, JAAS, OpenId, OAuth2, passport.js, iptables Firewall, JWT, Metasploit, OWASP
@@ -89,10 +89,33 @@
     </competencies>
     <workExperience>
 
+        <project>
+            <period>01/2016 - 09/2016</period>
+            <companyOrLine xml:lang="de">Automotive</companyOrLine>
+            <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Development</roles>
+            <activities xml:lang="de">
+                Weiterentwicklung "Offer+Contract" Single-Page-Web-Applikation,
+                Integration von 5 Backend-Systemen (Vehicle-Configurator, Pricing-Services,
+                Finanzierung-Services, Order/Contract-Services, Lager-Fahrzeuge)
+            </activities>
+            <activities xml:lang="en">
+                Web Development "Offer+Contract" Single-Page-Web-Application,
+                Integration of 5 backend-systems (vehicle configurator, pricing services,
+                financing services, order/contract-services, stock-vehicles)
+            </activities>
+            <software>AngularJS 1.5, TypeScript, HTML5, CSS3, less, karma, Jasmine</software>
+            <software>
+                Swagger, ui-router, svn, IntelliJ, Gulp, Node.js, IE10/11, jQuery, Java
+            </software>
+        </project>
+
         <!-- ======================================================================================= -->
 
         <project>
-            <period>06/2015 - dato.</period>
+            <period>06/2015 - 03/2016</period>
             <companyOrLine xml:lang="de">Startup</companyOrLine>
             <companyOrLine xml:lang="en">Startup</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
@@ -101,7 +124,8 @@
             <activities xml:lang="de">
                 Hybrid-App "happitz.com" für iOS und Android,
                 Single-Page Webapp (Admin-Frontend),
-                RESTful API Server mit Node.js
+                RESTful API Server mit Node.js,
+                (ab 2016 max. 40% Auslastung)
             </activities>
             <activities xml:lang="en">
                 Hybrid-App "happitz.com" for iOS and Android,
@@ -321,7 +345,7 @@
                 monit, bunyan, SSL, Redis
             </software>
             <software>Web: AngularJS 1.4, TypeScript 1.6, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
-            <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Browserify, Maven, Git, Linux</software>
+            <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Gradle, Git, Linux</software>
         </project>
 
         <!-- ======================================================================================= -->
