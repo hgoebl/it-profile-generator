@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">03.09.2016</lastEditDate>
-    <lastEditDate xml:lang="en">03-Sep-2016</lastEditDate>
+    <lastEditDate xml:lang="de">04.11.2016</lastEditDate>
+    <lastEditDate xml:lang="en">04-Nov-2016</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -72,7 +72,7 @@
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            AngularJS 1.5, Angular 2, ionic, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Portal
+            Angular 2, AngularJS 1.5, Ionic 2, Ionic 1.x, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Portal
         </gui>
         <tools>
             IntelliJ, XCode, git, Grunt, gulp, GIMP, Inkscape, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn
@@ -88,6 +88,58 @@
         </processes>
     </competencies>
     <workExperience>
+
+        <project>
+            <period>10/2016</period>
+            <companyOrLine>MyWorkouts</companyOrLine>
+            <line1info>Android/HTML5 Hybrid App http://www.myworkouts.org/wp</line1info>
+            <roles>All-In-One</roles>
+            <activities xml:lang="de">
+                App zur Synchronisierung von Trainings mit Sport-Portalen
+            </activities>
+            <activities xml:lang="en">
+                App for synchronization of sports activities with sport-portals
+            </activities>
+            <software>Angular 2, Ionic 2, TypeScript 2.0, Android 4.1 - 7, Java, Cordova Plugin,
+                HTML5, CSS3, SASS, Material Design, ReST/JSON
+            </software>
+            <software>Tools: IntelliJ, Android Studio, Gradle, Git, Linux/Mac, Ionic CLI</software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>10/2016</period>
+            <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
+            <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
+            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
+            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
+            <roles>All-In-One</roles>
+            <activities xml:lang="de">
+                App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
+                Außentemperatur, Geo-Location, Luftdruck. Synchronisation mit Internet-Server.
+                Offline-Karten, SMS-Versand und -Empfang
+            </activities>
+            <activities xml:lang="de">
+                Single-Page Web-Applikation (SPA) mit RESTful Backend (Node.js + MongoDB).
+            </activities>
+            <activities xml:lang="en">
+                Native Android App for tracking sports activities. Uses sensors für heart rate, bike cadence,
+                temperature, geo-location, pressure. Synchronization with own server.
+            </activities>
+            <activities xml:lang="en">
+                Single-Page-Web application (SPA) with RESTful backend.
+            </activities>
+            <software>App: Android 2.3 - 6, SQLite, ANT+, Java 6/7, Google-Play API, Mapsforge</software>
+            <software>
+                Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
+                monit, bunyan, SSL, Redis
+            </software>
+            <software>Web: AngularJS 1.5, TypeScript 1.8, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
+            <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Gradle, Git, Linux</software>
+        </project>
+
+        <!-- ======================================================================================= -->
 
         <project>
             <period>01/2016 - 09/2016</period>
@@ -106,7 +158,7 @@
                 Integration of 5 backend-systems (vehicle configurator, pricing services,
                 financing services, order/contract-services, stock-vehicles)
             </activities>
-            <software>AngularJS 1.5, TypeScript, HTML5, CSS3, less, karma, Jasmine</software>
+            <software>AngularJS 1.5, TypeScript 1.8, HTML5, CSS3, less, karma, Jasmine</software>
             <software>
                 Swagger, ui-router, svn, IntelliJ, Gulp, Node.js, IE10/11, jQuery, Java
             </software>
@@ -133,7 +185,7 @@
                 RESTful API Server with Node.js
             </activities>
             <software>
-                App (iOS, Android): ionic 1.1, AngularJS 1.4, JavaScript, Cordova 5, ngCordova, HTML5, CSS3, SASS, D3, ui-router, PhysicsJS,
+                App (iOS, Android): Ionic 1.1, AngularJS 1.4, JavaScript, Cordova 5, ngCordova, HTML5, CSS3, SASS, D3, ui-router, PhysicsJS,
                 div. Cordova Plugins
             </software>
             <software>
@@ -326,18 +378,12 @@
             <activities xml:lang="de">
                 Single-Page Web-Applikation (SPA) mit RESTful Backend.
             </activities>
-            <activities xml:lang="de">
-                (App und Webapp sind noch nicht publiziert.)
-            </activities>
             <activities xml:lang="en">
                 Native Android App for tracking sports activities. Uses sensors für heart rate, bike cadence,
                 temperature, geo-location, pressure. Synchronization with own server.
             </activities>
             <activities xml:lang="en">
                 Single-Page-Web application (SPA) with RESTful backend.
-            </activities>
-            <activities xml:lang="en">
-                (App and Webapp aren't published yet.)
             </activities>
             <software>App: Android 2.3 - 6, SQLite, ANT+, Java 6/7, Google-Play API, Mapsforge</software>
             <software>
