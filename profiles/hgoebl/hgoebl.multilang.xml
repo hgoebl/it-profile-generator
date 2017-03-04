@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">04.11.2016</lastEditDate>
-    <lastEditDate xml:lang="en">04-Nov-2016</lastEditDate>
+    <lastEditDate xml:lang="de">04.03.2017</lastEditDate>
+    <lastEditDate xml:lang="en">04-Mar-2017</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -63,7 +63,7 @@
             TypeScript, JavaScript (ES5, ES6), Java, SQL, XML/XSLT, C/C++, Perl, PHP, R
         </programming_languages>
         <server>
-            Node.js/Express, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
+            Node.js/Express, Loopback, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
         </server>
         <databases>
             ORACLE, DB2, MySQL, MongoDB, PostgreSQL, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
@@ -90,8 +90,37 @@
     <workExperience>
 
         <project>
+            <period>11/2016 - 06/2017</period>
+            <companyOrLine xml:lang="de">Internet</companyOrLine>
+            <companyOrLine xml:lang="en">Internet</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Development</roles>
+            <activities xml:lang="de">
+                SPA (Single-Page-Web) Applikation zur Verwaltung/Vermarktung von Internet Werbung,
+                Frontend-Programmierung ~80%, REST-API-Server Programmierung ~20%
+            </activities>
+            <activities xml:lang="en">
+                SPA (Single-Page-Web) Application for managing online internet advertisement,
+                frontend-programming ~80%, REST-API-server ~20%
+            </activities>
+            <software>
+                Frontend: Angular 2, TypeScript 2, HTML5, Bootstrap 4 + coreui, CSS3, SASS, karma, Jasmine,
+                ng2-bootstrap, plotly, d3, RxJS
+            </software>
+            <software>
+                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB, JavaScript, ES6, Node.js 6
+            </software>
+            <software>
+                Tools: angular-cli, webpack, Swagger, supertest, mocha, git, npm, IntelliJ
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
             <period>10/2016</period>
-            <companyOrLine>MyWorkouts</companyOrLine>
+            <companyOrLine>myWorkouts</companyOrLine>
             <line1info>Android/HTML5 Hybrid App http://www.myworkouts.org/wp</line1info>
             <roles>All-In-One</roles>
             <activities xml:lang="de">
@@ -104,39 +133,6 @@
                 HTML5, CSS3, SASS, Material Design, ReST/JSON
             </software>
             <software>Tools: IntelliJ, Android Studio, Gradle, Git, Linux/Mac, Ionic CLI</software>
-        </project>
-
-        <!-- ======================================================================================= -->
-
-        <project>
-            <period>10/2016</period>
-            <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
-            <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
-            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
-            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
-            <roles>All-In-One</roles>
-            <activities xml:lang="de">
-                App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
-                Außentemperatur, Geo-Location, Luftdruck. Synchronisation mit Internet-Server.
-                Offline-Karten, SMS-Versand und -Empfang
-            </activities>
-            <activities xml:lang="de">
-                Single-Page Web-Applikation (SPA) mit RESTful Backend (Node.js + MongoDB).
-            </activities>
-            <activities xml:lang="en">
-                Native Android App for tracking sports activities. Uses sensors für heart rate, bike cadence,
-                temperature, geo-location, pressure. Synchronization with own server.
-            </activities>
-            <activities xml:lang="en">
-                Single-Page-Web application (SPA) with RESTful backend.
-            </activities>
-            <software>App: Android 2.3 - 6, SQLite, ANT+, Java 6/7, Google-Play API, Mapsforge</software>
-            <software>
-                Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
-                monit, bunyan, SSL, Redis
-            </software>
-            <software>Web: AngularJS 1.5, TypeScript 1.8, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
-            <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Gradle, Git, Linux</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -192,10 +188,10 @@
                 Admin-Webapp: AngularJS 1.4, jQuery, HTML5, CSS3, Bootstrap, less, schemaform.io, REST
             </software>
             <software>
-                Server: Node.js, Express/restify, PostgreSQL 9.4, Sequelize, lodash, Push (GCM, APN), memcache, Jasmine, bash-Scripts
+                Server: Node.js, Express/restify, PostgreSQL 9, Sequelize, lodash, Push (GCM, APN), memcache, Jasmine, bash-Scripts
             </software>
             <software>
-                Tools: git, IntelliJ, XCode 7, Grunt, Docker, nginx, Ubuntu Server, Jira, Scrum-but
+                Tools: git, IntelliJ, XCode, Grunt, Docker, nginx, Ubuntu Server, Jira, Scrum-but
             </software>
         </project>
 
@@ -259,7 +255,7 @@
                 Programming Server and Client, Configuration, Optimization, Load-Testing, Going-Live
             </activities>
             <software>Java 7, Diffusion 5.1 (Push Technology), Jolokia, JMX</software>
-            <software>JavaScript, jQuery, HTML, Maven 3, Jenkins, bash, IntelliJ</software>
+            <software>JavaScript, jQuery, HTML, Maven, Jenkins, bash, IntelliJ</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -277,16 +273,16 @@
             <activities xml:lang="en">
                 Construction Loan (for bank employee)
             </activities>
-            <software>Java 6, WebSphere 8, WebSphere Portal 8, DB2, JPA 2, JSF 2</software>
-            <software>PrimeFaces, Scrum, Maven 3, Mockito, JUnit, IntelliJ, JRebel</software>
+            <software>Java 6, WebSphere 8, WebSphere Portal 8, DB2, JPA 2, JSF</software>
+            <software>PrimeFaces, Scrum, Maven, Mockito, JUnit, IntelliJ, JRebel</software>
         </project>
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>03/2014 - 04/2014</period>
-            <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
-            <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
+            <companyOrLine xml:lang="de">myWorkouts</companyOrLine>
+            <companyOrLine xml:lang="en">myWorkouts</companyOrLine>
             <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
             <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
             <roles>All-In-One</roles>
@@ -321,13 +317,13 @@
                 the code for both versions (MVC-Pattern). Load-testing of REST interface.
             </activities>
             <software>
-                Server: Java 7, GlassFish 3.1, MySQL 5.5, JPA 2, REST (Jersey), RSA-Verschlüsselung, Maven,
+                Server: Java 7, GlassFish, MySQL, JPA 2, REST, RSA-Verschlüsselung, Maven,
                 JUnit, JMeter
             </software>
             <software>
                 Desktop/Tablet: Bootstrap 3, jQuery, Backbone.js, Grunt, JSHint, less, CSS3, AngularJS
             </software>
-            <software>Mobil: jQuery 1.10, jQuery Mobile 1.3, Backbone.js</software>
+            <software>Mobil: jQuery, jQuery Mobile 1.3, Backbone.js</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -353,9 +349,9 @@
             <activities xml:lang="en">
                 Extensions to an Eclipse RAP application for tax consultants
             </activities>
-            <software>Java 7, GlassFish 3.1, MySQL 5.5, JPA 2, RAP 1.5, REST (Jersey)</software>
+            <software>Java 7, GlassFish 3, MySQL 5, JPA 2, REST (Jersey)</software>
             <software>
-                Maven 3, Jenkins, Sonar, Mockito, JUnit 4, flyway, JRebel, FindBugs, PMD,
+                Maven, Jenkins, Sonar, Mockito, JUnit 4, flyway, JRebel, FindBugs, PMD,
                 Checkstyle, artifactory, Eclipse BIRT, IntelliJ
             </software>
         </project>
@@ -363,24 +359,24 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period xml:lang="de">seit 12/2012 (nebenbei)</period>
-            <period xml:lang="en">since 12/2012 (free time)</period>
-            <companyOrLine xml:lang="de">MyWorkouts</companyOrLine>
-            <companyOrLine xml:lang="en">MyWorkouts</companyOrLine>
-            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
-            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
+            <period xml:lang="de">seit 2013 (nebenbei)</period>
+            <period xml:lang="en">since 2013 (free time)</period>
+            <companyOrLine>myWorkouts</companyOrLine>
+            <line1info>Android Fitness App http://www.myworkouts.org/</line1info>
             <roles>All-In-One</roles>
             <activities xml:lang="de">
-                App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
+                Android-App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
                 Außentemperatur, Geo-Location, Luftdruck. Synchronisation mit Internet-Server.
-                Offline-Karten, SMS-Versand und -Empfang
+                Offline-Karten, SMS-Versand und -Empfang;
+                in Google Play und Amazon App-Store seit Ende 2016
             </activities>
             <activities xml:lang="de">
-                Single-Page Web-Applikation (SPA) mit RESTful Backend.
+                Single-Page Web-Applikation (SPA) mit RESTful Backend (Node.js + MongoDB).
             </activities>
             <activities xml:lang="en">
                 Native Android App for tracking sports activities. Uses sensors für heart rate, bike cadence,
                 temperature, geo-location, pressure. Synchronization with own server.
+                In Google Play and Amazon App-Store since end of 2016
             </activities>
             <activities xml:lang="en">
                 Single-Page-Web application (SPA) with RESTful backend.
@@ -390,7 +386,7 @@
                 Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
                 monit, bunyan, SSL, Redis
             </software>
-            <software>Web: AngularJS 1.4, TypeScript 1.6, D3.js, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
+            <software>Web: Angular 2, AngularJS 1.5, TypeScript 1.8, D3.js v3 + v4, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
             <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Gradle, Git, Linux</software>
         </project>
 
@@ -429,7 +425,7 @@
             </activities>
             <software>JavaScript, Node.js, MongoDB, Express, Socket.IO, JSON, REST</software>
             <software>Java, XML, XLST, XLST-FO, Maven, JUnit, Mockito, Leaflet</software>
-            <software>jQuery, jQuery Mobile, Sencha Touch, HTML5, CSS3, Markdown</software>
+            <software>jQuery, jQuery Mobile, HTML5, CSS3, Markdown</software>
             <software>IntelliJ, Git, Github, Grunt, less, Linux</software>
         </project>
 
@@ -437,7 +433,8 @@
 
         <project>
             <period>06/2012</period>
-            <companyOrLine>JUGM</companyOrLine>
+            <companyOrLine xml:lang="de">Java Usergroup München</companyOrLine>
+            <companyOrLine xml:lang="en">Java Usergroup Munich</companyOrLine>
             <line1info xml:lang="de">JavaScript, Node.js, MongoDB (Vortrag)</line1info>
             <line1info xml:lang="en">JavaScript, Node.js, MongoDB (Talk)</line1info>
             <roles>Speaker</roles>
@@ -468,8 +465,8 @@
                 Basework for a Multi-Channel, Multi-Language, Multi-Tenant JEE Web/Mobile
                 Application (Architecture, Build/CI, Testing, Documentation, SCRUM, Tools)
             </activities>
-            <software>GlassFish 3, ORACLE 11, JPA 2, JSF 2, REST</software>
-            <software>Maven 3, Jenkins, Sonar, Mockito, JUnit, flyway, IntelliJ, JRebel</software>
+            <software>GlassFish, ORACLE, JPA, JSF, REST</software>
+            <software>Maven, Jenkins, Sonar, Mockito, JUnit, flyway, IntelliJ, JRebel</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -491,28 +488,9 @@
                 Self-service for users, mail delivery, integration with SSO.
                 Modularization of JavaScript, optimize performance, Selenium tests
             </activities>
-            <software>Server: Java 6, Oracle 11g, GlassFish 2.1, EJB 3, JPA, JAX-RS, JAX-WS, Velocity</software>
-            <software>Client: JSF 2.0 (AJAX, Facelets, xhtml, composite components), JavaScript, jQuery</software>
-            <software>Tools: Selenium, FireBug, Maven 3, Jenkins, IntelliJ, JUnit, Mockito</software>
-        </project>
-
-        <!-- ======================================================================================= -->
-
-        <project xml:lang="tl_dr">
-            <period>10/2011 - 12/2011</period>
-            <companyOrLine xml:lang="de">Selbst</companyOrLine>
-            <companyOrLine xml:lang="en">Own Use</companyOrLine>
-            <line1info xml:lang="de">(Weiterbildung, nebenbei)</line1info>
-            <line1info xml:lang="en">(Training, incidentally)</line1info>
-            <roles xml:lang="de">Development, Studium</roles>
-            <roles xml:lang="en">Development, self-paced</roles>
-            <activities xml:lang="de">Proof of Concept für hochskalierbare Web-Applikation</activities>
-            <activities xml:lang="en">Proof of Concept for highly scalable Web-Application</activities>
-            <activities xml:lang="de">AJAX RIA Client, RESTful API mit JSON</activities>
-            <activities xml:lang="en">AJAX RIA Client, RESTful API with JSON</activities>
-            <software>Server: Java 6, GlassFish 3.1, EJB 3.1, JPA 2, JAX-RS (Jersey), MySQL</software>
-            <software>Server: Node.js, Express/Connect, mongoDB, vows, async, Linux</software>
-            <software>Client: ExtJS, JavaScript, jQuery</software>
+            <software>Server: Java 6, Oracle 11g, GlassFish, EJB 3, JPA, JAX-RS, JAX-WS</software>
+            <software>Client: JSF 2, AJAX, JavaScript, jQuery</software>
+            <software>Tools: Selenium, Maven, Jenkins, IntelliJ, JUnit, Mockito</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -534,9 +512,9 @@
                 Extension of RESTful API and JavaScript API for Dealer-Locator and Park-Info,
                 Extension of RESTful API for User Registration and -Management
             </activities>
-            <software>Server: Java 5, Oracle 11g, GlassFish 2.1, EJB 3, JPA, JAX-RS (Jersey), JAXB 2</software>
-            <software>Client: JavaScript, jQuery, Google Maps API 3, JSUnit</software>
-            <software>Tools: soapUI, curl, FireBug, JSLint, yui-compress, Maven, Hudson/Jenkins, Netbeans, JUnit, Mockito</software>
+            <software>Server: Java 5, Oracle 11g, GlassFish, EJB 3, JPA, JAX-RS, JAXB</software>
+            <software>Client: JavaScript, jQuery, Google Maps API, JSUnit</software>
+            <software>Tools: soapUI, curl, FireBug, JSLint, yui-compress, Maven, Jenkins, JUnit, Mockito</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -560,7 +538,7 @@
                 Infrastructure for Loadtests (Simulation of Vehicle communication),
                 Code- and Design Reviews and Coaching</activities>
             <software>Java 5, Oracle 11g, WebLogic 10g, WebSphere MQ, EJB 3, LDAP, JPA, JSF, MyFaces,
-                   ajax4jsf, jQuery, JAX-WS, JAXB 2, JMS, XSLT, ant, Mockito, PL/SQL, soapUI</software>
+                   ajax4jsf, jQuery, JAX-WS, JAXB, JMS, XSLT, ant, Mockito, PL/SQL, soapUI</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -576,10 +554,10 @@
             <activities xml:lang="de">Aufbau und Betrieb von Internet Rootservern (Web und Mail)</activities>
             <activities xml:lang="en">Installation, configuration, maintenance of Linux root servers</activities>
             <activities>goebl.com, wellcrafted.de, goebl.biz, michaelfollner-consulting.de, garten-inspirationen.de, hibag.de</activities>
-            <software>Debian GNU/Linux 5, Apache2, PHP, MySQL, iptables, AutoMySQLBackup, rsync, rsnapshot,
+            <software>Debian GNU/Linux, Apache2, PHP, MySQL, iptables, AutoMySQLBackup, rsync, rsnapshot,
                 VirtualBox, rkhunter, fail2ban, denyhosts, Postfix, SpamAssassin, Amavis, Roundcube, OpenSSL,
-                DokuWiki, JBoss 6, Tomcat 6, mod_jk, Funambol, WordPress, Joomla!, Bootstrap 3, less, Grunt,
-                assemble.io, Node.js, Handlebars, Git, IntelliJ, vi
+                DokuWiki, WordPress, Joomla!, Bootstrap 3, less, Grunt,
+                assemble.io, metalsmith, Node.js, Handlebars, Git, IntelliJ, vi
             </software>
         </project>
 
@@ -599,7 +577,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>09/2009 - 12/2009</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
@@ -641,13 +619,13 @@
             <activities xml:lang="en">WebService-Interface to German Telekom (BL-W v16.0 ADSA)</activities>
             <activities xml:lang="en">WebService-Interface to German Telekom (WITA 2.0)</activities>
             <activities xml:lang="en">Administration frontend (Wicket Web-Application)</activities>
-            <software>Java 5, Tomcat 5.5, Spring 2.x, Spring-WS 1.5, Hibernate 3, JAXB 2,
-                CVS, JUnit, Apache Wicket, WS-Security, ant, XML/XSLT, DB2, RSA</software>
+            <software>Java 5, Tomcat 5, Spring 2, Spring-WS, Hibernate, JAXB,
+                JUnit, WS-Security, ant, XML/XSLT, DB2, RSA</software>
         </project>
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>06/2008 - 10/2008</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
@@ -685,7 +663,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>05/2006 - 07/2007</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
@@ -698,8 +676,8 @@
             <activities xml:lang="en">Staff Portal for 3.500 User</activities>
             <activities xml:lang="en">Load- and Performancetests, AJAX-Functionality</activities>
             <software>J2EE, Java, WebSphere Portal 5, JSP und AJAX, WebSphere 5, Solaris, DB2,
-                XML/XSLT, JavaScript (IE, Gecko), Apache httpd, WebSEAL, Lotus Domino,
-                XML Access, Hibernate, Apache JMeter, Perl, IBM WSAD/RAD 6, CVS</software>
+                XML/XSLT, JavaScript, Apache httpd, WebSEAL, Lotus Domino,
+                XML Access, Hibernate, Apache JMeter, Perl, IBM WSAD</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -719,9 +697,9 @@
             <activities xml:lang="en">Embedding of Notes Databases, LDAP Integration, Portlet-Programming,
                 Load- and Performancetests, Themes &amp; Skins</activities>
             <software>J2EE, Java, WebSphere Portal 5, JSP, WebSphere 5, Solaris
-                DB2, XML/XSLT, JavaScript (IE, Gecko), AJAX, LDAP, Apache httpd, Security, SSO,
-                Spring, Lotus Domino, XML Access, Hibernate, Apache JMeter, Perl,
-                IBM WSAD/RAD (Rational Application Developer)</software>
+                DB2, XML/XSLT, JavaScript, AJAX, LDAP, Apache httpd, Security, SSO,
+                Spring, Lotus Domino, XML Access, Hibernate, JMeter, Perl,
+                IBM WSAD</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -738,9 +716,9 @@
                 Integration diverser Backend-Systeme.</activities>
             <activities xml:lang="en">Web-Enabling of a Corebanking-System (MBS open) and
                 Integration of various back-end systems.</activities>
-            <software>J2EE, Java, EJB, JSP, Apache Struts, IBM WebSphere 5.0,
-                Bea WLS, DB2, JSP TagLibs, XML/XSLT, SCHUFA SCDI, ant,
-                CruiseControl, IBM WSAD, JBoss, CVS</software>
+            <software>J2EE, Java, EJB, JSP, HTML, CSS, Apache Struts, IBM WebSphere 5,
+                Bea WebLogic, DB2, XML/XSLT, SCHUFA SCDI, ant,
+                IBM WSAD, JBoss</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -771,7 +749,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>07/2003 - 09/2003</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
@@ -779,20 +757,20 @@
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <roles xml:lang="de">Architektur, Development, Test</roles>
             <roles xml:lang="en">Architecture, Development, Test</roles>
-            <activities xml:lang="de">WikiWiki-ähnliches Redaktionssystem für Online- und
+            <activities xml:lang="de">Wiki-ähnliches Redaktionssystem für Online- und
                 Druckmedien mit Generierungsengine auf Basis von XML, XSLT
                 und XSLT-FO (PDF-Output)</activities>
             <activities xml:lang="de">Integration in bestehende Java-Anwendung (Swing)</activities>
-            <activities xml:lang="en">WikiWiki-like Content Management System for Online- und
+            <activities xml:lang="en">Wiki-like Content Management System for Online- und
                 Print Media; Generator-Engine on top of XML, XSLT and XSLT-FO (PDF-Output)</activities>
             <activities xml:lang="en">Integration in existing Java-Application (Swing)</activities>
             <software>ORACLE 8i, Java 1.4, XML, XSLT, Eclipse
-                JAXP, XML-Schema, Apache FOP, Apache Xalan, HTML, CSS, CVS</software>
+                JAXP, XML-Schema, Apache FOP, Xalan, HTML, CSS</software>
         </project>
 
         <!-- ======================================================================================= -->
 
-        <project>
+        <project xml:lang="tl_dr">
             <period>02/2003 - 06/2003</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
@@ -804,7 +782,7 @@
                 und Datenaktualisierungen für Außendienstmitarbeiter</activities>
             <activities xml:lang="en">Automatic Distribution of Software-
                 and Data Updates for field staff</activities>
-            <software>Java, Oracle 8i, XML, JSP, Apache Tomcat, Servlet, Eclipse, CVS</software>
+            <software>Java, Oracle 8i, XML, JSP/Servlet, Tomcat, Eclipse</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -821,13 +799,12 @@
                 der Softwareverteilung auf 40.000 Arbeitsplätzen</activities>
             <activities xml:lang="en">Integration und Optimization of a systems which provides config
                 management, software packaging and distribution for 40.000 users</activities>
-            <software>Java, Oracle 8i, Swing, Apache Velocity, XML, JSP, EJB
-                IBM WebSphere 4</software>
+            <software>Java, Oracle 8i, Swing, Apache Velocity, XML, JSP, EJB, WebSphere 4</software>
         </project>
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>01/2001 - 06/2001</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
@@ -840,7 +817,7 @@
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>06/2000 - 12/2000</period>
             <companyOrLine xml:lang="de">Internet Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
@@ -855,26 +832,26 @@
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>08/2000</period>
             <companyOrLine>b-fusion (Media Agentur)</companyOrLine>
             <line1info>Rosenheim, freie Mitarbeit</line1info>
             <roles>Development, Test</roles>
             <activities xml:lang="de">Internet-Anwendung: Baukostenkalkulation und Baufinanzierung</activities>
-            <software>LINUX, Apache, MySQL, PHP3, HTML, JavaScript, DHTML (Netscape, IE)</software>
+            <software>LINUX, Apache, MySQL, PHP3, HTML, JavaScript, DHTML</software>
         </project>
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>03/2000 – 05/2000</period>
             <companyOrLine>Mylius AG</companyOrLine>
             <line1info>Rosenheim, freie Mitarbeit</line1info>
             <roles>Consulting, Development</roles>
             <activities xml:lang="de">Proof of Concept und Prototyp-Entwicklung eines XMLGateways zur Anbindung des
                 Warenwirtschaftssystems „MyEnterprise“ an Internet Webshops auf HTTPS-Basis</activities>
-            <software>XML, MTS, COM, SQL Server 7, ASP, Microsoft BizTalk Framework,
-                MS IIS 4, VB 6, ADO, VBScript, DHTML, XSLT, JavaScript</software>
+            <software>XML, MTS, COM, SQL Server 7, ASP, BizTalk Framework,
+                IIS, DHTML, XSLT, JavaScript</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -889,15 +866,12 @@
                 auf Basis des Active Directory</activities>
             <activities xml:lang="de">Intranetapplikation im Rahmen des Windows 2000 Rapid
                 Deployment Programms (RDP)</activities>
-            <software>JavaScript, XML, XSL, HTML, ASP, DHTML, AJAX,
-                MS Windows 2000 Advanced Server, com+, MS IIS 5.0,
-                MS Active Directory, Visual InterDev, Visual C++, Visual Basic,
-                ADSI, ADO</software>
+            <software>JavaScript, XML, XSL, HTML, ASP, DHTML, AJAX, com+, IIS, Active Directory, C++</software>
         </project>
 
         <!-- ======================================================================================= -->
 
-        <project xml:lang="de">
+        <project xml:lang="tl_dr">
             <period>07/1998 - 07/1999</period>
             <companyOrLine xml:lang="de">HypoVereinsbank AG</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
@@ -910,9 +884,7 @@
             <software>Visual C++, ATL, COM/DCOM, Microsoft Transaction Server 2.0 (MTS),
                 ASP, HTML, ADO, MS SQL Server 6.5, Visual Basic 5.0 Komponenten,
                 VBScript</software>
-            <software>MS NT Server 4, MS MQ Server,
-                IIS 4, Visual Studio 97, Remote Data Services (RDS),
-                DHTML, JavaScript, VBScript</software>
+            <software>NT Server 4, MS MQ Server, IIS 4, Remote Data Services (RDS), DHTML, JavaScript</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -929,7 +901,7 @@
                 HTML, ASP, VBScript, COM-Komponenten</activities>
             <software>ORACLE 7.3, LogicWorks Erwin,
                 Microsoft BackOffice (NT Server, SQL Server, IIS, Index Server, Transaction Server),
-                Visual Studio (Visual Basic, Visual C++, Visual InterDev, Visual SourceSafe), ActiveX, COM/DCOM,
+                Visual Studio (Visual Basic, Visual C++), ActiveX, COM/DCOM,
                 BusinessObjects</software>
         </project>
 
