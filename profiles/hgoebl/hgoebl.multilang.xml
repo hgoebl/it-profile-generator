@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">04.03.2017</lastEditDate>
-    <lastEditDate xml:lang="en">04-Mar-2017</lastEditDate>
+    <lastEditDate xml:lang="de">05.10.2017</lastEditDate>
+    <lastEditDate xml:lang="en">05-Oct-2017</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -17,7 +17,8 @@
         <country xml:lang="de">Deutschland</country>
         <country xml:lang="en">Germany</country>
         <dateOfBirth>1969</dateOfBirth>
-        <telephone>+49 171 310 45 41</telephone>
+        <telephone xml:lang="de">(bitte mailen)</telephone>
+        <telephone xml:lang="en">(please use mail)</telephone>
         <email>sysprog@goebl.com</email>
         <web>http://www.goebl.com/</web>
         <web xml:lang="na_da">https://www.gulp.de/Profil/hgoebl.html</web>
@@ -57,10 +58,10 @@
     </person>
     <competencies>
         <platforms>
-            HTML5-Browser, Java 7, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Node.js, Linux, Windows, MacOS, Docker
+            HTML5-Browser, Node.js, Java 7, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Linux, Windows, MacOS, Docker
         </platforms>
         <programming_languages>
-            TypeScript, JavaScript (ES5, ES6), Java, SQL, XML/XSLT, C/C++, Perl, PHP, R
+            TypeScript, JavaScript (ES5, ES6), Java, SQL, XML/XSLT, C/C++
         </programming_languages>
         <server>
             Node.js/Express, Loopback, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
@@ -72,7 +73,7 @@
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Angular 2, AngularJS 1.5, Ionic 2, Ionic 1.x, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Portal
+            Angular 2/4+, AngularJS 1.5, Ionic 2, Ionic 1.x, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Portal
         </gui>
         <tools>
             IntelliJ, XCode, git, Grunt, gulp, GIMP, Inkscape, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn
@@ -90,26 +91,29 @@
     <workExperience>
 
         <project>
-            <period>11/2016 - 06/2017</period>
+            <period>11/2016 - 09/2017</period>
             <companyOrLine xml:lang="de">Internet</companyOrLine>
             <companyOrLine xml:lang="en">Internet</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development</roles>
+            <roles>Development, Coaching</roles>
             <activities xml:lang="de">
-                SPA (Single-Page-Web) Applikation zur Verwaltung/Vermarktung von Internet Werbung,
-                Frontend-Programmierung ~80%, REST-API-Server Programmierung ~20%
+                SPA (Single-Page-App) Web-Applikation zur Verwaltung/Vermarktung von Internet Werbung,
+                Frontend-Programmierung ~75%, REST-API-Server Programmierung, Batch ~25%
             </activities>
             <activities xml:lang="en">
-                SPA (Single-Page-Web) Application for managing online internet advertisement,
-                frontend-programming ~80%, REST-API-server ~20%
+                SPA (Single-Page-App) Web-Application for managing online internet advertisement,
+                frontend-programming ~75%, REST-API-server and batch-programming ~25%
             </activities>
             <software>
-                Frontend: Angular 2, TypeScript 2, HTML5, Bootstrap 4 + coreui, CSS3, SASS, karma, Jasmine,
-                ng2-bootstrap, plotly, d3, RxJS
+                Frontend: Angular 4, TypeScript 2.5, HTML5, Bootstrap 4 + coreui, CSS3, SASS, karma, Jasmine,
+                ng2-bootstrap, RxJS
             </software>
             <software>
-                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB, JavaScript, ES6, Node.js 6
+                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB/MySQL, TypeScript, JavaScript, ES6, Node.js 6
+            </software>
+            <software>
+                Batch: Java 8, Spring, Spring Boot 1.5, JPA, Maven, Google-APIs
             </software>
             <software>
                 Tools: angular-cli, webpack, Swagger, supertest, mocha, git, npm, IntelliJ
