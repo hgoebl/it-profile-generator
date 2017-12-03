@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">05.10.2017</lastEditDate>
-    <lastEditDate xml:lang="en">05-Oct-2017</lastEditDate>
+    <lastEditDate xml:lang="de">03.12.2017</lastEditDate>
+    <lastEditDate xml:lang="en">03-Dec-2017</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <availableLanguages>de</availableLanguages>
@@ -89,6 +89,34 @@
         </processes>
     </competencies>
     <workExperience>
+
+        <project>
+            <period>10/2016 - 01/2018</period>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
+            <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <roles>Development, Coaching</roles>
+            <activities xml:lang="de">
+                Migration von 2 SPA (Single-Page-App) Web-Applikationen von JBoss (JEE, Hibernate) zu
+                Spring Boot (REST, JPA) in PCF Cloud Foundry,
+                OAuth Authentifizierung, JWT Validierung, Cloudifizierung, SSL mit Client-Zertifikaten,
+                Hardening
+            </activities>
+            <activities xml:lang="en">
+                Migration of 2 SPA (Single-Page-App) Web-Applications from JBoss (JEE, Hibernate) to
+                Spring Boot (REST, JPA) in PCF Cloud Foundry,
+                OAuth Authentication, JWT Validation, Cloudification, SSL with Client-Certificates,
+                Hardening
+            </activities>
+            <software>
+                Spring 4.3, Spring Boot 1.5, Java 8, JPA 2, Oracle, DB2,
+                AngularJS 1.6, JavaScript (ES5), HTML5, CSS3,
+                Git, Jenkins, IntelliJ, REST/JSON, Pivotal Cloud Foundry, Maven
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
 
         <project>
             <period>11/2016 - 09/2017</period>
