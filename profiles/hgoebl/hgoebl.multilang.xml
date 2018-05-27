@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.2.0">
-    <lastEditDate xml:lang="de">03.12.2017</lastEditDate>
-    <lastEditDate xml:lang="en">03-Dec-2017</lastEditDate>
+    <lastEditDate xml:lang="de">27.05.2018</lastEditDate>
+    <lastEditDate xml:lang="en">27-May-2018</lastEditDate>
+    <lastEditDate xml:lang="es">27/05/2018</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
+    <lang xml:lang="es">es</lang>
     <availableLanguages>de</availableLanguages>
     <availableLanguages>en</availableLanguages>
+    <availableLanguages>es</availableLanguages>
     <person>
         <firstName>Heinrich</firstName>
         <lastName>Göbl</lastName>
@@ -14,11 +17,14 @@
         <zip>83026</zip>
         <state xml:lang="de">Bayern</state>
         <state xml:lang="en">D</state>
+        <state xml:lang="es">D</state>
         <country xml:lang="de">Deutschland</country>
         <country xml:lang="en">Germany</country>
+        <country xml:lang="es">Alemania</country>
         <dateOfBirth>1969</dateOfBirth>
         <telephone xml:lang="de">(bitte mailen)</telephone>
         <telephone xml:lang="en">(please use mail)</telephone>
+        <telephone xml:lang="es">(email por favor)</telephone>
         <email>sysprog@goebl.com</email>
         <web>http://www.goebl.com/</web>
         <web xml:lang="na_da">https://www.gulp.de/Profil/hgoebl.html</web>
@@ -29,6 +35,7 @@
         <qualifications>
             <education xml:lang="de">1995: Diplom Informatiker (FH)</education>
             <education xml:lang="en">1995: graduated in computer sciences</education>
+            <education xml:lang="es">1995: Diplomado informático</education>
             <education>1998: Microsoft SQL Server Database Implementation</education>
             <education>2000: Oracle Certified Professional (SQL, PL/SQL)</education>
             <education>2001: Sun Certified Programmer for the JAVA 2 Platform</education>
@@ -41,8 +48,11 @@
         <languages>
             <language xml:lang="de">Englisch</language>
             <language xml:lang="en">English</language>
+            <language xml:lang="es">Inglés</language>
+
             <language xml:lang="de">Spanisch</language>
             <language xml:lang="en">Spanish</language>
+            <language xml:lang="es">Español</language>
         </languages>
         <coreArea>
             Angular, TypeScript, JavaScript, ES6, HTML5, Node, Java, Android, SQL
@@ -54,6 +64,10 @@
         <areaOfWork xml:lang="en">
             Architecture and project management, analysis and design, mentoring,
             programming, test, tuning, migration, code supervisor, DevOps
+        </areaOfWork>
+        <areaOfWork xml:lang="es">
+            Arquitectura y gestión de proyectos, análisis y diseño, tutoría,
+            programación, prueba, ajuste, migración, supervisor de código, DevOps
         </areaOfWork>
     </person>
     <competencies>
@@ -73,7 +87,7 @@
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Angular 2/4+, AngularJS 1.5, Ionic 2, Ionic 1.x, HTML5, CSS3, Bootstrap, Responsive, jQuery, Android, Portal
+            Angular 2/4+, AngularJS 1.7, Ionic 3, Ionic 1.x, HTML5, CSS3, Material, Bootstrap, Responsive, jQuery, Android, Portal
         </gui>
         <tools>
             IntelliJ, XCode, git, Grunt, gulp, GIMP, Inkscape, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn
@@ -91,23 +105,67 @@
     <workExperience>
 
         <project>
-            <period>10/2016 - 01/2018</period>
+            <period>02/2017 - 06/2018</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development, Coaching</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development, Coaching</roles>
+            <roles xml:lang="en">Development, Coaching</roles>
+            <roles xml:lang="es">Desarollo, entrenamiento</roles>
+            <activities xml:lang="de">
+                Intranet-Applikation zur Recherche und Verwaltung von Provisionszahlungen.
+                Angular Single-Page-Application (Responsive Design) mit REST/JSON Backend.
+            </activities>
+            <activities xml:lang="en">
+                Intranet application for research and administration of commission payments.
+                Angular Single Page Application (Responsive Design) with REST / JSON backend.
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de intranet para investigación y administración de pagos de comisiones.
+                Aplicación de página única Angular (diseño receptivo) con backend REST / JSON.
+            </activities>
+            <software>
+                Angular 5, TypeScript 2.6, Angular Material, CSS3, HTML5
+            </software>
+            <software>
+                Spring 4.3, Spring Boot 1.5, Java 8, JPA 2, Oracle, REST/JSON
+                Git, Jenkins, IntelliJ, Pivotal Cloud Foundry, Maven
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>10/2017 - 01/2018</period>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
+            <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development, Coaching</roles>
+            <roles xml:lang="en">Development, Coaching</roles>
+            <roles xml:lang="es">Desarollo, entrenamiento</roles>
             <activities xml:lang="de">
                 Migration von 2 SPA (Single-Page-App) Web-Applikationen von JBoss (JEE, Hibernate) zu
                 Spring Boot (REST, JPA) in PCF Cloud Foundry,
                 OAuth Authentifizierung, JWT Validierung, Cloudifizierung, SSL mit Client-Zertifikaten,
-                Hardening
+                Hardening.
             </activities>
             <activities xml:lang="en">
                 Migration of 2 SPA (Single-Page-App) Web-Applications from JBoss (JEE, Hibernate) to
                 Spring Boot (REST, JPA) in PCF Cloud Foundry,
                 OAuth Authentication, JWT Validation, Cloudification, SSL with Client-Certificates,
                 Hardening
+            </activities>
+            <activities xml:lang="es">
+                Migración de 2 aplicaciónes de una sola página (SPA) desde JBoss (JEE, Hibernate) a
+                Spring Boot (REST, JPA) en PCF Cloud Foundry,
+                OAuth autenticación, JWT validación, Cloudificación, SSL con certificados de cliente,
+                endurecimiento
             </activities>
             <software>
                 Spring 4.3, Spring Boot 1.5, Java 8, JPA 2, Oracle, DB2,
@@ -122,9 +180,13 @@
             <period>11/2016 - 09/2017</period>
             <companyOrLine xml:lang="de">Internet</companyOrLine>
             <companyOrLine xml:lang="en">Internet</companyOrLine>
+            <companyOrLine xml:lang="es">Internet</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development, Coaching</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development, Coaching</roles>
+            <roles xml:lang="en">Development, Coaching</roles>
+            <roles xml:lang="es">Desarollo, entrenamiento</roles>
             <activities xml:lang="de">
                 SPA (Single-Page-App) Web-Applikation zur Verwaltung/Vermarktung von Internet Werbung,
                 Frontend-Programmierung ~75%, REST-API-Server Programmierung, Batch ~25%
@@ -132,6 +194,10 @@
             <activities xml:lang="en">
                 SPA (Single-Page-App) Web-Application for managing online internet advertisement,
                 frontend-programming ~75%, REST-API-server and batch-programming ~25%
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de una sola página (SPA) para administrar internet anuncios,
+                frontend desarollo ~75%, REST-API-servidor y programación por lotes ~25%
             </activities>
             <software>
                 Frontend: Angular 4, TypeScript 2.5, HTML5, Bootstrap 4 + coreui, CSS3, SASS, karma, Jasmine,
@@ -154,12 +220,17 @@
             <period>10/2016</period>
             <companyOrLine>myWorkouts</companyOrLine>
             <line1info>Android/HTML5 Hybrid App http://www.myworkouts.org/wp</line1info>
-            <roles>All-In-One</roles>
+            <roles xml:lang="de">All-In-One</roles>
+            <roles xml:lang="en">All-In-One</roles>
+            <roles xml:lang="es">todo en uno</roles>
             <activities xml:lang="de">
                 App zur Synchronisierung von Trainings mit Sport-Portalen
             </activities>
             <activities xml:lang="en">
                 App for synchronization of sports activities with sport-portals
+            </activities>
+            <activities xml:lang="es">
+                Aplicación para la sincronización de actividades deportivas con portales deportivos
             </activities>
             <software>Angular 2, Ionic 2, TypeScript 2.0, Android 4.1 - 7, Java, Cordova Plugin,
                 HTML5, CSS3, SASS, Material Design, ReST/JSON
@@ -173,9 +244,13 @@
             <period>01/2016 - 09/2016</period>
             <companyOrLine xml:lang="de">Automotive</companyOrLine>
             <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotor</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development</roles>
+            <roles xml:lang="en">Development</roles>
+            <roles xml:lang="es">Desarollo</roles>
             <activities xml:lang="de">
                 Weiterentwicklung "Offer+Contract" Single-Page-Web-Applikation,
                 Integration von 5 Backend-Systemen (Vehicle-Configurator, Pricing-Services,
@@ -185,6 +260,11 @@
                 Web Development "Offer+Contract" Single-Page-Web-Application,
                 Integration of 5 backend-systems (vehicle configurator, pricing services,
                 financing services, order/contract-services, stock-vehicles)
+            </activities>
+            <activities xml:lang="es">
+                Desarollo web "Offer+Contract", aplicación de una sola página (SPA),
+                Integración de 5 sistemas backend (configurador de vehículos, servicios de fijación de precios,
+                servicios de financiación, servicios orden / contrato, stock vehiculos)
             </activities>
             <software>AngularJS 1.5, TypeScript 1.8, HTML5, CSS3, less, karma, Jasmine</software>
             <software>
@@ -196,11 +276,15 @@
 
         <project>
             <period>06/2015 - 03/2016</period>
-            <companyOrLine xml:lang="de">Startup</companyOrLine>
+            <companyOrLine xml:lang="de">Start-up</companyOrLine>
             <companyOrLine xml:lang="en">Startup</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía startup</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development, UI</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development, UI</roles>
+            <roles xml:lang="en">Development, UI</roles>
+            <roles xml:lang="es">Desarollo, UI/UX</roles>
             <activities xml:lang="de">
                 Hybrid-App "happitz.com" für iOS und Android,
                 Single-Page Webapp (Admin-Frontend),
@@ -211,6 +295,11 @@
                 Hybrid-App "happitz.com" for iOS and Android,
                 Single-Page Webapp (Admin-Frontend),
                 RESTful API Server with Node.js
+            </activities>
+            <activities xml:lang="es">
+                Aplicación híbrido "happitz.com" para iOS y Android,
+                Aplicación de una sola página (SPA): frontend administración,
+                REST API servidor con Node.js
             </activities>
             <software>
                 App (iOS, Android): Ionic 1.1, AngularJS 1.4, JavaScript, Cordova 5, ngCordova, HTML5, CSS3, SASS, D3, ui-router, PhysicsJS,
@@ -233,9 +322,13 @@
             <period>10/2014 - 06/2015</period>
             <companyOrLine xml:lang="de">Automotive</companyOrLine>
             <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotor</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development</roles>
+            <roles xml:lang="en">Development</roles>
+            <roles xml:lang="es">Desarollo</roles>
             <activities xml:lang="de">
                 Umstellung/Erweiterung Vehicle-Konfigurator von Fixed-Layout auf Responsive Webdesign
                 (Mobile-First; Phone/Phablet, Tablet, Desktop; iOS, Android, Windows Phone); Refactoring
@@ -244,6 +337,11 @@
             <activities xml:lang="en">
                 Develop Responsive Webdesign for a vehicle configurator (mobile-first; Phone, Tablet, Desktop;
                 iOS, Android, Windows Phone); refactoring and optimize code and styles; automate tests
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de una sola página (SPA);
+                desarollar de páginas web responsivas: configurador de vehículo (teléfono, tableta y computadora de escritorio;
+                iOS, Android, Windows Phone); refactorizar y optimizar códigos y estilos; automatizar pruebas
             </activities>
             <software>AngularJS, JavaScript, HTML5, CSS3, less, jQuery, karma, Jasmine</software>
             <software>
@@ -257,14 +355,21 @@
             <period>11/2014</period>
             <companyOrLine xml:lang="de">IT-Dienstleister</companyOrLine>
             <companyOrLine xml:lang="en">IT-Consulting</companyOrLine>
+            <companyOrLine xml:lang="es">Asesormiento en TI</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Speaker, Trainer</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Speaker, Trainer</roles>
+            <roles xml:lang="en">Speaker, Trainer</roles>
+            <roles xml:lang="es">Orador, Entrenador</roles>
             <activities xml:lang="de">
                 Durchführung 1-Tages-Workshop "Advanced AngularJS, Best Practices"
             </activities>
             <activities xml:lang="en">
                 1-Day-Workshop "Advanced AngularJS, Best Practices"
+            </activities>
+            <activities xml:lang="es">
+                Taller de 1 día "AngularJS avanzado, mejores prácticas"
             </activities>
             <software>AngularJS 1.3, JavaScript</software>
         </project>
@@ -275,9 +380,13 @@
             <period>08/2014 - 09/2014</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development, DevOps</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Development, DevOps</roles>
+            <roles xml:lang="en">Development, DevOps</roles>
+            <roles xml:lang="es">Desarollo, DevOps</roles>
             <activities xml:lang="de">
                 Einführung Push-Server (Wertpapierkurse) für Web-Clients (WebSockets, XHR),
                 Programmierung, Konfiguration, Optimierung, Vorbereitung für Produktion, Lasttests
@@ -285,6 +394,10 @@
             <activities xml:lang="en">
                 Preparation of a Push-Server delivering quotes for Web-clients (WebSockets, XHR),
                 Programming Server and Client, Configuration, Optimization, Load-Testing, Going-Live
+            </activities>
+            <activities xml:lang="es">
+                Preparación de un servidor "push" para entregar presupuestos para clientes web (WebSockets, XHR),
+                programación de servidor y cliente, configuración, optimización, prueba de carga, Going-Live
             </activities>
             <software>Java 7, Diffusion 5.1 (Push Technology), Jolokia, JMX</software>
             <software>JavaScript, jQuery, HTML, Maven, Jenkins, bash, IntelliJ</software>
@@ -296,36 +409,23 @@
             <period>05/2014 - 07/2014</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Development</roles>
+            <roles xml:lang="de">Development</roles>
+            <roles xml:lang="en">Development</roles>
+            <roles xml:lang="es">Desarollo</roles>
             <activities xml:lang="de">
                 Baufinanzierung (für Bankmitarbeiter)
             </activities>
             <activities xml:lang="en">
                 Construction Loan (for bank employee)
             </activities>
+            <activities xml:lang="es">
+                Préstamo hipotecario (para empleados bancarios)
+            </activities>
             <software>Java 6, WebSphere 8, WebSphere Portal 8, DB2, JPA 2, JSF</software>
             <software>PrimeFaces, Scrum, Maven, Mockito, JUnit, IntelliJ, JRebel</software>
-        </project>
-
-        <!-- ======================================================================================= -->
-
-        <project xml:lang="tl_dr">
-            <period>03/2014 - 04/2014</period>
-            <companyOrLine xml:lang="de">myWorkouts</companyOrLine>
-            <companyOrLine xml:lang="en">myWorkouts</companyOrLine>
-            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
-            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
-            <roles>All-In-One</roles>
-            <activities xml:lang="de">
-                (siehe weiter unten, jedoch in Vollzeit)
-            </activities>
-            <activities xml:lang="en">
-                (see below, but full-time)
-            </activities>
-            <software xml:lang="de">(siehe weiter unten)</software>
-            <software xml:lang="en">(see below)</software>
         </project>
 
         <!-- ======================================================================================= -->
@@ -334,11 +434,21 @@
             <period>05/2013 - 02/2014</period>
             <companyOrLine xml:lang="de">AGENDA Software GmbH</companyOrLine>
             <companyOrLine xml:lang="en">AGENDA Software</companyOrLine>
+            <companyOrLine xml:lang="es">AGENDA Software</companyOrLine>
             <line1info xml:lang="de">Rosenheim, Anstellung</line1info>
             <line1info xml:lang="en">Rosenheim, regular employment</line1info>
-            <roles>Coding Architect, Development</roles>
+            <line1info xml:lang="es">Rosenheim, empleo regular</line1info>
+            <roles xml:lang="de">Coding Architect, Development</roles>
+            <roles xml:lang="en">Coding Architect, Development</roles>
+            <roles xml:lang="es">Arquitecto, desarollo</roles>
             <activities xml:lang="de">
                 Single-Page Web-Applikation (SPA) für Lohn-/Gehaltsempfänger (High-Volume ~1 Mio. Benutzer)
+            </activities>
+            <activities xml:lang="en">
+                Single-Page Web-Application (SPA) for salaried employee (high-volume ~1 Mio. users)
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de una sola página (SPA) para empleados asalariados (unos 1 millón usarios)
             </activities>
             <activities xml:lang="de">
                 Responsive Design, trotzdem Weiche zwischen Smartphones und Tablets/Desktops. Hohe Wiederverwendung
@@ -347,6 +457,9 @@
             <activities xml:lang="en">
                 Responsive Design, special implementation for smartphone and tablet/desktop, while reusing most of
                 the code for both versions (MVC-Pattern). Load-testing of REST interface.
+            </activities>
+            <activities xml:lang="es">
+                diseño de respuesta, patrón MVC. Prueba de carga de la interfaz REST.
             </activities>
             <software>
                 Server: Java 7, GlassFish, MySQL, JPA 2, REST, RSA-Verschlüsselung, Maven,
@@ -364,9 +477,13 @@
             <period>05/2012 - 02/2014</period>
             <companyOrLine xml:lang="de">AGENDA Software GmbH</companyOrLine>
             <companyOrLine xml:lang="en">AGENDA Software</companyOrLine>
+            <companyOrLine xml:lang="es">AGENDA Software</companyOrLine>
             <line1info xml:lang="de">Rosenheim, Anstellung</line1info>
             <line1info xml:lang="en">Rosenheim, regular employment</line1info>
-            <roles>Coding Architect, Development</roles>
+            <line1info xml:lang="es">Rosenheim, empleo regular</line1info>
+            <roles xml:lang="de">Coding Architect, Development</roles>
+            <roles xml:lang="en">Coding Architect, Development</roles>
+            <roles xml:lang="es">Arquitecto, desarollo</roles>
             <activities xml:lang="de">
                 Einführung/Erweiterung Build, Continuous Integration, Qualitätsmessung Code,
                 Unit- und Integrationstests, automatisiertes Deployment
@@ -375,11 +492,18 @@
                 Platform for Build, Continuous Integration, Code Quality,
                 Unit- and Integration Testing, Continuous Delivery
             </activities>
+            <activities xml:lang="es">
+                Plataforma para compilación, integración continua, calidad de código,
+                pruebas unitarias y de integración, entrega continua
+            </activities>
             <activities xml:lang="de">
                 Erweiterungen in bestehender Eclipse RAP Applikation für Steuerberater und Mandanten
             </activities>
             <activities xml:lang="en">
                 Extensions to an Eclipse RAP application for tax consultants
+            </activities>
+            <activities xml:lang="es">
+                Extensiones a una aplicación Eclipse RAP para asesores fiscales
             </activities>
             <software>Java 7, GlassFish 3, MySQL 5, JPA 2, REST (Jersey)</software>
             <software>
@@ -393,9 +517,14 @@
         <project>
             <period xml:lang="de">seit 2013 (nebenbei)</period>
             <period xml:lang="en">since 2013 (free time)</period>
+            <period xml:lang="es">desde 2013 (tiempo libre)</period>
             <companyOrLine>myWorkouts</companyOrLine>
-            <line1info>Android Fitness App http://www.myworkouts.org/</line1info>
-            <roles>All-In-One</roles>
+            <line1info xml:lang="de">Android Fitness App http://www.myworkouts.org/</line1info>
+            <line1info xml:lang="en">Android Fitness App http://www.myworkouts.org/</line1info>
+            <line1info xml:lang="es">Android aplicación de fitness http://www.myworkouts.org/</line1info>
+            <roles xml:lang="de">All-In-One</roles>
+            <roles xml:lang="en">All-In-One</roles>
+            <roles xml:lang="es">todo en uno</roles>
             <activities xml:lang="de">
                 Android-App zur Aufzeichnung von Sportaktivitäten inkl. Sensoren für Pulsfrequenz, Trittfrequenz,
                 Außentemperatur, Geo-Location, Luftdruck. Synchronisation mit Internet-Server.
@@ -413,6 +542,15 @@
             <activities xml:lang="en">
                 Single-Page-Web application (SPA) with RESTful backend.
             </activities>
+            <activities xml:lang="es">
+                Aplicación nativa de Android para el seguimiento de actividades deportivas. Utiliza sensores para la
+                frecuencia cardíaca, la cadencia de la bicicleta, temperatura, ubicación geográfica, presión.
+                Sincronización con el propio servidor.
+                En Google Play y Amazon App-Store desde finales de 2016.
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de una sola página (SPA) con servidor REST/JSON.
+            </activities>
             <software>App: Android 2.3 - 6, SQLite, ANT+, Java 6/7, Google-Play API, Mapsforge</software>
             <software>
                 Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
@@ -427,15 +565,22 @@
         <project>
             <period xml:lang="de">seit 08/2011 (nebenbei)</period>
             <period xml:lang="en">since 08/2011 (free time)</period>
+            <period xml:lang="es">desde 08/2011 (tiempo libre)</period>
             <companyOrLine xml:lang="de">Open Source Projekte</companyOrLine>
             <companyOrLine xml:lang="en">Open Source Projects</companyOrLine>
+            <companyOrLine xml:lang="es">Proyectos de código abierto</companyOrLine>
             <line1info>https://github.com/hgoebl/</line1info>
-            <roles>All-In-One</roles>
+            <roles xml:lang="de">All-In-One</roles>
+            <roles xml:lang="en">All-In-One</roles>
+            <roles xml:lang="es">todo en uno</roles>
             <activities xml:lang="de">
                 Mehrere Tools und Libraries für JavaScript und Java (siehe Repositories)
             </activities>
             <activities xml:lang="en">
                 Several tools and libraries for JavaScript and Java (see my public repositories)
+            </activities>
+            <activities xml:lang="es">
+                Varias herramientas y bibliotecas para JavaScript y Java (vea mis repositorios públicos)
             </activities>
             <activities xml:lang="de">
                 Generator für IT-Profile (Multi-Format, Multi-Language)
@@ -443,11 +588,17 @@
             <activities xml:lang="en">
                 Profile (aka. CV, Resume) generator for IT freelancers (multi-format, multi-language)
             </activities>
+            <activities xml:lang="es">
+                Generador para perfiles (CV) de independientes TI (formatos múltiples, múltiples idiomas)
+            </activities>
             <activities xml:lang="de">
                 Präsentationssoftware mit Smartphone-Fernsteuerung
             </activities>
             <activities xml:lang="en">
                 Presentation software with smartphone remote control
+            </activities>
+            <activities xml:lang="es">
+                Software de presentación con control remoto de teléfonos inteligentes
             </activities>
             <activities>
                 npm modules: doublemetaphone, entintar, mobile-detect, mobile-usage, mongodb-openvz-crashtest, nerdshow
@@ -467,9 +618,13 @@
             <period>06/2012</period>
             <companyOrLine xml:lang="de">Java Usergroup München</companyOrLine>
             <companyOrLine xml:lang="en">Java Usergroup Munich</companyOrLine>
+            <companyOrLine xml:lang="es">Java grupo de usuario Munich</companyOrLine>
             <line1info xml:lang="de">JavaScript, Node.js, MongoDB (Vortrag)</line1info>
             <line1info xml:lang="en">JavaScript, Node.js, MongoDB (Talk)</line1info>
-            <roles>Speaker</roles>
+            <line1info xml:lang="es">JavaScript, Node.js, MongoDB (conferencia)</line1info>
+            <roles xml:lang="de">Speaker</roles>
+            <roles xml:lang="en">Speaker</roles>
+            <roles xml:lang="es">Orador</roles>
             <activities>https://github.com/hgoebl/my-slides/</activities>
             <software>Node.js, JavaScript, Socket.io, jshint, MongoDB</software>
         </project>
@@ -480,14 +635,21 @@
             <period>02/2012 - 04/2012</period>
             <companyOrLine xml:lang="de">Automotive</companyOrLine>
             <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotor</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Coding Architect, Development</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Coding Architect, Development</roles>
+            <roles xml:lang="en">Coding Architect, Development</roles>
+            <roles xml:lang="es">Arquitecto, desarollo</roles>
             <activities xml:lang="de">
                 Mitarbeit im BMWi Icebreaker-Team
             </activities>
             <activities xml:lang="en">
                 BMWi Icebreaker-Team (Co-Working)
+            </activities>
+            <activities xml:lang="es">
+                BMWi Icebreaker-Team (trabajo conjunto)
             </activities>
             <activities xml:lang="de">
                 Grundsteine legen für Multi-Channel, Multi-Language, Multi-Tenant JEE Web/Mobile
@@ -497,6 +659,11 @@
                 Basework for a Multi-Channel, Multi-Language, Multi-Tenant JEE Web/Mobile
                 Application (Architecture, Build/CI, Testing, Documentation, SCRUM, Tools)
             </activities>
+            <activities xml:lang="es">
+                Fundación para una aplicación multicanal, múltiples idiomas, multi-inquilino
+                (Arquitectura, construir y desplegar, integración continua CI, pruebas, documentación,
+                SCRUM, herramientas)
+            </activities>
             <software>GlassFish, ORACLE, JPA, JSF, REST</software>
             <software>Maven, Jenkins, Sonar, Mockito, JUnit, flyway, IntelliJ, JRebel</software>
         </project>
@@ -505,11 +672,15 @@
 
         <project>
             <period>05/2011 - 12/2011</period>
-            <companyOrLine>Automotive</companyOrLine>
+            <companyOrLine xml:lang="de">Automotive</companyOrLine>
+            <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotor</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Coding Architect, Web-Development, Nearshore-Betreuung</roles>
             <roles xml:lang="en">Coding Architect, Web-Development, Nearshore Supervision</roles>
+            <roles xml:lang="es">Arquitecto, desarollo web, nearshore supervisor</roles>
             <activities xml:lang="de">Vehicle Configurator Web Applikation</activities>
             <activities xml:lang="en">Vehicle Configurator Web Application</activities>
             <activities xml:lang="de">Weiterentwicklung, u.a. Registrierungsprozess,
@@ -520,6 +691,11 @@
                 Self-service for users, mail delivery, integration with SSO.
                 Modularization of JavaScript, optimize performance, Selenium tests
             </activities>
+            <activities xml:lang="es">
+                Desarrollo ulterior, proporcionando el proceso de registro,
+                autoservicio para usuarios, entrega de correo, integración con SSO;
+                Modularización de JavaScript, optimizar el rendimiento, pruebas de Selenium
+            </activities>
             <software>Server: Java 6, Oracle 11g, GlassFish, EJB 3, JPA, JAX-RS, JAX-WS</software>
             <software>Client: JSF 2, AJAX, JavaScript, jQuery</software>
             <software>Tools: Selenium, Maven, Jenkins, IntelliJ, JUnit, Mockito</software>
@@ -529,13 +705,18 @@
 
         <project>
             <period>02/2011 - 05/2011</period>
-            <companyOrLine>Automotive</companyOrLine>
+            <companyOrLine xml:lang="de">Automotive</companyOrLine>
+            <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotor</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Development, Performance Test und Optimierung</roles>
             <roles xml:lang="en">Development, Performance Test and Optimization</roles>
+            <roles xml:lang="es">Desarollo, optimización del rendimiento</roles>
             <activities xml:lang="de">Zentrale Business Services mit RESTful API und JavaScript API</activities>
             <activities xml:lang="en">Business Services with RESTful API and JavaScript API</activities>
+            <activities xml:lang="es">Servicios empresariales con API REST y API de JavaScript</activities>
             <activities xml:lang="de">Performance Optimierung Dealer-Locator,
                 Erweiterung RESTful API und JavaScript API für Dealer-Locator und Park-Info,
                 Erweiterung RESTful API für User Registrierung und -Management
@@ -543,6 +724,9 @@
             <activities xml:lang="en">Performance Optimization Dealer-Locator,
                 Extension of RESTful API and JavaScript API for Dealer-Locator and Park-Info,
                 Extension of RESTful API for User Registration and -Management
+            </activities>
+            <activities xml:lang="es">Optimización del rendimiento para el distribuidor localizador,
+                Desarrollo ulterior de REST API y API de JavaScript para el distribuidor localizador
             </activities>
             <software>Server: Java 5, Oracle 11g, GlassFish, EJB 3, JPA, JAX-RS, JAXB</software>
             <software>Client: JavaScript, jQuery, Google Maps API, JSUnit</software>
@@ -553,14 +737,21 @@
 
         <project>
             <period>02/2010 - 05/2011</period>
-            <companyOrLine>Automotive</companyOrLine>
+            <companyOrLine xml:lang="de">Automotive</companyOrLine>
+            <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotor</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles>Coding Architect, Development, Test</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Coding Architect, Development, Test</roles>
+            <roles xml:lang="en">Coding Architect, Development, Test</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, apruebas</roles>
             <activities xml:lang="de">Teleservice Switchboard (Telediagnose, Teleprogrammierung)
                 Architektur, Design, Programmierung, Test, 3rd-Level-Support</activities>
             <activities xml:lang="en">Teleservice Switchboard (Telediagnosis, Teleprogramming)
                 Architecture, Design, Programming, Test, 3rd-Level-Support</activities>
+            <activities xml:lang="es">Panel de control teleservice (telediagnóstico, teleprogramación);
+                arquitectura, diseño, programación, prueba, soporte de 3er nivel</activities>
             <activities xml:lang="de">Migration WebLogic 8 auf 10, EJB 2.1 auf 3.0, Latin1 auf UTF-8,
                 Migration Oracle 10 auf 11 mit ISO-8859-1 auf UTF-8,
                 Infrastruktur für Lasttests (Simulation Fahrzeugkommunikation),
@@ -569,6 +760,10 @@
                 Migration Oracle 10 to 11 with charset ISO-8859-1 to UTF-8,
                 Infrastructure for Loadtests (Simulation of Vehicle communication),
                 Code- and Design Reviews and Coaching</activities>
+            <activities xml:lang="es">Migración WebLogic de 8 a 10, EJB de 2.1 a 3.0, de Latin1 a UTF-8,
+                Oracle 10 a 11, charset de ISO-8859-1 a UTF-8,
+                infraestructura para pruebas de carga (Simulación de la comunicación del vehículo),
+                revisiones y coaching de código y diseño</activities>
             <software>Java 5, Oracle 11g, WebLogic 10g, WebSphere MQ, EJB 3, LDAP, JPA, JSF, MyFaces,
                    ajax4jsf, jQuery, JAX-WS, JAXB, JMS, XSLT, ant, Mockito, PL/SQL, soapUI</software>
         </project>
@@ -576,15 +771,21 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period xml:lang="de">seit 01/2010 (nebenbei)</period>
-            <period xml:lang="en">since 01/2010 (free time)</period>
+            <period xml:lang="de">seit 2010 (nebenbei)</period>
+            <period xml:lang="en">since 2010 (free time)</period>
+            <period xml:lang="es">desde 2010 (tiempo libre)</period>
             <companyOrLine xml:lang="de">Diverse</companyOrLine>
             <companyOrLine xml:lang="en">Miscellaneous</companyOrLine>
+            <companyOrLine xml:lang="es">Diverso</companyOrLine>
             <line1info xml:lang="de">(für Eigenbedarf und Bekanntenkreis)</line1info>
             <line1info xml:lang="en">(for own usage and friends)</line1info>
-            <roles>Development, Administration</roles>
+            <line1info xml:lang="es">(para uso propio y amigos)</line1info>
+            <roles xml:lang="de">Development, Administration</roles>
+            <roles xml:lang="en">Development, Administration</roles>
+            <roles xml:lang="es">Desarollo, administración</roles>
             <activities xml:lang="de">Aufbau und Betrieb von Internet Rootservern (Web und Mail)</activities>
             <activities xml:lang="en">Installation, configuration, maintenance of Linux root servers</activities>
+            <activities xml:lang="es">Instalación, configuración, mantenimiento de servidores raíz de Linux</activities>
             <activities>goebl.com, wellcrafted.de, goebl.biz, michaelfollner-consulting.de, garten-inspirationen.de, hibag.de</activities>
             <software>Debian GNU/Linux, Apache2, PHP, MySQL, iptables, AutoMySQLBackup, rsync, rsnapshot,
                 VirtualBox, rkhunter, fail2ban, denyhosts, Postfix, SpamAssassin, Amavis, Roundcube, OpenSSL,
@@ -613,9 +814,13 @@
             <period>09/2009 - 12/2009</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit, ca. 50%-Auslastung</line1info>
-            <line1info xml:lang="en">Munich, freelance job, utilization ~50% </line1info>
-            <roles>Development, Test</roles>
+            <line1info xml:lang="en">Munich, freelance job, utilization ~50%</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente, utilización ~50%</line1info>
+            <roles xml:lang="de">Development, Test</roles>
+            <roles xml:lang="en">Development, Test</roles>
+            <roles xml:lang="es">Desarollo, Apruebas</roles>
             <activities xml:lang="de">
                 Dateischnittstellen von/zu Host, Datenreplikation, Cron-Jobs, Scrum,
                 Abstimmung, Programmierung, Unit-Test, Test
@@ -640,17 +845,23 @@
         <project>
             <period>11/2008 - 11/2009</period>
             <companyOrLine xml:lang="de">Telekommunikation</companyOrLine>
-            <companyOrLine xml:lang="en">Telekommunication</companyOrLine>
+            <companyOrLine xml:lang="en">Telecommunication</companyOrLine>
+            <companyOrLine xml:lang="es">Telecomunicación</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
-            <roles xml:lang="de">Development, Test, Architektur</roles>
-            <roles xml:lang="en">Development, Test, Architecture</roles>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Coding Architect, Development, Test</roles>
+            <roles xml:lang="en">Coding Architect, Development, Test</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, apruebas</roles>
             <activities xml:lang="de">WebService-Schnittstelle zur Telekom (BL-W v16.0 ADSA)</activities>
             <activities xml:lang="de">WebService-Schnittstelle zur Telekom (WITA 2.0)</activities>
             <activities xml:lang="de">Administrationsfrontend als Webanwendung (Wicket)</activities>
             <activities xml:lang="en">WebService-Interface to German Telekom (BL-W v16.0 ADSA)</activities>
             <activities xml:lang="en">WebService-Interface to German Telekom (WITA 2.0)</activities>
             <activities xml:lang="en">Administration frontend (Wicket Web-Application)</activities>
+            <activities xml:lang="es">Interfaz de servicio web a German Telekom (BL-W v16.0 ADSA)</activities>
+            <activities xml:lang="es">Interfaz de servicio web a German Telekom (WITA 2.0)</activities>
+            <activities xml:lang="es">Administración frontend (Wicket aplicación web)</activities>
             <software>Java 5, Tomcat 5, Spring 2, Spring-WS, Hibernate, JAXB,
                 JUnit, WS-Security, ant, XML/XSLT, DB2, RSA</software>
         </project>
@@ -661,8 +872,10 @@
             <period>06/2008 - 10/2008</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Analyse, Proof of Concept</roles>
             <roles xml:lang="en">Analysis, Proof of Concept</roles>
             <activities xml:lang="de">Proof of Concept und Evaluierung einer WebServices Plattform.</activities>
@@ -678,16 +891,22 @@
             <period>11/2006 - 07/2008</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Teilprojektleitung, Development</roles>
             <roles xml:lang="en">Project Management, Development</roles>
+            <roles xml:lang="es">Gestión de proyectos, desarollo</roles>
             <activities xml:lang="de">Entwicklung einer Multi-Kanal-Anwendung (Swing, HTML, WebServices) zur Kreditkartenverwaltung.</activities>
             <activities xml:lang="de">Connectivity zu bestehender COBOL Anwendung mit IMS-DB;
                 Umstellung auf DB2 und Java. XML-Schema-Design.</activities>
             <activities xml:lang="en">Development of a Multi-Channel-Application (Swing, HTML, WebServices) for Credit Card Management.</activities>
             <activities xml:lang="en">Connectivity to Legacy COBOL Application on IMS-DB;
                 Migration to DB2 and Java. XML-Schema-Design.</activities>
+            <activities xml:lang="es">Desarollo de una multicanal aplicación (Swing, HTML, servicio web) para gestión de tarjetas de crédito.</activities>
+            <activities xml:lang="es">Conectividad a la aplicación COBOL heredada en IMS-DB;
+                Migración a DB2 y Java. Diseño de esquema XML.</activities>
             <software>J2EE, Java, Apache Tomcat, Solaris, WebServices, Axis2</software>
             <software>DB2, JDBC, XML/XSLT, LDAP, Apache JMeter, Ant, cruisecontrol,
                 WSDL, XSD, Rational Software Architect, Eclipse, CVS, SVN, findbugs</software>
@@ -699,6 +918,7 @@
             <period>05/2006 - 07/2007</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">Karlsruhe, freie Mitarbeit, ca. 20%-Auslastung</line1info>
             <line1info xml:lang="en">Karlsruhe, freelance job, utilization ~20%</line1info>
             <roles xml:lang="de">Architektur, Performance-Optimierung, Projektleitung</roles>
@@ -718,16 +938,22 @@
             <period>01/2005 - 11/2006</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Architektur, Development, Teilprojektleitung</roles>
             <roles xml:lang="en">Architecture, Development, Project Management</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, gestión de proyectos</roles>
             <activities xml:lang="de">Informationsportal für &gt;100.000 User (Cluster mit 36 Instanzen)</activities>
             <activities xml:lang="de">Einbinden von Notes Datenbanken, LDAP Integration, Portlet-Programmierung,
                 Last- und Performancetests, Themes &amp; Skins</activities>
             <activities xml:lang="en">Information Portal for &gt;100.000 User (Cluster with 36 Instanzen)</activities>
             <activities xml:lang="en">Embedding of Notes Databases, LDAP Integration, Portlet-Programming,
                 Load- and Performancetests, Themes &amp; Skins</activities>
+            <activities xml:lang="es">Portal de información para &gt;100.000 usarios (clúster con 36 instancias)</activities>
+            <activities xml:lang="es">Incrustación de bases de datos de Notes, integración de LDAP,
+                programación de portlets, pruebas de carga y rendimiento, Themes &amp; Skins</activities>
             <software>J2EE, Java, WebSphere Portal 5, JSP, WebSphere 5, Solaris
                 DB2, XML/XSLT, JavaScript, AJAX, LDAP, Apache httpd, Security, SSO,
                 Spring, Lotus Domino, XML Access, Hibernate, JMeter, Perl,
@@ -740,14 +966,19 @@
             <period>10/2003 - 07/2004</period>
             <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
             <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Architektur, Framework Design, Implementierung</roles>
             <roles xml:lang="en">Architecture, Framework Design, Implementation</roles>
+            <roles xml:lang="es">Arquitecto, diseño del marco, desarollo</roles>
             <activities xml:lang="de">Web-Anbindung eines Corebanking-Systems (MBS open) und
                 Integration diverser Backend-Systeme.</activities>
-            <activities xml:lang="en">Web-Enabling of a Corebanking-System (MBS open) and
-                Integration of various back-end systems.</activities>
+            <activities xml:lang="en">Web-enabling of a corebanking-system (MBS open) and
+                integration of various back-end systems.</activities>
+            <activities xml:lang="es">Habilitación web de un sistema de banco central (MBS open)
+                y integración de varios sistemas de back-end.</activities>
             <software>J2EE, Java, EJB, JSP, HTML, CSS, Apache Struts, IBM WebSphere 5,
                 Bea WebLogic, DB2, XML/XSLT, SCHUFA SCDI, ant,
                 IBM WSAD, JBoss</software>
@@ -785,8 +1016,10 @@
             <period>07/2003 - 09/2003</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Architektur, Development, Test</roles>
             <roles xml:lang="en">Architecture, Development, Test</roles>
             <activities xml:lang="de">Wiki-ähnliches Redaktionssystem für Online- und
@@ -806,8 +1039,10 @@
             <period>02/2003 - 06/2003</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Architektur, Development, Test</roles>
             <roles xml:lang="en">Architecture, Development, Test</roles>
             <activities xml:lang="de">Unterstützung beim automatischen Verteilen von Software-
@@ -823,14 +1058,19 @@
             <period>07/2001 - 01/2003</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Architektur, Technische Projektleitung, Development, Test</roles>
             <roles xml:lang="en">Architecture, Project Management, Development, Test</roles>
+            <roles xml:lang="es">Arquitecto, gestión de proyectos, desarollo, pruebas</roles>
             <activities xml:lang="de">Integration und Optimierung eines Systems zur Unterstützung
                 der Softwareverteilung auf 40.000 Arbeitsplätzen</activities>
-            <activities xml:lang="en">Integration und Optimization of a systems which provides config
+            <activities xml:lang="en">Integration und optimization of a systems which provides config
                 management, software packaging and distribution for 40.000 users</activities>
+            <activities xml:lang="es">Integración y optimización de un sistema que proporciona configuración
+                gestión, empaque de software y distribución para 40,000 usuarios</activities>
             <software>Java, Oracle 8i, Swing, Apache Velocity, XML, JSP, EJB, WebSphere 4</software>
         </project>
 
@@ -841,6 +1081,7 @@
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Proof of Concept, Development</roles>
             <activities xml:lang="de">Vorstudie (Machbarkeit, Kosten-Nutzen-Analyse) für die
                 Ablösung dreier Systeme und Integration in Gesamtsystem</activities>
@@ -854,6 +1095,7 @@
             <companyOrLine xml:lang="de">Internet Services</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Development, Test</roles>
             <activities xml:lang="de">Mitarbeit bei www.vocatus.de</activities>
             <activities xml:lang="de">Volltextsuche mit Oracle, Screening, Dublettensuche,
@@ -890,14 +1132,22 @@
 
         <project xml:lang="de">
             <period>07/1999 - 02/2000</period>
-            <companyOrLine xml:lang="de">Dresdner Bank AG</companyOrLine>
+            <companyOrLine xml:lang="de">Finanzdienstleister</companyOrLine>
+            <companyOrLine xml:lang="en">Finance Services</companyOrLine>
+            <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">Frankfurt am Main, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Frankfurt/Main, freelance job</line1info>
-            <roles xml:lang="de">Architektur, Development, Test</roles>
+            <line1info xml:lang="es">Frankfurt, trabajo independiente</line1info>
+            <roles xml:lang="de">Coding Architect, Development, Test</roles>
+            <roles xml:lang="en">Coding Architect, Development, Test</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, apruebas</roles>
             <activities xml:lang="de">Design und Entwicklung eines Mitarbeiter-Informationssystems
                 auf Basis des Active Directory</activities>
             <activities xml:lang="de">Intranetapplikation im Rahmen des Windows 2000 Rapid
                 Deployment Programms (RDP)</activities>
+            <activities xml:lang="es">Aplicación de una sola página (SPA):
+                Aplicación de intranet como parte de Windows 2000 Rapid
+                Deployment Programm (RDP)</activities>
             <software>JavaScript, XML, XSL, HTML, ASP, DHTML, AJAX, com+, IIS, Active Directory, C++</software>
         </project>
 
@@ -908,6 +1158,7 @@
             <companyOrLine xml:lang="de">HypoVereinsbank AG</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Development, Test, Schulung</roles>
             <activities xml:lang="de">Consulting mit Bereich Middleware, DCOM, MTS, MSMQ</activities>
             <activities xml:lang="de">Entwicklung von Systemsoftware (Kommunikation PC-Host)</activities>

@@ -20,6 +20,7 @@ npm-debug.log
 # generated files
 *.de
 *.en
+*.es
 
 # setenv-example.sh will be copied
 setenv.sh

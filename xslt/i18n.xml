@@ -3,166 +3,207 @@
     <entry key="lang">
         <msg xml:lang="en">en</msg>
         <msg xml:lang="de">de</msg>
+        <msg xml:lang="es">es</msg>
     </entry>
     <entry key="language">
         <msg xml:lang="en">English</msg>
         <msg xml:lang="de">Deutsch</msg>
+        <msg xml:lang="es">Español</msg>
     </entry>
     <entry key="Profile">
         <msg xml:lang="en">CV</msg>
         <msg xml:lang="de">Profil</msg>
+        <msg xml:lang="es">CV / Perfil</msg>
     </entry>
     <entry key="Last Update">
         <msg xml:lang="en">Last Update</msg>
         <msg xml:lang="de">Stand</msg>
+        <msg xml:lang="es">Última actualización</msg>
     </entry>
     <entry key="Available from">
         <msg xml:lang="en">Available from</msg>
         <msg xml:lang="de">Verfügbar ab</msg>
+        <msg xml:lang="es">Disponible desde</msg>
     </entry>
     <entry key="Personal Details / Overview">
         <msg xml:lang="en">Personal Details / Overview</msg>
         <msg xml:lang="de">Person / Überblick</msg>
+        <msg xml:lang="es">Person / resumen</msg>
     </entry>
     <entry key="Personal Data">
         <msg xml:lang="en">Personal Data</msg>
         <msg xml:lang="de">Zur Person</msg>
+        <msg xml:lang="es">Datos personales</msg>
     </entry>
     <entry key="Address">
         <msg xml:lang="en">Address</msg>
         <msg xml:lang="de">Adresse</msg>
+        <msg xml:lang="es">Dirección</msg>
     </entry>
     <entry key="Name">
         <msg xml:lang="en">Name</msg>
         <msg xml:lang="de">Name</msg>
+        <msg xml:lang="es">Nombre y apellido</msg>
     </entry>
     <entry key="Telephone">
         <msg xml:lang="en">Telephone</msg>
         <msg xml:lang="de">Telefon</msg>
+        <msg xml:lang="es">Teléfono</msg>
     </entry>
     <entry key="E-Mail">
         <msg xml:lang="en">E-Mail</msg>
         <msg xml:lang="de">E-Mail</msg>
+        <msg xml:lang="es">E-Mail</msg>
     </entry>
     <entry key="Internet">
         <msg xml:lang="en">Internet</msg>
         <msg xml:lang="de">Internet</msg>
+        <msg xml:lang="es">Internet</msg>
     </entry>
     <entry key="Date of birth">
         <msg xml:lang="en">Date of birth</msg>
         <msg xml:lang="de">Geburtsdatum</msg>
+        <msg xml:lang="es">Fecha de nacimiento</msg>
     </entry>
     <entry key="taxId">
         <msg xml:lang="en">VAT-Ident (USt-ID)</msg>
         <msg xml:lang="de">USt-IdNr.</msg>
+        <msg xml:lang="es">Número de valor agregado</msg>
     </entry>
     <entry key="Photo">
         <msg xml:lang="en">Photo</msg>
         <msg xml:lang="de">Foto</msg>
+        <msg xml:lang="es">Foto</msg>
     </entry>
     <entry key="Show Photo">
         <msg xml:lang="en">Show Photo</msg>
         <msg xml:lang="de">Foto anzeigen</msg>
+        <msg xml:lang="es">Mostrar foto</msg>
     </entry>
     <entry key="workingSince">
         <msg xml:lang="en">Experience with IT since</msg>
         <msg xml:lang="de">IT-Erfahrung seit</msg>
+        <msg xml:lang="es">Experiencia en TI desde hace</msg>
     </entry>
     <entry key="qualifications">
         <msg xml:lang="en">Qualifications</msg>
         <msg xml:lang="de">Qualifikationen</msg>
+        <msg xml:lang="es">Calificaciones</msg>
     </entry>
     <entry key="Languages">
         <msg xml:lang="en">Languages</msg>
         <msg xml:lang="de">Fremdsprachen</msg>
+        <msg xml:lang="en">Idiomas extranjeros</msg>
     </entry>
     <entry key="Core Area">
         <msg xml:lang="en">Key Skills</msg>
         <msg xml:lang="de">Schwerpunkte</msg>
+        <msg xml:lang="es">Foco</msg>
     </entry>
     <entry key="Area of work">
         <msg xml:lang="en">Area of work</msg>
         <msg xml:lang="de">Einsatzgebiete</msg>
+        <msg xml:lang="es">Área de trabajo</msg>
     </entry>
     <entry key="Competencies">
         <msg xml:lang="en">Competencies</msg>
         <msg xml:lang="de">EDV-Erfahrung</msg>
+        <msg xml:lang="es">Competencias</msg>
     </entry>
     <entry key="Skills">
         <msg xml:lang="en">Skills</msg>
         <msg xml:lang="de">Skills</msg>
+        <msg xml:lang="es">Habilidades</msg>
     </entry>
     <entry key="Technical Skills">
         <msg xml:lang="en">Technical Skills</msg>
         <msg xml:lang="de">Technische Skills</msg>
+        <msg xml:lang="es">Habilidades técnicas</msg>
     </entry>
     <entry key="platforms">
         <msg xml:lang="en">Platforms</msg>
         <msg xml:lang="de">Plattformen</msg>
+        <msg xml:lang="es">Plataformas</msg>
     </entry>
     <entry key="programming_languages">
         <msg xml:lang="en">Programming Languages</msg>
         <msg xml:lang="de">Sprachen</msg>
+        <msg xml:lang="es">Lenguajes de programación</msg>
     </entry>
     <entry key="server">
         <msg xml:lang="en">Server Software</msg>
         <msg xml:lang="de">Server Software</msg>
+        <msg xml:lang="es">Servidores</msg>
     </entry>
     <entry key="databases">
         <msg xml:lang="en">Databases</msg>
         <msg xml:lang="de">Datenbanken</msg>
+        <msg xml:lang="es">Bases de datos</msg>
     </entry>
     <entry key="communication">
         <msg xml:lang="en">Communication</msg>
         <msg xml:lang="de">Kommunikation</msg>
+        <msg xml:lang="es">Comunicación</msg>
     </entry>
     <entry key="gui">
         <msg xml:lang="en">GUI</msg>
         <msg xml:lang="de">GUI</msg>
+        <msg xml:lang="es">Interfaz de usuario</msg>
     </entry>
     <entry key="tools">
         <msg xml:lang="en">Tools</msg>
         <msg xml:lang="de">Tools</msg>
+        <msg xml:lang="es">Herramientas</msg>
     </entry>
     <entry key="testing">
         <msg xml:lang="en">Testing</msg>
         <msg xml:lang="de">Testing</msg>
+        <msg xml:lang="es">Pruebas</msg>
     </entry>
     <entry key="security">
         <msg xml:lang="en">Security</msg>
         <msg xml:lang="de">Security</msg>
+        <msg xml:lang="es">Seguridad</msg>
     </entry>
     <entry key="processes">
         <msg xml:lang="en">Processes</msg>
         <msg xml:lang="de">Verfahren</msg>
+        <msg xml:lang="es">Métodos</msg>
     </entry>
     <entry key="Work experience">
         <msg xml:lang="en">Work experience</msg>
         <msg xml:lang="de">Projekte</msg>
+        <msg xml:lang="es">Proyectos</msg>
     </entry>
     <entry key="Roles">
         <msg xml:lang="en">Roles</msg>
         <msg xml:lang="de">Rolle</msg>
+        <msg xml:lang="es">Rol</msg>
     </entry>
     <entry key="Software">
         <msg xml:lang="en">Software</msg>
         <msg xml:lang="de">Software</msg>
+        <msg xml:lang="es">Software</msg>
     </entry>
     <entry key="Page">
         <msg xml:lang="en">Page</msg>
         <msg xml:lang="de">Seite</msg>
+        <msg xml:lang="es">Página</msg>
     </entry>
     <entry key="of">
         <msg xml:lang="en">of</msg>
         <msg xml:lang="de">von</msg>
+        <msg xml:lang="es">de</msg>
     </entry>
     <entry key="page-height">
         <msg xml:lang="en">279mm</msg><!-- Letter -->
         <msg xml:lang="de">297mm</msg><!-- DIN A4 -->
+        <msg xml:lang="es">297mm</msg>
     </entry>
     <entry key="page-width">
         <msg xml:lang="en">216mm</msg><!-- Letter -->
         <msg xml:lang="de">210mm</msg><!-- DIN A4 -->
+        <msg xml:lang="es">210mm</msg>
     </entry>
 
     <!-- jQuery Mobile application -->
@@ -249,75 +290,90 @@
     <entry key="json_parse_error">
         <msg xml:lang="en">Unable to decode JSON data.</msg>
         <msg xml:lang="de">Unable to decode JSON data.</msg>
+        <msg xml:lang="es">Unable to decode JSON data.</msg>
     </entry>
     <entry key="form_invalid">
         <msg xml:lang="en">Please fill in the form correctly!</msg>
         <msg xml:lang="de">Bitte füllen Sie das Formular korrekt aus!</msg>
+        <msg xml:lang="es">Please fill in the form correctly!</msg>
     </entry>
     <entry key="sendmail_error">
         <msg xml:lang="en">Error sending the mail. Please try again later.</msg>
         <msg xml:lang="de">Fehler beim Senden. Bitte später wieder versuchen.</msg>
+        <msg xml:lang="es">Error sending the mail. Please try again later.</msg>
     </entry>
     <entry key="unsupported_method">
         <msg xml:lang="en">Unsupported HTTP method.</msg>
         <msg xml:lang="de">Unsupported HTTP method.</msg>
+        <msg xml:lang="es">Unsupported HTTP method.</msg>
     </entry>
 
     <!-- special case static lang declaration -->
     <entry key="var $SERVER_HTTP_ACCEPT_LANGUAGE;">
         <msg xml:lang="en">var $SERVER_HTTP_ACCEPT_LANGUAGE='en';</msg>
         <msg xml:lang="de">var $SERVER_HTTP_ACCEPT_LANGUAGE='de';</msg>
+        <msg xml:lang="es">var $SERVER_HTTP_ACCEPT_LANGUAGE='es';</msg>
     </entry>
 
     <!-- special formatting rules for address labels http://en.wikipedia.org/wiki/Address_%28geography%29 -->
     <entry key="{{city}} {{state}} {{zip}}">
         <msg xml:lang="en">{{city}}, {{state}} {{zip}}</msg>
         <msg xml:lang="de">{{zip}} {{city}}</msg>
+        <msg xml:lang="es">{{zip}} {{city}}</msg>
     </entry>
 
     <!-- flags for the languages - will be extended to /s/flags/{flag-icon}.gif -->
     <entry key="flag-icon">
         <msg xml:lang="en">gb</msg>
         <msg xml:lang="de">de</msg>
+        <msg xml:lang="es">es</msg>
     </entry>
 
     <entry key="meta-description">
         <msg xml:lang="en">You are searching for an IT-Expert? Here is the CV of</msg>
         <msg xml:lang="de">Sie suchen einen IT-Experten? Hier ist das Profil von</msg>
+        <msg xml:lang="es">¿Está buscando un experto en TI? Aquí está el CV de</msg>
     </entry>
     <entry key="meta-keywords">
         <msg xml:lang="en">CV Resume Profile Freelancer IT-Expert</msg>
         <msg xml:lang="de">Profil Freiberufler Freelancer IT-Experte</msg>
+        <msg xml:lang="es">CV Currículum perfil Freelancer IT-Expert</msg>
     </entry>
 
     <entry key="title-about">
         <msg xml:lang="en">About</msg>
         <msg xml:lang="de">Impressum</msg>
+        <msg xml:lang="es">Huella</msg>
     </entry>
 
     <entry key="title-slides">
         <msg xml:lang="en">Slides</msg>
         <msg xml:lang="de">Slides</msg>
+        <msg xml:lang="es">Diapositivas</msg>
     </entry>
 
     <entry key="title-network">
         <msg xml:lang="en">Network</msg>
         <msg xml:lang="de">Netzwerk</msg>
+        <msg xml:lang="es">Red</msg>
     </entry>
 
     <entry key="title-credits">
         <msg xml:lang="en">Credits</msg>
         <msg xml:lang="de">Dank an</msg>
+        <msg xml:lang="es">Honor</msg>
     </entry>
 
     <entry key="subtitle-credits">
         <msg xml:lang="en">Thanks to all individuals and companies for releasing great free open source software</msg>
         <msg xml:lang="de">Danke an alle, die großartige Open Source Software zur Verfügung stellen</msg>
+        <msg xml:lang="es">Gracias a todos los individuos y empresas por lanzar un gran software gratuito de código abierto</msg>
     </entry>
 
     <entry key="Welcome">
         <msg xml:lang="en">Welcome!</msg>
         <msg xml:lang="de">Willkommen!</msg>
+        <msg xml:lang="es">Bienvenido</msg>
     </entry>
 
     <!-- copy template
