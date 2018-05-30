@@ -93,7 +93,7 @@
     <entry key="Languages">
         <msg xml:lang="en">Languages</msg>
         <msg xml:lang="de">Fremdsprachen</msg>
-        <msg xml:lang="en">Idiomas extranjeros</msg>
+        <msg xml:lang="es">Idiomas extranjeros</msg>
     </entry>
     <entry key="Core Area">
         <msg xml:lang="en">Key Skills</msg>
@@ -210,54 +210,67 @@
     <entry key="Info">
         <msg xml:lang="en">Info</msg>
         <msg xml:lang="de">Info</msg>
+        <msg xml:lang="es">Info</msg>
     </entry>
     <entry key="Warning">
         <msg xml:lang="en">Warning</msg>
         <msg xml:lang="de">Warnung</msg>
+        <msg xml:lang="es">Advertencia</msg>
     </entry>
     <entry key="Error">
         <msg xml:lang="en">Error</msg>
         <msg xml:lang="de">Fehler</msg>
+        <msg xml:lang="es">Error</msg>
     </entry>
     <entry key="Home">
         <msg xml:lang="en">Home</msg>
         <msg xml:lang="de">Home</msg>
+        <msg xml:lang="es">Principal</msg>
     </entry>
     <entry key="Contact">
         <msg xml:lang="en">Contact</msg>
         <msg xml:lang="de">Kontakt</msg>
+        <msg xml:lang="es">Contacto</msg>
     </entry>
     <entry key="About">
         <msg xml:lang="en">About</msg>
         <msg xml:lang="de">Info</msg>
+        <msg xml:lang="es">Huello</msg>
     </entry>
     <entry key="Options">
         <msg xml:lang="en">Options</msg>
         <msg xml:lang="de">Optionen</msg>
+        <msg xml:lang="es">Opciones</msg>
     </entry>
     <entry key="Submit">
         <msg xml:lang="en">Submit</msg>
         <msg xml:lang="de">Senden</msg>
+        <msg xml:lang="es">Mandar</msg>
     </entry>
     <entry key="Loading ...">
         <msg xml:lang="en">Loading ...</msg>
         <msg xml:lang="de">Übertragung ...</msg>
+        <msg xml:lang="es">Transmisión ...</msg>
     </entry>
     <entry key="OK">
         <msg xml:lang="en">OK</msg>
         <msg xml:lang="de">OK</msg>
+        <msg xml:lang="es">Hecho</msg>
     </entry>
     <entry key="Close">
         <msg xml:lang="en">Close</msg>
         <msg xml:lang="de">Schließen</msg>
+        <msg xml:lang="es">Cerrar</msg>
     </entry>
     <entry key="Send me a mail">
         <msg xml:lang="en">Send me a mail</msg>
         <msg xml:lang="de">Mail schreiben</msg>
+        <msg xml:lang="en">Mandeme un email</msg>
     </entry>
     <entry key="Message">
         <msg xml:lang="en">Message</msg>
         <msg xml:lang="de">Nachricht</msg>
+        <msg xml:lang="es">Mensaje</msg>
     </entry>
     <entry key="Message sent successfully.">
         <msg xml:lang="en">Message sent successfully.</msg>
@@ -274,6 +287,7 @@
     <entry key="Select Language">
         <msg xml:lang="en">Select Language</msg>
         <msg xml:lang="de">Sprache auswählen</msg>
+        <msg xml:lang="en">Elige idioma</msg>
     </entry>
     <entry key="Photo of">
         <msg xml:lang="en">Photo of</msg>
@@ -357,6 +371,11 @@
         <msg xml:lang="de">Netzwerk</msg>
         <msg xml:lang="es">Red</msg>
     </entry>
+    <entry key="sub-title-network">
+        <msg xml:lang="en">Connections, Social Network, Organisation Membership</msg>
+        <msg xml:lang="de">Verbindungen, Soziales Netzwerk, Organisationen</msg>
+        <msg xml:lang="es">Conexiones, redes sociales, membresía de la organización</msg>
+    </entry>
 
     <entry key="title-credits">
         <msg xml:lang="en">Credits</msg>
@@ -373,13 +392,14 @@
     <entry key="Welcome">
         <msg xml:lang="en">Welcome!</msg>
         <msg xml:lang="de">Willkommen!</msg>
-        <msg xml:lang="es">Bienvenido</msg>
+        <msg xml:lang="es">¡Bienvenido!</msg>
     </entry>
 
     <!-- copy template
     <entry key="">
         <msg xml:lang="en"></msg>
         <msg xml:lang="de"></msg>
+        <msg xml:lang="es"></msg>
     </entry>
     -->
 

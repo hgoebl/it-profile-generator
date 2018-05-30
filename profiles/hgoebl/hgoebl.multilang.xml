@@ -105,7 +105,7 @@
     <workExperience>
 
         <project>
-            <period>02/2017 - 06/2018</period>
+            <period>02/2018 - 06/2018</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
             <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
@@ -412,6 +412,7 @@
             <companyOrLine xml:lang="es">Asesor financiero</companyOrLine>
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
             <roles xml:lang="de">Development</roles>
             <roles xml:lang="en">Development</roles>
             <roles xml:lang="es">Desarollo</roles>
