@@ -12,4 +12,4 @@ profile = JSON.parse(fs.readFileSync(argv._[0], 'utf8')).profile;
 
 output = profile2vCard(profile);
 
-fs.writeFile(argv._[1], output, argv.encoding);
+fs.writeFileSync(argv._[1], output, argv.encoding);

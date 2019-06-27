@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">27.01.2019</lastEditDate>
-    <lastEditDate xml:lang="en">27-Jan-2019</lastEditDate>
-    <lastEditDate xml:lang="es">27/01/2019</lastEditDate>
+    <lastEditDate xml:lang="de">27.06.2019</lastEditDate>
+    <lastEditDate xml:lang="en">27-Jun-2019</lastEditDate>
+    <lastEditDate xml:lang="es">27/06/2019</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -75,7 +75,7 @@
             HTML5-Browser, Node.js, Java 9, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Linux, Windows, MacOS, Docker
         </platforms>
         <programming_languages>
-            TypeScript, JavaScript (ES5, ES6), Java, SQL, XML/XSLT, C/C++
+            TypeScript, JavaScript, Java 9, Kotlin, SQL, XML/XSLT, C/C++
         </programming_languages>
         <server>
             Node.js/Express, Loopback, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
@@ -87,22 +87,70 @@
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Angular 7, AngularJS 1.7, Ionic 3, Ionic 1.x, RxJS 6, HTML5, CSS3, Material, Bootstrap, Responsive, jQuery, Android, Portal
+            Angular 8, Ionic 3, RxJS 6, HTML5, CSS3, Material, Bootstrap, Responsive, Android
         </gui>
         <tools>
             IntelliJ, XCode, git, Grunt, gulp, GIMP, Inkscape, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn
         </tools>
         <testing>
-            Jasmine, Karma, Protractor, JMeter, soapUI, JUnit, Mockito, Selenium, WebDriver, mocha, Wireshark
+            Jasmine, Jest, Karma, Protractor, JMeter, soapUI, JUnit, Mockito, Selenium, Wireshark
         </testing>
         <security>
-            TLS/SSL, JAAS, OpenId, OAuth2, passport.js, iptables Firewall, JWT, Metasploit, OWASP
+            TLS/SSL, OpenId, OAuth2, passport.js, JWT, iptables Firewall, OWASP
         </security>
         <processes>
-            Scrum, TDD, RUP, UML, XP
+            Scrum, TDD, UML
         </processes>
     </competencies>
     <workExperience>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>03/2019 - dato</period>
+            <companyOrLine xml:lang="de">Versicherung</companyOrLine>
+            <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
+            <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">UI-Development</roles>
+            <roles xml:lang="en">UI-Development</roles>
+            <roles xml:lang="es">Desarollo</roles>
+            <activities xml:lang="de">
+                Angular Single-Page-Application (Responsive Design) mit REST/JSON Backend.
+            </activities>
+            <activities xml:lang="de">
+                Extranet-Applikation für Underwriter: Erfassung von Fällen zur Erhebung von medizinischen Daten
+            </activities>
+            <activities xml:lang="de">
+                Internet-Applikation für Ärzte und Patienten: Beantwortung von medizinischen Fragen
+            </activities>
+
+            <activities xml:lang="en">
+                Angular Single Page Application (Responsive Design) with REST/JSON backend.
+            </activities>
+            <activities xml:lang="en">
+                Extranet-application for underwriters: create requests to get answers for medical questions.
+            </activities>
+            <activities xml:lang="en">
+                Mobile internet-application for physicians and applicants for insurance: respond to medical questions.
+            </activities>
+
+            <activities xml:lang="es">
+                Aplicación de página única Angular (diseño receptivo) con backend REST/JSON.
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de extranet para aseguradores: crear solicitudes para obtener respuestas a preguntas médicas.
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de Internet para médicos y asegurados: Responder preguntas médicas
+            </activities>
+            <software>
+                Angular 7, TypeScript 3.3, RxJS 6, Angular Material 7, Bootstrap 4, Jest, CSS3, SASS, HTML5,
+                REST/JSON, Swagger, Git, IntelliJ, Microsoft Azure
+            </software>
+        </project>
 
         <!-- ======================================================================================= -->
 
@@ -123,14 +171,15 @@
             </activities>
             <activities xml:lang="en">
                 Intranet application for administration of risk model calculations.
-                Angular Single Page Application (Responsive Design) with REST / JSON backend.
+                Angular Single Page Application (Responsive Design) with REST/JSON backend.
             </activities>
             <activities xml:lang="es">
                 Aplicación de intranet para administración de cálculos del modelo de riesgo.
-                Aplicación de página única Angular (diseño receptivo) con backend REST / JSON.
+                Aplicación de página única Angular (diseño receptivo) con backend REST/JSON.
             </activities>
             <software>
-                Angular 7, TypeScript 2.6, RxJS 6, NGXS, Kendo UI, Karma, Jasmine, CSS3, SASS, HTML5, REST/JSON, Git, IntelliJ
+                Angular 7, TypeScript 3, RxJS 6, NGXS, Kendo UI, Karma, Jasmine, CSS3, SASS, HTML5, REST/JSON,
+                Git, IntelliJ, Microsoft Azure
             </software>
         </project>
 
@@ -291,7 +340,7 @@
         <project>
             <period>10/2016</period>
             <companyOrLine>myWorkouts</companyOrLine>
-            <line1info>Android/HTML5 Hybrid App http://www.myworkouts.org/wp</line1info>
+            <line1info>Android/HTML5 Hybrid App</line1info>
             <roles xml:lang="de">All-In-One</roles>
             <roles xml:lang="en">All-In-One</roles>
             <roles xml:lang="es">todo en uno</roles>
@@ -624,12 +673,12 @@
             <activities xml:lang="es">
                 Aplicación de una sola página (SPA) con servidor REST/JSON.
             </activities>
-            <software>App: Android 2.3 - 6, SQLite, ANT+, Java 6/7, Google-Play API, Mapsforge</software>
+            <software>App: Android 2.3 - 9, SQLite, ANT+, Java 6-8, Kotlin, Google-Play API, Mapsforge, ACRA</software>
             <software>
-                Server: Node.js, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
-                monit, bunyan, SSL, Redis
+                Server: Node.js, TypeScript, MongoDB, REST mit Express, JWT (JSON Web Token), OpenID, OAuth2, passport, nginx,
+                monit/mp2, bunyan, SSL/letsencrypt, Redis
             </software>
-            <software>Web: Angular 2, AngularJS 1.5, TypeScript 1.8, D3.js v3 + v4, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
+            <software>Web: Angular 7, AngularJS 1.5, TypeScript 3.x, D3.js v3 + v4, NVD3, Bootstrap 3, jQuery, Google Maps, Leaflet, OSM</software>
             <software>Tools: IntelliJ, R, Android Studio, Grunt, webpack, Gradle, Git, Linux</software>
         </project>
 

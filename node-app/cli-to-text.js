@@ -29,4 +29,4 @@ distance = Number(argv.distance);
 
 output = profile2Text(profile, colwidths, distance);
 
-fs.writeFile(argv._[1], output, argv.encoding);
+fs.writeFileSync(argv._[1], output, argv.encoding);
