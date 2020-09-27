@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">17.08.2019</lastEditDate>
-    <lastEditDate xml:lang="en">17-Aug-2019</lastEditDate>
-    <lastEditDate xml:lang="es">17/08/2019</lastEditDate>
+    <lastEditDate xml:lang="de">27.09.2020</lastEditDate>
+    <lastEditDate xml:lang="en">27-Sep-2020</lastEditDate>
+    <lastEditDate xml:lang="es">27/09/2020</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -107,7 +107,46 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>03/2019 - 09/2019</period>
+            <period>11/2019 - dato.</period>
+            <companyOrLine xml:lang="de">AGENDA Software GmbH</companyOrLine>
+            <companyOrLine xml:lang="en">AGENDA Software</companyOrLine>
+            <companyOrLine xml:lang="es">AGENDA Software</companyOrLine>
+            <line1info xml:lang="de">Rosenheim, Anstellung</line1info>
+            <line1info xml:lang="en">Rosenheim, regular employment</line1info>
+            <line1info xml:lang="es">Rosenheim, empleo regular</line1info>
+            <roles xml:lang="de">Coding Architect, Development</roles>
+            <roles xml:lang="en">Coding Architect, Development</roles>
+            <roles xml:lang="es">Arquitecto, desarollo</roles>
+            <activities xml:lang="de">
+                Single-Page Web-Applikations (SPA) im Unternehmensportal
+            </activities>
+            <activities xml:lang="en">
+                Single-Page Web-Applications (SPA) in the enterprise portal
+            </activities>
+            <activities xml:lang="es">
+                Aplicaciónes de una sola página (SPA) en el portal empresal
+            </activities>
+            <activities xml:lang="de">
+                Responsive Design (Desktop, Tablet, Smartphone), Fullstack-Development
+            </activities>
+            <activities xml:lang="en">
+                Responsive Design (desktop, tablet, smartphone), fullstack-development
+            </activities>
+            <activities xml:lang="es">
+                Diseño de respuesta (escritorio, tableta, teléfono inteligente), desarrollo de pila completa
+            </activities>
+            <software>
+                Backend: Java 11, JEE 8, GlassFish/Payara, MariaDB, JPA, REST/JSON, JAXB, Maven, JUnit, finAPI, swagger
+            </software>
+            <software>
+                Frontend: Angular 8, TypeScript, RxJS 6, NGXS 3.6, immer.js, Bootstrap 4, HTML, CSS, Node.js
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>03/2019 - 10/2019</period>
             <companyOrLine xml:lang="de">Versicherung</companyOrLine>
             <companyOrLine xml:lang="en">Insurance Company</companyOrLine>
             <companyOrLine xml:lang="es">Compañía aseguradora</companyOrLine>
