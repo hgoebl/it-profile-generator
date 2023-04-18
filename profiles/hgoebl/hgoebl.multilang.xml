@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">27.09.2020</lastEditDate>
-    <lastEditDate xml:lang="en">27-Sep-2020</lastEditDate>
-    <lastEditDate xml:lang="es">27/09/2020</lastEditDate>
+    <lastEditDate xml:lang="de">14.11.2021</lastEditDate>
+    <lastEditDate xml:lang="en">14-Nov-2021</lastEditDate>
+    <lastEditDate xml:lang="es">14/11/2021</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -72,34 +72,37 @@
     </person>
     <competencies>
         <platforms>
-            HTML5-Browser, Node.js, Java 9, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Linux, Windows, MacOS, Docker
+            HTML5-Browser, Node.js, Java 9+, J2EE/JEE, Java EE 5, 6, 7, Android, Spring, Linux, Windows, MacOS, Docker
         </platforms>
         <programming_languages>
-            TypeScript, JavaScript, Java 9, Kotlin, SQL, XML/XSLT, C/C++
+            TypeScript, JavaScript, Java 9+, Kotlin, SQL, XML/XSLT, C/C++
         </programming_languages>
         <server>
             Node.js/Express, Loopback, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
         </server>
         <databases>
-            ORACLE, DB2, MySQL, MongoDB, PostgreSQL, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
+            ORACLE, DB2, MySQL, MongoDB, PostgreSQL, Cosmos DB, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
         </databases>
+        <cloud>
+            Microsoft Azure, AWS (Amazon Web Services), Cloud Foundry
+        </cloud>
         <communication>
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Angular 8, Ionic 3, RxJS 6, HTML5, CSS3, Material, Bootstrap, Responsive, Android
+            Angular 12, Ionic 3, RxJS 6+, HTML5, CSS3, Material, Bootstrap, Responsive, Android
         </gui>
         <tools>
-            IntelliJ, XCode, git, Grunt, gulp, GIMP, Inkscape, Eclipse, vi, ant, Maven, Jenkins, Sonar, svn
+            IntelliJ, XCode, git, Eclipse, vi, Maven, Jenkins, Sonar, GIMP, Inkscape
         </tools>
         <testing>
-            Jasmine, Jest, Karma, Protractor, JMeter, soapUI, JUnit, Mockito, Selenium, Wireshark
+            Jasmine, Jest, Karma, JMeter, soapUI, JUnit, Mockito, Selenium, Wireshark
         </testing>
         <security>
             TLS/SSL, OpenId, OAuth2, passport.js, JWT, iptables Firewall, OWASP
         </security>
         <processes>
-            Scrum, TDD, UML
+            Scrum, DDD (Domain-Driven Design), TDD, UML
         </processes>
     </competencies>
     <workExperience>
@@ -107,15 +110,15 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>11/2019 - dato.</period>
+            <period>11/2019 - 12/2021</period>
             <companyOrLine xml:lang="de">AGENDA Software GmbH</companyOrLine>
             <companyOrLine xml:lang="en">AGENDA Software</companyOrLine>
             <companyOrLine xml:lang="es">AGENDA Software</companyOrLine>
             <line1info xml:lang="de">Rosenheim, Anstellung</line1info>
             <line1info xml:lang="en">Rosenheim, regular employment</line1info>
             <line1info xml:lang="es">Rosenheim, empleo regular</line1info>
-            <roles xml:lang="de">Coding Architect, Development</roles>
-            <roles xml:lang="en">Coding Architect, Development</roles>
+            <roles xml:lang="de">Coding Architect, Lead-Developer</roles>
+            <roles xml:lang="en">Coding Architect, Lead-Developer</roles>
             <roles xml:lang="es">Arquitecto, desarollo</roles>
             <activities xml:lang="de">
                 Single-Page Web-Applikations (SPA) im Unternehmensportal
@@ -127,10 +130,10 @@
                 Aplicaciónes de una sola página (SPA) en el portal empresal
             </activities>
             <activities xml:lang="de">
-                Responsive Design (Desktop, Tablet, Smartphone), Fullstack-Development
+                Responsive Design (Desktop, Tablet, Smartphone), Fullstack-Development, DDD (Domain-Driven Design)
             </activities>
             <activities xml:lang="en">
-                Responsive Design (desktop, tablet, smartphone), fullstack-development
+                Responsive Design (desktop, tablet, smartphone), fullstack-development, DDD (Domain-Driven Design)
             </activities>
             <activities xml:lang="es">
                 Diseño de respuesta (escritorio, tableta, teléfono inteligente), desarrollo de pila completa
@@ -139,7 +142,7 @@
                 Backend: Java 11, JEE 8, GlassFish/Payara, MariaDB, JPA, REST/JSON, JAXB, Maven, JUnit, finAPI, swagger
             </software>
             <software>
-                Frontend: Angular 8, TypeScript, RxJS 6, NGXS 3.6, immer.js, Bootstrap 4, HTML, CSS, Node.js
+                Frontend: Angular 8-12, TypeScript, RxJS 6+, NGXS 3.6 (~ngrx), immer.js, Bootstrap 4, HTML, CSS, Node.js
             </software>
         </project>
 
@@ -187,7 +190,7 @@
             </activities>
             <software>
                 Angular 7, TypeScript 3.3, RxJS 6, Angular Material 7, Bootstrap 4, Jest, CSS3, SASS, HTML5,
-                REST/JSON, Swagger, Git, IntelliJ, Microsoft Azure
+                REST/JSON, Swagger, Git, IntelliJ, Microsoft Azure, Cosmos DB, Microsoft DevOps
             </software>
         </project>
 
@@ -218,7 +221,7 @@
             </activities>
             <software>
                 Angular 7, TypeScript 3, RxJS 6, NGXS, Kendo UI, Karma, Jasmine, CSS3, SASS, HTML5, REST/JSON,
-                Git, IntelliJ, Microsoft Azure
+                Git, IntelliJ, Microsoft Azure, Cosmos DB
             </software>
         </project>
 
@@ -232,8 +235,8 @@
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <line1info xml:lang="es">Munich, trabajo independiente</line1info>
-            <roles xml:lang="de">UX-Design, Development, Coaching</roles>
-            <roles xml:lang="en">UX-Design, Development, Coaching</roles>
+            <roles xml:lang="de">UX-Design, Lead-Development, Coaching</roles>
+            <roles xml:lang="en">UX-Design, Lead-Development, Coaching</roles>
             <roles xml:lang="es">Diseño de UX, Desarollo, entrenamiento</roles>
             <activities xml:lang="de">
                 SPA (Single-Page-App) Web-Applikation zur Verwaltung/Vermarktung von Internet Werbung,
@@ -252,7 +255,7 @@
                 ng2-bootstrap, RxJS
             </software>
             <software>
-                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB/MySQL, TypeScript, JavaScript, ES6, Node.js 8
+                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB/MySQL, TypeScript, JavaScript, ES6, Node.js 8, AWS (Amazon Web Services)
             </software>
             <software>
                 Batch: Java 10, Spring, Spring Boot 1.5, JPA, Maven, Google-APIs
@@ -272,8 +275,8 @@
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <line1info xml:lang="es">Munich, trabajo independiente</line1info>
-            <roles xml:lang="de">UX-Design, Development, Coaching</roles>
-            <roles xml:lang="en">UX-Design, Development, Coaching</roles>
+            <roles xml:lang="de">UX-Design, Lead-Development, Coaching</roles>
+            <roles xml:lang="en">UX-Design, Lead-Development, Coaching</roles>
             <roles xml:lang="es">Diseño de UX, Desarollo, entrenamiento</roles>
             <activities xml:lang="de">
                 Intranet-Applikation zur Recherche und Verwaltung von Provisionszahlungen.
@@ -292,7 +295,7 @@
             </software>
             <software>
                 Spring 4.3, Spring Boot 1.5, Java 8, JPA 2, Oracle, REST/JSON
-                Git, Jenkins, IntelliJ, Pivotal Cloud Foundry, Maven
+                Git, Jenkins, IntelliJ, Cloud Foundry, Maven
             </software>
         </project>
 
@@ -330,7 +333,7 @@
             <software>
                 Spring 4.3, Spring Boot 1.5, Java 8, JPA 2, Oracle, DB2,
                 AngularJS 1.6, JavaScript (ES5), HTML5, CSS3,
-                Git, Jenkins, IntelliJ, REST/JSON, Pivotal Cloud Foundry, Maven
+                Git, Jenkins, IntelliJ, REST/JSON, Cloud Foundry, Maven
             </software>
         </project>
 
@@ -344,8 +347,8 @@
             <line1info xml:lang="de">München, freie Mitarbeit</line1info>
             <line1info xml:lang="en">Munich, freelance job</line1info>
             <line1info xml:lang="es">Munich, trabajo independiente</line1info>
-            <roles xml:lang="de">UX-Design, Development, Coaching</roles>
-            <roles xml:lang="en">UX-Design, Development, Coaching</roles>
+            <roles xml:lang="de">UX-Design, Lead-Development, Coaching</roles>
+            <roles xml:lang="en">UX-Design, Lead-Development, Coaching</roles>
             <roles xml:lang="es">Diseño de UX, Desarollo, entrenamiento</roles>
             <activities xml:lang="de">
                 SPA (Single-Page-App) Web-Applikation zur Verwaltung/Vermarktung von Internet Werbung,
@@ -364,7 +367,7 @@
                 ng2-bootstrap, RxJS
             </software>
             <software>
-                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB/MySQL, TypeScript, JavaScript, ES6, Node.js 6
+                Backend: Strongloop/IBM Loopback 3.0, REST/JSON, MongoDB/MySQL, TypeScript, JavaScript, ES6, Node.js 6, AWS (Amazon Web Services)
             </software>
             <software>
                 Batch: Java 8, Spring, Spring Boot 1.5, JPA, Maven, Google-APIs
@@ -469,7 +472,7 @@
                 Admin-Webapp: AngularJS 1.4, jQuery, HTML5, CSS3, Bootstrap, less, schemaform.io, REST
             </software>
             <software>
-                Server: Node.js, Express/restify, PostgreSQL 9, Sequelize, lodash, Push (GCM, APN), memcache, Jasmine, bash-Scripts
+                Server: Node.js, Express/restify, PostgreSQL 9, Sequelize, lodash, Push (GCM, APN), memcache, Jasmine, bash-Scripts, Digital Ocean Cloud
             </software>
             <software>
                 Tools: git, IntelliJ, XCode, Grunt, Docker, nginx, Ubuntu Server, Jira, Scrum-but

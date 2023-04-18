@@ -140,6 +140,11 @@
         <msg xml:lang="de">Datenbanken</msg>
         <msg xml:lang="es">Bases de datos</msg>
     </entry>
+    <entry key="cloud">
+        <msg xml:lang="en">Cloud</msg>
+        <msg xml:lang="de">Cloud</msg>
+        <msg xml:lang="es">Cloud</msg>
+    </entry>
     <entry key="communication">
         <msg xml:lang="en">Communication</msg>
         <msg xml:lang="de">Kommunikation</msg>
