@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">14.11.2021</lastEditDate>
-    <lastEditDate xml:lang="en">14-Nov-2021</lastEditDate>
-    <lastEditDate xml:lang="es">14/11/2021</lastEditDate>
+    <lastEditDate xml:lang="de">19.04.2023</lastEditDate>
+    <lastEditDate xml:lang="en">19-Apr-2023</lastEditDate>
+    <lastEditDate xml:lang="es">19/04/2023</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -78,19 +78,19 @@
             TypeScript, JavaScript, Java 9+, Kotlin, SQL, XML/XSLT, C/C++
         </programming_languages>
         <server>
-            Node.js/Express, Loopback, nginx, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
+            Node.js/Express, Loopback, nginx, Micro-Services, Spring Boot, Quarkus, GlassFish, WebLogic, WebSphere, JBoss, Tomcat, Apache
         </server>
         <databases>
-            ORACLE, DB2, MySQL, MongoDB, PostgreSQL, Cosmos DB, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
+            ORACLE, DB2, MySQL, MongoDB, PostgreSQL, DynamoDB, Cosmos DB, JPA 2, Hibernate, JDBC, MS SQL, SQLite, LDAP
         </databases>
         <cloud>
-            Microsoft Azure, AWS (Amazon Web Services), Cloud Foundry
+            Microsoft Azure, AWS (Amazon Web Services), Kubernetes, Cloud Foundry
         </cloud>
         <communication>
             HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Angular 12, Ionic 3, RxJS 6+, HTML5, CSS3, Material, Bootstrap, Responsive, Android
+            Angular 15, Ionic 3, RxJS 6+, HTML5, CSS3, Material, Bootstrap, PrimeNG, Responsive, Android, BMW Density
         </gui>
         <tools>
             IntelliJ, XCode, git, Eclipse, vi, Maven, Jenkins, Sonar, GIMP, Inkscape
@@ -102,10 +102,49 @@
             TLS/SSL, OpenId, OAuth2, passport.js, JWT, iptables Firewall, OWASP
         </security>
         <processes>
-            Scrum, DDD (Domain-Driven Design), TDD, UML
+            Scrum, DDD (Domain-Driven Design), LESS, TDD, UML
         </processes>
     </competencies>
     <workExperience>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>01/2022 - 04/2023</period>
+            <companyOrLine xml:lang="de">Automotive</companyOrLine>
+            <companyOrLine xml:lang="en">Automotive</companyOrLine>
+            <companyOrLine xml:lang="es">Automotive</companyOrLine>
+            <line1info xml:lang="de">München, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Munich, freelance job</line1info>
+            <line1info xml:lang="es">Munich, trabajo independiente</line1info>
+            <roles xml:lang="de">Fullstack-Developer, Lead-Developer, UI/UX</roles>
+            <roles xml:lang="en">Fullstack-Developer, Lead-Developer, UI/UX</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, UI/UX</roles>
+            <activities xml:lang="de">
+                Single-Page Web-Applications (SPA), Quarkus Micro-Services
+            </activities>
+            <activities xml:lang="en">
+                Single-Page Web-Applications (SPA), Quarkus Micro-Services
+            </activities>
+            <activities xml:lang="es">
+                Aplicaciónes de una sola página (SPA), Quarkus micro-services
+            </activities>
+            <activities xml:lang="de">
+                Responsive Design (Desktop, Tablet), Fullstack-Development (Fokus Frontend, UI/UX)
+            </activities>
+            <activities xml:lang="en">
+                Responsive Design (desktop, tablet), fullstack-development (focused on frontend, UI/UX)
+            </activities>
+            <activities xml:lang="es">
+                Diseño de respuesta (escritorio, tableta), desarrollo de pila completa
+            </activities>
+            <software>
+                Backend: Java 13, Quarkus, DynamoDB, PostgreSQL, REST/JSON, JAXB, Maven, JUnit, Mockito, swagger/OpenAPI, Jenkins, Docker, Kubernetes
+            </software>
+            <software>
+                Frontend: Angular 13-15, TypeScript, D3.js, RxJS 6+, BMW Density Design System, HTML, CSS, SVG, Jasmine, Selenium, Cypress
+            </software>
+        </project>
 
         <!-- ======================================================================================= -->
 
