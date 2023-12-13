@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">19.04.2023</lastEditDate>
-    <lastEditDate xml:lang="en">19-Apr-2023</lastEditDate>
-    <lastEditDate xml:lang="es">19/04/2023</lastEditDate>
+    <lastEditDate xml:lang="de">02.10.2023</lastEditDate>
+    <lastEditDate xml:lang="en">02-Oct-2023</lastEditDate>
+    <lastEditDate xml:lang="es">02/10/2023</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -110,7 +110,7 @@
         <!-- ======================================================================================= -->
 
         <project>
-            <period>01/2022 - 04/2023</period>
+            <period>01/2022 - 10/2023</period>
             <companyOrLine xml:lang="de">Automotive</companyOrLine>
             <companyOrLine xml:lang="en">Automotive</companyOrLine>
             <companyOrLine xml:lang="es">Automotive</companyOrLine>
@@ -142,7 +142,7 @@
                 Backend: Java 13, Quarkus, DynamoDB, PostgreSQL, REST/JSON, JAXB, Maven, JUnit, Mockito, swagger/OpenAPI, Jenkins, Docker, Kubernetes
             </software>
             <software>
-                Frontend: Angular 13-15, TypeScript, D3.js, RxJS 6+, BMW Density Design System, HTML, CSS, SVG, Jasmine, Selenium, Cypress
+                Frontend: Angular 13-16, TypeScript, D3.js, RxJS 6+, BMW Density Design System, HTML, CSS, SVG, Jasmine, Selenium, Cypress
             </software>
         </project>
 
