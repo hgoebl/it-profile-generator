@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">13.12.2023</lastEditDate>
-    <lastEditDate xml:lang="en">13-Dec-2023</lastEditDate>
-    <lastEditDate xml:lang="es">13/12/2023</lastEditDate>
+    <lastEditDate xml:lang="de">03.04.2024</lastEditDate>
+    <lastEditDate xml:lang="en">03-Apr-2024</lastEditDate>
+    <lastEditDate xml:lang="es">03/04/2024</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -90,7 +90,7 @@
             Microsoft Azure, AWS (Amazon Web Services), Kubernetes, Cloud Foundry
         </cloud>
         <communication>
-            HTTP, AJAX, REST Services, JSON, WebSockets, SOAP Web Services, JMS
+            HTTP, AJAX, REST Services, OpenAPI, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
             Angular 17, Ionic 3, RxJS 6+, HTML5, CSS3, Material, Bootstrap, PrimeNG, Responsive, Android, BMW Density
@@ -109,6 +109,54 @@
         </processes>
     </competencies>
     <workExperience>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>01/2024 - 06/2024</period>
+            <companyOrLine xml:lang="de">Krankenversicherung</companyOrLine>
+            <companyOrLine xml:lang="en">Health Insurance</companyOrLine>
+            <companyOrLine xml:lang="es">Seguro de salud</companyOrLine>
+            <line1info xml:lang="de">Bonn/remote, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Bonn/remote, freelance job</line1info>
+            <line1info xml:lang="es">Bonn/remoto, trabajo independiente</line1info>
+            <roles xml:lang="de">Fullstack-Developer, Lead-Developer, UI/UX</roles>
+            <roles xml:lang="en">Fullstack-Developer, Lead-Developer, UI/UX</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, UI/UX</roles>
+            <activities xml:lang="de">
+                Single-Page Web-Application (SPA), Spring Boot Micro-Services
+            </activities>
+            <activities xml:lang="en">
+                Single-Page Web-Application (SPA), Spring Boot Micro-Services
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de una sola página (SPA), Spring Boot micro-services
+            </activities>
+            <activities xml:lang="de">
+                Responsive Design (in Portal integriert), Fullstack-Development (Fokus Frontend, UI/UX).
+            </activities>
+            <activities xml:lang="en">
+                Responsive Design (integrated in a portal), fullstack-development (focused on frontend, UI/UX).
+            </activities>
+            <activities xml:lang="es">
+                Diseño de respuesta (escritorio, tableta), desarrollo de pila completa.
+            </activities>
+            <activities xml:lang="de">
+                Web-Components für Sachbearbeiter zur Verwaltung von Bonus-Programmen, eingebunden in einem Portal.
+            </activities>
+            <activities xml:lang="en">
+                Web component for clerks to manage bonus programs.
+            </activities>
+            <activities xml:lang="es">
+                Componente web para que los empleados gestionen programas de bonificación.
+            </activities>
+            <software>
+                Backend: Java 17, Spring Boot 3.2, Directus 10.8, REST/JSON, OpenAPI, Maven, JUnit, Mockito, AssertJ, Jenkins, Docker, OpenShift
+            </software>
+            <software>
+                Frontend: Angular 17, TypeScript, RxJS 6+/Signals, SAP Fundamentals, HTML, SCSS/CSS, Jasmine
+            </software>
+        </project>
 
         <!-- ======================================================================================= -->
 
