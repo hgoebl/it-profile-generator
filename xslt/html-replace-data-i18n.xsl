@@ -9,7 +9,7 @@
     <xsl:import href="i18n-support.xsl"/>
 
     <xsl:param name="lang" select="'en'"/>
-    <xsl:output method="html" version="5" doctype-public="html"/>
+    <xsl:output method="html" version="5"/>
     <xsl:output omit-xml-declaration="yes" indent="no" cdata-section-elements="script"/>
 
     <xsl:template match="/">

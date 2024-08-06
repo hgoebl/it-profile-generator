@@ -24,3 +24,4 @@ npm-debug.log
 
 # setenv-example.sh will be copied
 setenv.sh
+/node-app/package-lock.json
