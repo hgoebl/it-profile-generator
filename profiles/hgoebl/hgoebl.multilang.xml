@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <profile version="1.3.0">
-    <lastEditDate xml:lang="de">03.04.2024</lastEditDate>
-    <lastEditDate xml:lang="en">03-Apr-2024</lastEditDate>
-    <lastEditDate xml:lang="es">03/04/2024</lastEditDate>
+    <lastEditDate xml:lang="de">23.01.2025</lastEditDate>
+    <lastEditDate xml:lang="en">23-Jan-2025</lastEditDate>
+    <lastEditDate xml:lang="es">23/01/2025</lastEditDate>
     <lang xml:lang="de">de</lang>
     <lang xml:lang="en">en</lang>
     <lang xml:lang="es">es</lang>
@@ -93,7 +93,7 @@
             HTTP, AJAX, REST Services, OpenAPI, JSON, WebSockets, SOAP Web Services, JMS
         </communication>
         <gui>
-            Angular 17, Ionic 3, RxJS 6+, HTML5, CSS3, Material, Bootstrap, PrimeNG, Responsive, Android, BMW Density
+            Angular 2-19, Ionic 3, RxJS 6+, HTML5, CSS3, Material, Bootstrap, PrimeNG 19, Responsive, Android, BMW Density
         </gui>
         <tools>
             IntelliJ, XCode, git, Eclipse, vi, Maven, Jenkins, Sonar, GIMP, Inkscape
@@ -109,6 +109,84 @@
         </processes>
     </competencies>
     <workExperience>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>10/2024 - 03/2025</period>
+            <companyOrLine xml:lang="de">Medizintechnik</companyOrLine>
+            <companyOrLine xml:lang="en">Medical Technology</companyOrLine>
+            <companyOrLine xml:lang="es">Tecnología medica</companyOrLine>
+            <line1info xml:lang="de">Tuttlingen/Remote, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Tuttlingen/Remote, freelance job</line1info>
+            <line1info xml:lang="es">Tuttlingen/Remoto, trabajo independiente</line1info>
+            <roles xml:lang="de">Frontend-Developer</roles>
+            <roles xml:lang="en">Frontend-Developer</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, UI/UX</roles>
+            <activities xml:lang="de">
+                Single-Page Web-Application (SPA) für die Verwaltung von Medizingeräten (Management von Software, Lizenzen, Support-Status)
+            </activities>
+            <activities xml:lang="en">
+                Single-Page Web Application (SPA) for the management of medical devices (management of software, licenses, support)
+            </activities>
+            <activities xml:lang="es">
+                Aplicación web monopágina (SPA) para la gestión de dispositivos médicos (gestión de software, licencias, soporte)
+            </activities>
+            <activities xml:lang="de">
+                Responsive Design (Desktop, Tablet, Phone), Entwicklung von Basiskomponenten, Umsetzung des Corporate Designs.
+            </activities>
+            <activities xml:lang="en">
+                Responsive design (desktop, tablet, mobile), development of basic components, implementation of the corporate design.
+            </activities>
+            <activities xml:lang="es">
+                Diseño responsivo (computadora de escritorio, tableta, móvil), desarrollo de componentes básicos, implementación del diseño corporativo.
+            </activities>
+            <software>
+                Backend/Tools: REST/JSON, OpenAPI, Gitlab, Docker, IntelliJ
+            </software>
+            <software>
+                Frontend: Angular 19, TypeScript, RxJS 6+/Signals, PrimeNG 19, NgRx SignalStore, HTML, SCSS/CSS, Jasmine, JWT, QR-Code Scan
+            </software>
+        </project>
+
+        <!-- ======================================================================================= -->
+
+        <project>
+            <period>08/2024 - 10/2025</period>
+            <companyOrLine xml:lang="de">Medizintechnik</companyOrLine>
+            <companyOrLine xml:lang="en">Medical Technology</companyOrLine>
+            <companyOrLine xml:lang="es">Tecnología medica</companyOrLine>
+            <line1info xml:lang="de">Remote, freie Mitarbeit</line1info>
+            <line1info xml:lang="en">Remote, freelance job</line1info>
+            <line1info xml:lang="es">Remoto, trabajo independiente</line1info>
+            <roles xml:lang="de">Frontend-Developer</roles>
+            <roles xml:lang="en">Frontend-Developer</roles>
+            <roles xml:lang="es">Arquitecto, desarollo, UI/UX</roles>
+            <activities xml:lang="de">
+                Single-Page Web-Application (SPA) für Medizingeräte im OP-Saal
+            </activities>
+            <activities xml:lang="en">
+                Single-Page Web-Application (SPA) for medical devices in the operating room
+            </activities>
+            <activities xml:lang="es">
+                Aplicación de una sola página (SPA) para equipo médico en el quirófano.
+            </activities>
+            <activities xml:lang="de">
+                Entwicklung von Basiskomponenten, Umsetzung des Corporate Designs; Entwicklung eines PrimeNG Themes (v19)
+            </activities>
+            <activities xml:lang="en">
+                Development of basic components, implementation of the corporate design; Development of a PrimeNG Theme (v19)
+            </activities>
+            <activities xml:lang="es">
+                Diseño responsivo, desarrollo de componentes básicos, implementación del diseño corporativo; Desarrollo de un tema PrimeNG (v19)
+            </activities>
+            <software>
+                Backend/Tools: REST/JSON, OpenAPI, Gitlab, Docker, IntelliJ, sheriff.softarc.io
+            </software>
+            <software>
+                Frontend: Angular 19, TypeScript, RxJS 6+/Signals, PrimeNG 19, HTML, SCSS/CSS, Jasmine
+            </software>
+        </project>
 
         <!-- ======================================================================================= -->
 
